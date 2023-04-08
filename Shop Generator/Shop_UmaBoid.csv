@@ -1,360 +1,359 @@
-Tab.UmaBoid,Base.AdmireVega,1500,UmaBoid,Admire Vega,Clothing
-Tab.UmaBoid,Base.AdmireVegaCasual,1500,UmaBoid,Admire Vega (Casual),Clothing
-Tab.UmaBoid,Base.AgnesDigital,1500,UmaBoid,Agnes Digital,Clothing
-Tab.UmaBoid,Base.AgnesDigitalRibbon,1500,UmaBoid,Agnes Digital's Ribbon,Clothing
-Tab.UmaBoid,Base.AgnesDigitalCasual,1500,UmaBoid,Agnes Digital (Casual),Clothing
-Tab.UmaBoid,Base.AgnesDigitalCasualBag,2000,UmaBoid,Agnes Digital's Bag (Casual),Container
-Tab.UmaBoid,Base.AgnesDigitalCasualRibbon,1500,UmaBoid,Agnes Digital's Ribbon (Casual),Clothing
-Tab.UmaBoid,Base.AgnesDigitalAlt,1500,UmaBoid,Agnes Digital (Halloween),Clothing
-Tab.UmaBoid,Base.AgnesTachyon,1500,UmaBoid,Agnes Tachyon,Clothing
-Tab.UmaBoid,Base.AgnesTachyonCasual,1500,UmaBoid,Agnes Tachyon (Casual),Clothing
-Tab.UmaBoid,Base.AirGroove,1500,UmaBoid,Air Groove,Clothing
-Tab.UmaBoid,Base.AirGrooveCasual,1500,UmaBoid,Air Groove (Casual),Clothing
-Tab.UmaBoid,Base.AirGrooveWedding,1500,UmaBoid,Air Groove (Wedding),Clothing
-Tab.UmaBoid,Base.AirGrooveWeddingVeil,1500,UmaBoid,Air Groove's Veil (Wedding),Clothing
-Tab.UmaBoid,Base.AirShakur,1500,UmaBoid,Air Shakur,Clothing
-Tab.UmaBoid,Base.AirShakurCasual,1500,UmaBoid,Air Shakur (Casual),Clothing
-Tab.UmaBoid,Base.AirShakurCasualAlt,1500,UmaBoid,Air Shakur (Casual Hoodless),Clothing
-Tab.UmaBoid,Base.AoiKiryuin,1500,UmaBoid,Aoi Kiryuin,Clothing
-Tab.UmaBoid,Base.AstonMachan,1500,UmaBoid,Aston Machan,Clothing
-Tab.UmaBoid,Base.AstonMachanCrown,1500,UmaBoid,Aston Machan's Crown,Clothing
-Tab.UmaBoid,Base.AstonMachanCasual,1500,UmaBoid,Aston Machan (Casual),Clothing
-Tab.UmaBoid,Base.AstonMachanAltGlasses,1500,UmaBoid,Aston Machan's Glasses (Casual),Clothing
-Tab.UmaBoid,Base.BambooMemory,1500,UmaBoid,Bamboo Memory,Clothing
-Tab.UmaBoid,Base.BambooMemoryAlt,1500,UmaBoid,Bamboo Memory (Alt),Clothing
-Tab.UmaBoid,Base.BambooMemoryCasual,1500,UmaBoid,Bamboo Memory (Casual),Clothing
-Tab.UmaBoid,Base.BambooMemoryCasualAlt,1500,UmaBoid,Bamboo Memory (Casual Alt),Clothing
-Tab.UmaBoid,Base.BikoPegasus,1500,UmaBoid,Biko Pegasus,Clothing
-Tab.UmaBoid,Base.BikoPegasusHairAccessory,1500,UmaBoid,Biko Pegasus' Hair Clip,Clothing
-Tab.UmaBoid,Base.BikoPegasusHairAccessoryCasual,1500,UmaBoid,Biko Pegasus' Hair Clip (Casual),Clothing
-Tab.UmaBoid,Base.BitterGlace,1500,UmaBoid,Bitter Glace,Clothing
-Tab.UmaBoid,Base.BiwaHayahide,1500,UmaBoid,Biwa Hayahide,Clothing
-Tab.UmaBoid,Base.BiwaHayahideGlasses,1500,UmaBoid,Biwa Hayahide Glasses,Clothing
-Tab.UmaBoid,Base.BiwaHayahideCasual,1500,UmaBoid,Biwa Hayahide (Casual),Clothing
-Tab.UmaBoid,Base.BiwaHayahideCasualScarf,1500,UmaBoid,Biwa Hayahide's Scarf (Casual),Clothing
-Tab.UmaBoid,Base.BiwaHayahideCasualBag,2000,UmaBoid,Biwa Hayahide's Bag (Casual),Container
-Tab.UmaBoid,Base.BiwaHayahideAlt1,1500,UmaBoid,Biwa Hayahide (Christmas),Clothing
-Tab.UmaBoid,Base.BiwaHayahideAlt2,1500,UmaBoid,Biwa Hayahide (Christmas Alt),Clothing
-Tab.UmaBoid,Base.BiwaHayahideAlt1Glasses,1500,UmaBoid,Biwa Hayahide Glasses (Christmas),Clothing
-Tab.UmaBoid,Base.BiwaHayahideAlt2Glasses,1500,UmaBoid,Biwa Hayahide Glasses (Christmas Alt),Clothing
-Tab.UmaBoid,Base.BiwaHayahideAltTiara,1500,UmaBoid,Biwa Hayahide's Tiara (Christmas),Clothing
-Tab.UmaBoid,Base.ByerleyTurk,1500,UmaBoid,Byerley Turk,Clothing
-Tab.UmaBoid,Base.ByerleyTurkCrown,1500,UmaBoid,Byerley Turk's Crown,Clothing
-Tab.UmaBoid,Base.ByerleyTurkHat,1500,UmaBoid,Byerley Turk's Hat,Clothing
-Tab.UmaBoid,Base.ByerleyTurkScarf,1500,UmaBoid,ByerleyTurk's Scarf,Clothing
-Tab.UmaBoid,Base.ChevalGrand,1500,UmaBoid,Cheval Grand,Clothing
-Tab.UmaBoid,Base.CopanoRickey,1500,UmaBoid,Copano Rickey,Clothing
-Tab.UmaBoid,Base.CopanoRickeyCasual,1500,UmaBoid,Copano Rickey (Casual),Clothing
-Tab.UmaBoid,Base.CurrenChan,1500,UmaBoid,Curren Chan,Clothing
-Tab.UmaBoid,Base.CurrenChanCasual,1500,UmaBoid,Curren Chan (Casual),Clothing
-Tab.UmaBoid,Base.CurrenChanWedding,1500,UmaBoid,Curren Chan (Wedding),Clothing
-Tab.UmaBoid,Base.DaiichiRuby,1500,UmaBoid,Daiichi Ruby,Clothing
-Tab.UmaBoid,Base.DaitakuHelios,1500,UmaBoid,Daitaku Helios,Clothing
-Tab.UmaBoid,Base.DaitakuHeliosCasual,1500,UmaBoid,Daitaku Helios (Casual),Clothing
-Tab.UmaBoid,Base.DaitakuHeliosCasualAlt,1500,UmaBoid,Daitaku Helios (Casual No Sleeve),Clothing
-Tab.UmaBoid,Base.DaiwaScarlet,1500,UmaBoid,Daiwa Scarlet,Clothing
-Tab.UmaBoid,Base.DaiwaScarletCasual,1500,UmaBoid,Daiwa Scarlet (Casual),Clothing
-Tab.UmaBoid,Base.DaiwaScarletTiara,1500,UmaBoid,Daiwa Scarlet's Tiara,Clothing
-Tab.UmaBoid,Base.DaiwaScarletAlt,1500,UmaBoid,Daiwa Scarlet (Christmas),Clothing
-Tab.UmaBoid,Base.DaiwaScarletAltTiara,1500,UmaBoid,Daiwa Scarlet's Tiara (Christmas),Clothing
-Tab.UmaBoid,Base.DarleyArabian,1500,UmaBoid,Darley Arabian,Clothing
-Tab.UmaBoid,Base.EishinFlash,1500,UmaBoid,Eishin Flash,Clothing
-Tab.UmaBoid,Base.EishinFlashCasual,1500,UmaBoid,Eishin Flash (Casual),Clothing
-Tab.UmaBoid,Base.EishinFlashAlt,1500,UmaBoid,Eishin Flash (Valentine),Clothing
-Tab.UmaBoid,Base.EishinFlashAltHat,1500,UmaBoid,Eishin Flash's Hat (Valentine),Clothing
-Tab.UmaBoid,Base.ElCondorPasa,1500,UmaBoid,El Condor Pasa,Clothing
-Tab.UmaBoid,Base.ElCondorPasaCasual,1500,UmaBoid,El Condor Pasa (Casual),Clothing
-Tab.UmaBoid,Base.ElCondorPasaMask,1500,UmaBoid,El Condor Pasa Mask,Clothing
-Tab.UmaBoid,Base.ElCondorPasaAlt,1500,UmaBoid,El Condor Pasa (Fantasy),Clothing
-Tab.UmaBoid,Base.ElCondorPasaAltMask,1500,UmaBoid,El Condor Pasa's Mask (Fantasy),Clothing
-Tab.UmaBoid,Base.EtsukoOtonashi,1500,UmaBoid,Etsuko Otonashi,Clothing
-Tab.UmaBoid,Base.EtsukoOtonashiBag,2000,UmaBoid,Etsuko Otonashi's Bag,Container
-Tab.UmaBoid,Base.FineMotion,1500,UmaBoid,Fine Motion,Clothing
-Tab.UmaBoid,Base.FineMotionCasual,1500,UmaBoid,Fine Motion (Casual),Clothing
-Tab.UmaBoid,Base.FineMotionWedding,1500,UmaBoid,Fine Motion (Wedding),Clothing
-Tab.UmaBoid,Base.FineMotionWeddingVeil,1500,UmaBoid,Fine Motion's Veil (Wedding),Clothing
-Tab.UmaBoid,Base.FineMotionWeddingTiara,1500,UmaBoid,Fine Motion's Tiara (Wedding),Clothing
-Tab.UmaBoid,Base.FujiKiseki,1500,UmaBoid,Fuji Kiseki,Clothing
-Tab.UmaBoid,Base.FujiKisekiFlatHair,1500,UmaBoid,Fuji Kiseki (Flat Hair),Clothing
-Tab.UmaBoid,Base.FujiKisekiHat,1500,UmaBoid,Fuji Kiseki's Hat,Clothing
-Tab.UmaBoid,Base.FujiKisekiAlt,1500,UmaBoid,Fuji Kiseki (Ballroom),Clothing
-Tab.UmaBoid,Base.FujiKisekiCasual,1500,UmaBoid,Fuji Kiseki (Casual),Clothing
-Tab.UmaBoid,Base.GodolphinBarb,1500,UmaBoid,Godolphin Barb,Clothing
-Tab.UmaBoid,Base.GoldCity,1500,UmaBoid,Gold City,Clothing
-Tab.UmaBoid,Base.GoldCityAlt,1500,UmaBoid,Gold City (Festival),Clothing
-Tab.UmaBoid,Base.GoldCityCasual,1500,UmaBoid,Gold City (Casual),Clothing
-Tab.UmaBoid,Base.GoldShip,1500,UmaBoid,Gold Ship,Clothing
-Tab.UmaBoid,Base.GoldShipCasual,1500,UmaBoid,Gold Ship (Casual),Clothing
-Tab.UmaBoid,Base.GoldShipBag,2000,UmaBoid,Gold Ship's Bag,Container
-Tab.UmaBoid,Base.GrassWonder,1500,UmaBoid,Grass Wonder,Clothing
-Tab.UmaBoid,Base.GrassWonderCasual,1500,UmaBoid,Grass Wonder (Casual),Clothing
-Tab.UmaBoid,Base.GrassWonderAlt,1500,UmaBoid,Grass Wonder (Fantasy),Clothing
-Tab.UmaBoid,Base.GrassWonderAltHat,1500,UmaBoid,Grass Wonder's Hat (Fantasy),Clothing
-Tab.UmaBoid,Base.GrassWonderUmaRap,1500,UmaBoid,Grass Wonder (UMARap),Clothing
-Tab.UmaBoid,Base.GrassWonderUmaRapHat,1500,UmaBoid,Grass Wonder's Hat (UMARap),Clothing
-Tab.UmaBoid,Base.HappyMeek,1500,UmaBoid,Happy Meek,Clothing
-Tab.UmaBoid,Base.HaruUrara,1500,UmaBoid,Haru Urara,Clothing
-Tab.UmaBoid,Base.HaruUraraCasual,1500,UmaBoid,Haru Urara (Casual),Clothing
-Tab.UmaBoid,Base.HaruUraraAlt,1500,UmaBoid,Haru Urara (New Year),Clothing
-Tab.UmaBoid,Base.HishiAkebono,1500,UmaBoid,Hishi Akebono,Clothing
-Tab.UmaBoid,Base.HishiAkebonoCasual,1500,UmaBoid,Hishi Akebono (Casual),Clothing
-Tab.UmaBoid,Base.HishiAkebonoHairPin,1500,UmaBoid,Hishi Akebono's Hair Pin,Clothing
-Tab.UmaBoid,Base.HishiAkebonoCasualHairPin,1500,UmaBoid,Hishi Akebono's Hair Pin (Casual),Clothing
-Tab.UmaBoid,Base.HishiAkebonoHat,1500,UmaBoid,Hishi Akebono's Hat,Clothing
-Tab.UmaBoid,Base.HishiAmazon,1500,UmaBoid,Hishi Amazon,Clothing
-Tab.UmaBoid,Base.HishiAmazonCasual,1500,UmaBoid,Hishi Amazon (Casual),Clothing
-Tab.UmaBoid,Base.HokkoTarumae,1500,UmaBoid,Hokko Tarumae,Clothing
-Tab.UmaBoid,Base.HokkoTarumaeCasual,1500,UmaBoid,Hokko Tarumae (Casual),Clothing
-Tab.UmaBoid,Base.HokkoTarumaeArmSling,1500,UmaBoid,Hokko Tarumae's Shoulder Strap,Clothing
-Tab.UmaBoid,Base.IkunoDictus,1500,UmaBoid,Ikuno Dictus,Clothing
-Tab.UmaBoid,Base.IkunoDictusCasual,1500,UmaBoid,Ikuno Dictus (Casual),Clothing
-Tab.UmaBoid,Base.IkunoDictusGlasses,1500,UmaBoid,Ikuno Dictus' Glasses,Clothing
-Tab.UmaBoid,Base.InariOne,1500,UmaBoid,Inari One,Clothing
-Tab.UmaBoid,Base.InariOneMask,1500,UmaBoid,Inari One's Mask,Clothing
-Tab.UmaBoid,Base.InariOneAlt,1500,UmaBoid,Inari One (Festival),Clothing
-Tab.UmaBoid,Base.InariOneCasual,1500,UmaBoid,Inari One (Casual),Clothing
-Tab.UmaBoid,Base.InesFujin,1500,UmaBoid,Ines Fujin,Clothing
-Tab.UmaBoid,Base.InesFujinCasual,1500,UmaBoid,Ines Fujin (Casual),Clothing
-Tab.UmaBoid,Base.InesFujinCasualNoHat,1500,UmaBoid,Ines Fujin (Casual No Hat),Clothing
-Tab.UmaBoid,Base.InesFujinAlt,1500,UmaBoid,Ines Fujin (Valentine),Clothing
-Tab.UmaBoid,Base.InesFujinHat,1500,UmaBoid,Ines Fujin's Hat,Clothing
-Tab.UmaBoid,Base.InesFujinAltHeadBand,1500,UmaBoid,Ines Fujin's Head Band (Valentine),Clothing
-Tab.UmaBoid,Base.JunglePocket,1500,UmaBoid,Jungle Pocket,Clothing
-Tab.UmaBoid,Base.JunglePocketCasual,1500,UmaBoid,Jungle Pocket (Casual),Clothing
-Tab.UmaBoid,Base.KatsuragiAce,1500,UmaBoid,Katsuragi Ace,Clothing
-Tab.UmaBoid,Base.KawakamiPrincess,1500,UmaBoid,Kawakami Princess,Clothing
-Tab.UmaBoid,Base.KawakamiPrincessCasual,1500,UmaBoid,Kawakami Princess (Casual),Clothing
-Tab.UmaBoid,Base.KingHalo,1500,UmaBoid,King Halo,Clothing
-Tab.UmaBoid,Base.KingHaloCasual,1500,UmaBoid,King Halo (Casual),Clothing
-Tab.UmaBoid,Base.KingHaloAlt,1500,UmaBoid,King Halo (Cheerleader),Clothing
-Tab.UmaBoid,Base.KitasanBlack,1500,UmaBoid,Kitasan Black,Clothing
-Tab.UmaBoid,Base.KitasanBlackAlt,1500,UmaBoid,Kitasan Black (New Year),Clothing
-Tab.UmaBoid,Base.KitasanBlackCasual,1500,UmaBoid,Kitasan Black (Casual),Clothing
-Tab.UmaBoid,Base.KSMiracle,1500,UmaBoid,K.S. Miracle,Clothing
-Tab.UmaBoid,Base.LightHello,1500,UmaBoid,Light Hello,Clothing
-Tab.UmaBoid,Base.LittleCocon,1500,UmaBoid,Little Cocon,Clothing
-Tab.UmaBoid,Base.LittleCoconHarness,2000,UmaBoid,Little Cocon's Harness,Container
-Tab.UmaBoid,Base.ManhattanCafe,1500,UmaBoid,Manhattan Cafe,Clothing
-Tab.UmaBoid,Base.ManhattanCafeCasual,1500,UmaBoid,Manhattan Cafe (Casual),Clothing
-Tab.UmaBoid,Base.Maruzensky,1500,UmaBoid,Maruzensky,Clothing
-Tab.UmaBoid,Base.MaruzenskyCasual,1500,UmaBoid,Maruzensky (Casual),Clothing
-Tab.UmaBoid,Base.MaruzenskyCasualNeckShirt,1500,UmaBoid,Maruzensky's Neck shirt (Casual),Clothing
-Tab.UmaBoid,Base.MarvelousSundayCasual,1500,UmaBoid,Marvelous Sunday (Casual),Clothing
-Tab.UmaBoid,Base.MarvelousSunday,1500,UmaBoid,Marvelous Sunday,Clothing
-Tab.UmaBoid,Base.MatikaneFukukitaru,1500,UmaBoid,Matikane Fukukitaru,Clothing
-Tab.UmaBoid,Base.MatikaneFukukitaruAlt,1500,UmaBoid,Matikane Fukukitaru (Full Armor),Clothing
-Tab.UmaBoid,Base.MatikaneFukukitaruAltNoHat,1500,UmaBoid,Matikane Fukukitaru (Full Armor No Hat),Clothing
-Tab.UmaBoid,Base.MatikaneFukukitaruBag,2000,UmaBoid,Matikane Fukukitaru's Bag,Container
-Tab.UmaBoid,Base.MatikaneFukukitaruAltBackBag,2500,UmaBoid,Matikane Fukukitaru's Bag (Full Armor - Back),Container
-Tab.UmaBoid,Base.MatikaneFukukitaruAltFrontBag,2500,UmaBoid,Matikane Fukukitaru's Bag (Full Armor - Front),Container
-Tab.UmaBoid,Base.MatikaneFukukitaruCasual,1500,UmaBoid,Matikane Fukukitaru (Casual),Clothing
-Tab.UmaBoid,Base.MatikaneTannhauserCape,1500,UmaBoid,Matikane Tannhauser's Cape,Clothing
-Tab.UmaBoid,Base.MatikaneTannhauserBag,2000,UmaBoid,Matikane Tannhauser's Bag,Container
-Tab.UmaBoid,Base.MatikaneTannhauserHat,1500,UmaBoid,Matikane Tannhauser's Hat,Clothing
-Tab.UmaBoid,Base.MatikaneTannhauserCasualHat,1500,UmaBoid,Matikane Tannhauser's Hat (Casual),Clothing
-Tab.UmaBoid,Base.MatikaneTannhauser,1500,UmaBoid,Matikane Tannhauser,Clothing
-Tab.UmaBoid,Base.MatikaneTannhauserCasual,1500,UmaBoid,Matikane Tannhauser (Casual),Clothing
-Tab.UmaBoid,Base.MayanoTopGun,1500,UmaBoid,Mayano Top Gun,Clothing
-Tab.UmaBoid,Base.MayanoTopGunCasual,1500,UmaBoid,Mayano Top Gun (Casual),Clothing
-Tab.UmaBoid,Base.MayanoTopGunWedding,1500,UmaBoid,Mayano Top Gun (Wedding),Clothing
-Tab.UmaBoid,Base.MeishoDoto,1500,UmaBoid,Meisho Doto,Clothing
-Tab.UmaBoid,Base.MeishoDotoCasual,1500,UmaBoid,Meisho Doto (Casual),Clothing
-Tab.UmaBoid,Base.MeishoDotoAlt,1500,UmaBoid,Meisho Doto (Halloween),Clothing
-Tab.UmaBoid,Base.MeishoDotoAlt2,1500,UmaBoid,Meisho Doto (Halloween Alt),Clothing
-Tab.UmaBoid,Base.MeishoDotoBag,2000,UmaBoid,Meisho Doto's Bag,Container
-Tab.UmaBoid,Base.MejiroArdan,1500,UmaBoid,Mejiro Ardan,Clothing
-Tab.UmaBoid,Base.MejiroArdanCasual,1500,UmaBoid,Mejiro Ardan (Casual),Clothing
-Tab.UmaBoid,Base.MejiroBright,1500,UmaBoid,Mejiro Bright,Clothing
-Tab.UmaBoid,Base.MejiroBrightCasual,1500,UmaBoid,Mejiro Bright (Casual),Clothing
-Tab.UmaBoid,Base.MejiroDober,1500,UmaBoid,Mejiro Dober,Clothing
-Tab.UmaBoid,Base.MejiroDoberAlt,1500,UmaBoid,Mejiro Dober (Camping),Clothing
-Tab.UmaBoid,Base.MejiroDoberCasual,1500,UmaBoid,Mejiro Dober (Casual),Clothing
-Tab.UmaBoid,Base.MejiroMcQueen,1500,UmaBoid,Mejiro McQueen,Clothing
-Tab.UmaBoid,Base.MejiroMcQueenCasual,1500,UmaBoid,Mejiro McQueen (Casual),Clothing
-Tab.UmaBoid,Base.MejiroMcQueenAnime,1500,UmaBoid,Mejiro McQueen (Anime),Clothing
-Tab.UmaBoid,Base.MejiroMcQueenAnimeHat,1500,UmaBoid,Mejiro McQueen's Hat (Anime),Clothing
-Tab.UmaBoid,Base.MejiroPalmer,1500,UmaBoid,Mejiro Palmer,Clothing
-Tab.UmaBoid,Base.MejiroPalmerCasual,1500,UmaBoid,Mejiro Palmer (Casual),Clothing
-Tab.UmaBoid,Base.MejiroRamonu,1500,UmaBoid,Mejiro Ramonu,Clothing
-Tab.UmaBoid,Base.MejiroRyanHairMain,1500,UmaBoid,Mejiro Ryan,Clothing
-Tab.UmaBoid,Base.MejiroRyanCasualHairMain,1500,UmaBoid,Mejiro Ryan (Casual),Clothing
-Tab.UmaBoid,Base.MejiroRyanAltHairMain,1500,UmaBoid,Mejiro Ryan (Valentine),Clothing
-Tab.UmaBoid,Base.MejiroRyanHairAlt,1500,UmaBoid,Mejiro Ryan (Alt Hair),Clothing
-Tab.UmaBoid,Base.MejiroRyanCasualHairAlt,1500,UmaBoid,Mejiro Ryan (Casual - Alt Hair),Clothing
-Tab.UmaBoid,Base.MejiroRyanAltHairAlt,1500,UmaBoid,Mejiro Ryan (Valentine - Alt Hair),Clothing
-Tab.UmaBoid,Base.MihonoBourbon,1500,UmaBoid,Mihono Bourbon,Clothing
-Tab.UmaBoid,Base.MihonoBourbonCasual,1500,UmaBoid,Mihono Bourbon (Casual),Clothing
-Tab.UmaBoid,Base.MihonoBourbonAlt,1500,UmaBoid,Mihono Bourbon (Valentine),Clothing
-Tab.UmaBoid,Base.MihonoBourbonFootPart,1500,UmaBoid,Mihono Bourbon's Foot Armor,Clothing
-Tab.UmaBoid,Base.MihonoBourbonHipsPart,1500,UmaBoid,Mihono Bourbon's Hips Armor,Clothing
-Tab.UmaBoid,Base.MihonoBourbonTailPart,1500,UmaBoid,Mihono Bourbon's Tail Armor,Clothing
-Tab.UmaBoid,Base.Montjeu,1500,UmaBoid,Montjeu,Clothing
-Tab.UmaBoid,Base.MrCBUniform,1500,UmaBoid,Mr. C.B. (Uniform),Clothing
-Tab.UmaBoid,Base.MrCB,1500,UmaBoid,Mr. C.B.,Clothing
-Tab.UmaBoid,Base.MrCBCasual,1500,UmaBoid,Mr. C.B. (Casual),Clothing
-Tab.UmaBoid,Base.MrCBHat,1500,UmaBoid,Mr. C.B.'s Hat,Clothing
-Tab.UmaBoid,Base.MrCBCasualHairPin,1500,UmaBoid,Mr. C.B.'s Hair Pin (Casual),Clothing
-Tab.UmaBoid,Base.NakayamaFesta,1500,UmaBoid,Nakayama Festa,Clothing
-Tab.UmaBoid,Base.NakayamaFestaCasual,1500,UmaBoid,Nakayama Festa (Casual),Clothing
-Tab.UmaBoid,Base.NaritaBrian,1500,UmaBoid,Narita Brian,Clothing
-Tab.UmaBoid,Base.NaritaBrianAlt,1500,UmaBoid,Narita Brian (Blaze),Clothing
-Tab.UmaBoid,Base.NaritaBrianCasual,1500,UmaBoid,Narita Brian (Casual),Clothing
-Tab.UmaBoid,Base.NaritaTaishin,1500,UmaBoid,Narita Taishin,Clothing
-Tab.UmaBoid,Base.NaritaTaishinUmaRap,1500,UmaBoid,Narita Taishin (UMARap),Clothing
-Tab.UmaBoid,Base.NaritaTaishinFlatHair,1500,UmaBoid,Narita Taishin (Flat Hair),Clothing
-Tab.UmaBoid,Base.NaritaTaishinShirtWaist,1500,UmaBoid,Narita Taishin's Waist Shirt,Clothing
-Tab.UmaBoid,Base.NaritaTaishinCasual,1500,UmaBoid,Narita Taishin (Casual),Clothing
-Tab.UmaBoid,Base.NaritaTaishinCasualFlatHair,1500,UmaBoid,Narita Taishin (Casual Flat Hair),Clothing
-Tab.UmaBoid,Base.NaritaTaishinCasualHat,1500,UmaBoid,Narita Taishin's Hat (Casual),Clothing
-Tab.UmaBoid,Base.NaritaTaishinAlt,1500,UmaBoid,Narita Taishin (Steampunk),Clothing
-Tab.UmaBoid,Base.NaritaTaishinAltPouches,2000,UmaBoid,Narita Taishin's Pouches (Steampunk),Container
-Tab.UmaBoid,Base.NaritaTaishinAltMonocle,1500,UmaBoid,Narita Taishin's Monocle (Steampunk),Clothing
-Tab.UmaBoid,Base.NaritaTopRoadUniform,1500,UmaBoid,Narita Top Road (Uniform),Clothing
-Tab.UmaBoid,Base.NiceNature,1500,UmaBoid,Nice Nature,Clothing
-Tab.UmaBoid,Base.NiceNatureCasual,1500,UmaBoid,Nice Nature (Casual),Clothing
-Tab.UmaBoid,Base.NiceNatureAlt,1500,UmaBoid,Nice Nature (Cheerleader),Clothing
-Tab.UmaBoid,Base.NiceNatureAltPom,1500,UmaBoid,Nice Nature's Pom (Cheerleader),Clothing
-Tab.UmaBoid,Base.NishinoFlower,1500,UmaBoid,Nishino Flower,Clothing
-Tab.UmaBoid,Base.NishinoFlowerCasual,1500,UmaBoid,Nishino Flower (Casual),Clothing
-Tab.UmaBoid,Base.OguriCap,1500,UmaBoid,Oguri Cap,Clothing
-Tab.UmaBoid,Base.OguriCapCasual,1500,UmaBoid,Oguri Cap (Casual),Clothing
-Tab.UmaBoid,Base.OguriCapAlt,1500,UmaBoid,Oguri Cap (Christmas),Clothing
-Tab.UmaBoid,Base.RiceShower,1500,UmaBoid,Rice Shower,Clothing
-Tab.UmaBoid,Base.RiceShowerCasual,1500,UmaBoid,Rice Shower (Casual),Clothing
-Tab.UmaBoid,Base.RiceShowerAlt,1500,UmaBoid,Rice Shower (Halloween),Clothing
-Tab.UmaBoid,Base.RikoKashimoto,1500,UmaBoid,Riko Kashimoto,Clothing
-Tab.UmaBoid,Base.SakuraBakushinO,1500,UmaBoid,Sakura Bakushin O,Clothing
-Tab.UmaBoid,Base.SakuraBakushinOCasual,1500,UmaBoid,Sakura Bakushin O (Casual),Clothing
-Tab.UmaBoid,Base.SakuraChiyonoO,1500,UmaBoid,Sakura Chiyono O,Clothing
-Tab.UmaBoid,Base.SakuraChiyonoOAlt,1500,UmaBoid,Sakura Chiyono O (Alt),Clothing
-Tab.UmaBoid,Base.SakuraChiyonoOCasual,1500,UmaBoid,Sakura Chiyono O (Casual),Clothing
-Tab.UmaBoid,Base.SakuraLaurelUniform,1500,UmaBoid,Sakura Laurel (Uniform),Clothing
-Tab.UmaBoid,Base.SakuraLaurel,1500,UmaBoid,Sakura Laurel,Clothing
-Tab.UmaBoid,Base.SasamiAnshinzawa,1500,UmaBoid,Sasami Anshinzawa,Clothing
-Tab.UmaBoid,Base.SasamiEyeMask,1500,UmaBoid,Sasami Eye Mask,Clothing
-Tab.UmaBoid,Base.SatonoCrown,1500,UmaBoid,Satono Crown,Clothing
-Tab.UmaBoid,Base.SatonoCrownCrown,1500,UmaBoid,Satono Crown's Crown,Clothing
-Tab.UmaBoid,Base.SatonoDiamond,1500,UmaBoid,Satono Diamond,Clothing
-Tab.UmaBoid,Base.SatonoDiamondAlt,1500,UmaBoid,Satono Diamond (New Year),Clothing
-Tab.UmaBoid,Base.SatonoDiamondCasual,1500,UmaBoid,Satono Diamond (Casual),Clothing
-Tab.UmaBoid,Base.SeiunSky,1500,UmaBoid,Seiun Sky,Clothing
-Tab.UmaBoid,Base.SeiunSkyCasual,1500,UmaBoid,Seiun Sky (Casual),Clothing
-Tab.UmaBoid,Base.SeiunSkyAlt,1500,UmaBoid,Seiun Sky (Ballroom),Clothing
-Tab.UmaBoid,Base.SeekingThePearl,1500,UmaBoid,Seeking the Pearl,Clothing
-Tab.UmaBoid,Base.SeekingThePearlCasual,1500,UmaBoid,Seeking the Pearl (Casual),Clothing
-Tab.UmaBoid,Base.SeekingThePearlCasualShirtHip,1500,UmaBoid,Seeking the Pearl's Hip Shirt (Casual),Clothing
-Tab.UmaBoid,Base.SeekingThePearlGlassesOnHead,1500,UmaBoid,Seeking the Pearl's Glasses (Off),Clothing
-Tab.UmaBoid,Base.SeekingThePearlGlassesOnFace,1500,UmaBoid,Seeking the Pearl's Glasses (On),Clothing
-Tab.UmaBoid,Base.ShinkoWindyUniform,1500,UmaBoid,Shinko Windy (Uniform),Clothing
-Tab.UmaBoid,Base.ShinkoWindy,1500,UmaBoid,Shinko Windy,Clothing
-Tab.UmaBoid,Base.ShinkoWindyCasual,1500,UmaBoid,Shinko Windy (Casual),Clothing
-Tab.UmaBoid,Base.SilenceSuzuka,1500,UmaBoid,Silence Suzuka,Clothing
-Tab.UmaBoid,Base.SilenceSuzukaCasual,1500,UmaBoid,Silence Suzuka (Casual),Clothing
-Tab.UmaBoid,Base.SmartFalcon,1500,UmaBoid,Smart Falcon,Clothing
-Tab.UmaBoid,Base.SmartFalconAlt,1500,UmaBoid,Smart Falcon (Grand Live),Clothing
-Tab.UmaBoid,Base.SmartFalconCasual,1500,UmaBoid,Smart Falcon (Casual),Clothing
-Tab.UmaBoid,Base.SpecialWeek,1500,UmaBoid,Special Week,Clothing
-Tab.UmaBoid,Base.SpecialWeekAlt,1500,UmaBoid,Special Week (Commander),Clothing
-Tab.UmaBoid,Base.SpecialWeekCasual,1500,UmaBoid,Special Week (Casual),Clothing
-Tab.UmaBoid,Base.SpecialWeekCasualBag,2000,UmaBoid,Special Week's Bag (Casual),Container
-Tab.UmaBoid,Base.SuperCreek,1500,UmaBoid,Super Creek,Clothing
-Tab.UmaBoid,Base.SuperCreekCasual,1500,UmaBoid,Super Creek (Casual),Clothing
-Tab.UmaBoid,Base.SuperCreekAlt,1500,UmaBoid,Super Creek (Halloween),Clothing
-Tab.UmaBoid,Base.SuperCreekBag,2000,UmaBoid,Super Creek's Bag,Container
-Tab.UmaBoid,Base.SuperCreekBagRight,2000,UmaBoid,Super Creek's Bag (Right),Container
-Tab.UmaBoid,Base.SuperCreekScarf,1500,UmaBoid,Super Creek's Scarf,Clothing
-Tab.UmaBoid,Base.SuperCreekScarfRight,1500,UmaBoid,Super Creek's Scarf (Right),Clothing
-Tab.UmaBoid,Base.SweepToshoHat,1500,UmaBoid,Sweep Tosho's Hat,Clothing
-Tab.UmaBoid,Base.SweepTosho,1500,UmaBoid,Sweep Tosho,Clothing
-Tab.UmaBoid,Base.SweepToshoAlt,1500,UmaBoid,Sweep Tosho (Alt),Clothing
-Tab.UmaBoid,Base.SweepToshoCasual,1500,UmaBoid,Sweep Tosho (Casual),Clothing
-Tab.UmaBoid,Base.SweepToshoCasualAlt,1500,UmaBoid,Sweep Tosho (Casual Alt),Clothing
-Tab.UmaBoid,Base.SymboliKrisS,1500,UmaBoid,Symboli Kris S,Clothing
-Tab.UmaBoid,Base.SymboliRudolf,1500,UmaBoid,Symboli Rudolf,Clothing
-Tab.UmaBoid,Base.SymboliRudolfAlt,1500,UmaBoid,Symboli Rudolf (Festival),Clothing
-Tab.UmaBoid,Base.SymboliRudolfCasual,1500,UmaBoid,Symboli Rudolf (Casual),Clothing
-Tab.UmaBoid,Base.SymboliRudolfCasualBag,2000,UmaBoid,Symboli Rudolf (Casual)'s Bag,Container
-Tab.UmaBoid,Base.SymboliRudolfCasualGlasses,1500,UmaBoid,Symboli Rudolf (Casual)'s Glasses,Clothing
-Tab.UmaBoid,Base.SymboliSiriusUniform,1500,UmaBoid,Symboli Sirius (Uniform),Clothing
-Tab.UmaBoid,Base.TaikiShuttle,1500,UmaBoid,Taiki Shuttle,Clothing
-Tab.UmaBoid,Base.TaikiShuttleHatScarf,1500,UmaBoid,Taiki Shuttle's Hat & Scarf,Clothing
-Tab.UmaBoid,Base.TaikiShuttleCasual,1500,UmaBoid,Taiki Shuttle (Casual),Clothing
-Tab.UmaBoid,Base.TaikiShuttleAlt,1500,UmaBoid,Taiki Shuttle (Camping),Clothing
-Tab.UmaBoid,Base.TaikiShuttleAltCamera,2000,UmaBoid,Taiki Shuttle's Camera (Camping),Container
-Tab.UmaBoid,Base.TamamoCross,1500,UmaBoid,Tamamo Cross,Clothing
-Tab.UmaBoid,Base.TamamoCrossCasual,1500,UmaBoid,Tamamo Cross (Casual),Clothing
-Tab.UmaBoid,Base.TamamoCrossAlt,1500,UmaBoid,Tamamo Cross (Festival),Clothing
-Tab.UmaBoid,Base.TaninoGimletUniform,1500,UmaBoid,Tanino Gimlet (Uniform),Clothing
-Tab.UmaBoid,Base.TaninoGimlet,1500,UmaBoid,Tanino Gimlet,Clothing
-Tab.UmaBoid,Base.TaninoGimletEyepatch,1500,UmaBoid,Tanino Gimlet's Eyepatch,Clothing
-Tab.UmaBoid,Base.TazunaHayakawa,1500,UmaBoid,Tazuna Hayakawa,Clothing
-Tab.UmaBoid,Base.TMOperaO,1500,UmaBoid,TM Opera O,Clothing
-Tab.UmaBoid,Base.TMOperaOCasual,1500,UmaBoid,TM Opera O (Casual),Clothing
-Tab.UmaBoid,Base.TMOperaOUmaRap,1500,UmaBoid,TM Opera O (UMARap),Clothing
-Tab.UmaBoid,Base.TMOperaOAlt,1500,UmaBoid,TM Opera O (New Year),Clothing
-Tab.UmaBoid,Base.TMOperaOCrown,1500,UmaBoid,TM Opera O's Crown,Clothing
-Tab.UmaBoid,Base.TokaiTeio,1500,UmaBoid,Tokai Teio,Clothing
-Tab.UmaBoid,Base.TokaiTeioCasual,1500,UmaBoid,Tokai Teio (Casual),Clothing
-Tab.UmaBoid,Base.TokaiTeioAnime,1500,UmaBoid,Tokai Teio (Anime),Clothing
-Tab.UmaBoid,Base.TosenJordan,1500,UmaBoid,Tosen Jordan,Clothing
-Tab.UmaBoid,Base.TosenJordanCasual,1500,UmaBoid,Tosen Jordan (Casual),Clothing
-Tab.UmaBoid,Base.TsurumaruTsuyoshi,1500,UmaBoid,Tsurumaru Tsuyoshi,Clothing
-Tab.UmaBoid,Base.TwinTurbo,1500,UmaBoid,Twin Turbo,Clothing
-Tab.UmaBoid,Base.TwinTurboCasual,1500,UmaBoid,Twin Turbo (Casual),Clothing
-Tab.UmaBoid,Base.Vodka,1500,UmaBoid,Vodka,Clothing
-Tab.UmaBoid,Base.VodkaCasual,1500,UmaBoid,Vodka (Casual),Clothing
-Tab.UmaBoid,Base.VodkaAlt,1500,UmaBoid,Vodka (Christmas),Clothing
-Tab.UmaBoid,Base.WinningTicket,1500,UmaBoid,Winning Ticket,Clothing
-Tab.UmaBoid,Base.WinningTicketCasual,1500,UmaBoid,Winning Ticket (Casual),Clothing
-Tab.UmaBoid,Base.WinningTicketCasualNoHat,1500,UmaBoid,Winning Ticket (Casual No Hat),Clothing
-Tab.UmaBoid,Base.WinningTicketCasualShirtWaist,1500,UmaBoid,Winning Ticket's Waist Shirt (Casual),Clothing
-Tab.UmaBoid,Base.WinningTicketAlt,1500,UmaBoid,Winning Ticket (Steampunk),Clothing
-Tab.UmaBoid,Base.WinningTicketUmaRap,1500,UmaBoid,Winning Ticket (UMARap),Clothing
-Tab.UmaBoid,Base.WinningTicketUmaRapHat,1500,UmaBoid,Winning Ticket's Hat (UMARap),Clothing
-Tab.UmaBoid,Base.WinningTicketAltGogglesOnHead,1500,UmaBoid,Winning Ticket's Goggles (Steampunk Off),Clothing
-Tab.UmaBoid,Base.WinningTicketAltGogglesOnFace,1500,UmaBoid,Winning Ticket's Goggles (Steampunk On),Clothing
-Tab.UmaBoid,Base.WinningTicketAltScarf,1500,UmaBoid,Winning Ticket's Scarf (Steampunk),Clothing
-Tab.UmaBoid,Base.WinningTicketAltToolbelt,2000,UmaBoid,Winning Ticket's Toolbelt (Steampunk),Container
-Tab.UmaBoid,Base.WonderAcute,1500,UmaBoid,Wonder Acute,Clothing
-Tab.UmaBoid,Base.WonderAcuteCasual,1500,UmaBoid,Wonder Acute (Casual),Clothing
-Tab.UmaBoid,Base.YaenoMuteki,1500,UmaBoid,Yaeno Muteki,Clothing
-Tab.UmaBoid,Base.YaenoMutekiCasual,1500,UmaBoid,Yaeno Muteki (Casual),Clothing
-Tab.UmaBoid,Base.YamaninZephyr,1500,UmaBoid,Yamanin Zephyr,Clothing
-Tab.UmaBoid,Base.YamaninZephyrCasual,1500,UmaBoid,Yamanin Zephyr (Casual),Clothing
-Tab.UmaBoid,Base.YayoiAkikawa,1500,UmaBoid,Yayoi Akikawa,Clothing
-Tab.UmaBoid,Base.YayoiHat,1500,UmaBoid,Yayoi Akikawa's Hat,Clothing
-Tab.UmaBoid,Base.YukinoBijin,1500,UmaBoid,Yukino Bijin,Clothing
-Tab.UmaBoid,Base.YukinoBijinCasual,1500,UmaBoid,Yukino Bijin (Casual),Clothing
-Tab.UmaBoid,Base.YukinoBijinUmaRap,1500,UmaBoid,Yukino Bijin (UMARap),Clothing
-Tab.UmaBoid,Base.YukinoBijinUmaRapSunglasses,1500,UmaBoid,Yukino Bijin's Sunglasses (UMARap),Clothing
-Tab.UmaBoid,Base.YukinoBijinUmaRapHat,1500,UmaBoid,Yukino Bijin's Hat (UMARap),Clothing
-Tab.UmaBoid,Base.ZennoRobRoy,1500,UmaBoid,Zenno Rob Roy,Clothing
-Tab.UmaBoid,Base.ZennoRobRoyHarness,2000,UmaBoid,Zenno Rob Roy's Harness,Container
-Tab.UmaBoid,Base.ZennoRobRoyGlasses,1500,UmaBoid,Zenno Rob Roy's Glasses,Clothing
-Tab.UmaBoid,Base.ZennoRobRoyHat,1500,UmaBoid,Zenno Rob Roy's Hat,Clothing
-Tab.UmaBoid,Base.ZennoRobRoyCasual,1500,UmaBoid,Zenno Rob Roy (Casual),Clothing
-Tab.UmaBoid,Base.ZennoRobRoyCasualBag,2000,UmaBoid,Zenno Rob Roy's Bag (Casual),Container
-Tab.UmaBoid,Base.Toughness,500,Food,Toughness,Food
-Tab.UmaBoid,Base.ToughnessMax,500,Food,Toughness MAX,Food
-Tab.UmaBoid,Base.UmaDrink,500,Food,Uma Drink,Food
-Tab.UmaBoid,Base.HachimiXL,500,Food,Hachimi (XL),Food
-Tab.UmaBoid,Base.Hachimi,500,Food,Hachimi,Food
-Tab.UmaBoid,Base.UmaSnack,500,Food,Uma Snack,Food
-Tab.UmaBoid,Base.UmaBookNumber,3000,SkillBook,Uma Book : Number Collab,Literature
-Tab.UmaBoid,Base.GrassWonderNaginata,3000,Weapon,Grass Wonder's Naginata,Weapon
-Tab.UmaBoid,Base.EishinFlashSword,3000,Weapon,Eishin Flash's Sword,Weapon
-Tab.UmaBoid,Base.WonderAcuteUmbrella,3000,Weapon,Wonder Acute's Umbrella,Weapon
-Tab.UmaBoid,Base.MejiroBrightUmbrellaOpen,3000,Weapon,Mejiro Bright's Umbrella (Open),Weapon
-Tab.UmaBoid,Base.MejiroBrightUmbrellaClose,3000,Weapon,Mejiro Bright's Umbrella (Close),Weapon
-Tab.UmaBoid,Base.SweepToshoBroom,3000,Weapon,Sweep Tosho's Broom,Weapon
-Tab.UmaBoid,Base.KitasanBlackMochiMallet,3000,Weapon,Kitasan Black's Mochi Mallet,Weapon
-Tab.UmaBoid,Base.SymboliRudolfAcheryTarget,3000,Weapon,Symboli Rudolf's Archery Target,Weapon
-Tab.UmaBoid,Base.ZennoRobRoyClaymore,3000,Weapon,Zenno Rob Roy's Claymore,Weapon
-Tab.UmaBoid,Base.UmaGolfClub,3000,Weapon,Uma Golf Club,Weapon
-Tab.UmaBoid,Base.BambooMemoryShinai,3000,Weapon,Bamboo Memory's Shinai,Weapon
-Tab.UmaBoid,Base.TMOperaOStaff,3000,Weapon,TM Opera O's Staff,Weapon
-Tab.UmaBoid,Base.AnshinsawaNeedle,3000,Weapon,Sasami Anshinsawa's Needle,Weapon
-Tab.UmaBoid,Base.GrassWonderStaff,3000,,Grass Wonder's Staff,Weapon
-Tab.UmaBoid,Base.DaiwaScarletStaff,3000,,Daiwa Scarlet's Staff,Weapon
-Tab.UmaBoid,Base.GrassWonderStaffFX,3000,Junk,Grass Wonder's Staff FX,Normal
-Tab.UmaBoid,Base.AstonMachanBomb,3000,Explosives,Aston Machan Plushie Bomb,Weapon
+Tab.UmaBoid,Base.AdmireVega,2500,UmaBoid,Admire Vega,Clothing
+Tab.UmaBoid,Base.AdmireVegaCasual,2500,UmaBoid,Admire Vega (Casual),Clothing
+Tab.UmaBoid,Base.AgnesDigital,2500,UmaBoid,Agnes Digital,Clothing
+Tab.UmaBoid,Base.AgnesDigitalRibbon,2500,UmaBoid,Agnes Digital's Ribbon,Clothing
+Tab.UmaBoid,Base.AgnesDigitalCasual,2500,UmaBoid,Agnes Digital (Casual),Clothing
+Tab.UmaBoid,Base.AgnesDigitalCasualBag,3000,UmaBoid,Agnes Digital's Bag (Casual),Container
+Tab.UmaBoid,Base.AgnesDigitalCasualRibbon,2500,UmaBoid,Agnes Digital's Ribbon (Casual),Clothing
+Tab.UmaBoid,Base.AgnesDigitalAlt,2500,UmaBoid,Agnes Digital (Halloween),Clothing
+Tab.UmaBoid,Base.AgnesTachyon,2500,UmaBoid,Agnes Tachyon,Clothing
+Tab.UmaBoid,Base.AgnesTachyonCasual,2500,UmaBoid,Agnes Tachyon (Casual),Clothing
+Tab.UmaBoid,Base.AirGroove,2500,UmaBoid,Air Groove,Clothing
+Tab.UmaBoid,Base.AirGrooveCasual,2500,UmaBoid,Air Groove (Casual),Clothing
+Tab.UmaBoid,Base.AirGrooveWedding,2500,UmaBoid,Air Groove (Wedding),Clothing
+Tab.UmaBoid,Base.AirGrooveWeddingVeil,2500,UmaBoid,Air Groove's Veil (Wedding),Clothing
+Tab.UmaBoid,Base.AirShakur,2500,UmaBoid,Air Shakur,Clothing
+Tab.UmaBoid,Base.AirShakurCasual,2500,UmaBoid,Air Shakur (Casual),Clothing
+Tab.UmaBoid,Base.AirShakurCasualAlt,2500,UmaBoid,Air Shakur (Casual Hoodless),Clothing
+Tab.UmaBoid,Base.AoiKiryuin,2500,UmaBoid,Aoi Kiryuin,Clothing
+Tab.UmaBoid,Base.AstonMachan,2500,UmaBoid,Aston Machan,Clothing
+Tab.UmaBoid,Base.AstonMachanCrown,2500,UmaBoid,Aston Machan's Crown,Clothing
+Tab.UmaBoid,Base.AstonMachanCasual,2500,UmaBoid,Aston Machan (Casual),Clothing
+Tab.UmaBoid,Base.AstonMachanAltGlasses,2500,UmaBoid,Aston Machan's Glasses (Casual),Clothing
+Tab.UmaBoid,Base.BambooMemory,2500,UmaBoid,Bamboo Memory,Clothing
+Tab.UmaBoid,Base.BambooMemoryAlt,2500,UmaBoid,Bamboo Memory (Alt),Clothing
+Tab.UmaBoid,Base.BambooMemoryCasual,2500,UmaBoid,Bamboo Memory (Casual),Clothing
+Tab.UmaBoid,Base.BambooMemoryCasualAlt,2500,UmaBoid,Bamboo Memory (Casual Alt),Clothing
+Tab.UmaBoid,Base.BikoPegasus,2500,UmaBoid,Biko Pegasus,Clothing
+Tab.UmaBoid,Base.BikoPegasusHairAccessory,2500,UmaBoid,Biko Pegasus' Hair Clip,Clothing
+Tab.UmaBoid,Base.BikoPegasusHairAccessoryCasual,2500,UmaBoid,Biko Pegasus' Hair Clip (Casual),Clothing
+Tab.UmaBoid,Base.BitterGlace,2500,UmaBoid,Bitter Glace,Clothing
+Tab.UmaBoid,Base.BiwaHayahide,2500,UmaBoid,Biwa Hayahide,Clothing
+Tab.UmaBoid,Base.BiwaHayahideGlasses,2500,UmaBoid,Biwa Hayahide Glasses,Clothing
+Tab.UmaBoid,Base.BiwaHayahideCasual,2500,UmaBoid,Biwa Hayahide (Casual),Clothing
+Tab.UmaBoid,Base.BiwaHayahideCasualScarf,2500,UmaBoid,Biwa Hayahide's Scarf (Casual),Clothing
+Tab.UmaBoid,Base.BiwaHayahideCasualBag,3000,UmaBoid,Biwa Hayahide's Bag (Casual),Container
+Tab.UmaBoid,Base.BiwaHayahideAlt1,2500,UmaBoid,Biwa Hayahide (Christmas),Clothing
+Tab.UmaBoid,Base.BiwaHayahideAlt2,2500,UmaBoid,Biwa Hayahide (Christmas Alt),Clothing
+Tab.UmaBoid,Base.BiwaHayahideAlt1Glasses,2500,UmaBoid,Biwa Hayahide Glasses (Christmas),Clothing
+Tab.UmaBoid,Base.BiwaHayahideAlt2Glasses,2500,UmaBoid,Biwa Hayahide Glasses (Christmas Alt),Clothing
+Tab.UmaBoid,Base.BiwaHayahideAltTiara,2500,UmaBoid,Biwa Hayahide's Tiara (Christmas),Clothing
+Tab.UmaBoid,Base.ByerleyTurk,2500,UmaBoid,Byerley Turk,Clothing
+Tab.UmaBoid,Base.ByerleyTurkCrown,2500,UmaBoid,Byerley Turk's Crown,Clothing
+Tab.UmaBoid,Base.ByerleyTurkHat,2500,UmaBoid,Byerley Turk's Hat,Clothing
+Tab.UmaBoid,Base.ByerleyTurkScarf,2500,UmaBoid,ByerleyTurk's Scarf,Clothing
+Tab.UmaBoid,Base.ChevalGrand,2500,UmaBoid,Cheval Grand,Clothing
+Tab.UmaBoid,Base.CopanoRickey,2500,UmaBoid,Copano Rickey,Clothing
+Tab.UmaBoid,Base.CopanoRickeyCasual,2500,UmaBoid,Copano Rickey (Casual),Clothing
+Tab.UmaBoid,Base.CurrenChan,2500,UmaBoid,Curren Chan,Clothing
+Tab.UmaBoid,Base.CurrenChanCasual,2500,UmaBoid,Curren Chan (Casual),Clothing
+Tab.UmaBoid,Base.CurrenChanWedding,2500,UmaBoid,Curren Chan (Wedding),Clothing
+Tab.UmaBoid,Base.DaiichiRuby,2500,UmaBoid,Daiichi Ruby,Clothing
+Tab.UmaBoid,Base.DaitakuHelios,2500,UmaBoid,Daitaku Helios,Clothing
+Tab.UmaBoid,Base.DaitakuHeliosCasual,2500,UmaBoid,Daitaku Helios (Casual),Clothing
+Tab.UmaBoid,Base.DaitakuHeliosCasualAlt,2500,UmaBoid,Daitaku Helios (Casual No Sleeve),Clothing
+Tab.UmaBoid,Base.DaiwaScarlet,2500,UmaBoid,Daiwa Scarlet,Clothing
+Tab.UmaBoid,Base.DaiwaScarletCasual,2500,UmaBoid,Daiwa Scarlet (Casual),Clothing
+Tab.UmaBoid,Base.DaiwaScarletTiara,2500,UmaBoid,Daiwa Scarlet's Tiara,Clothing
+Tab.UmaBoid,Base.DaiwaScarletAlt,2500,UmaBoid,Daiwa Scarlet (Christmas),Clothing
+Tab.UmaBoid,Base.DaiwaScarletAltTiara,2500,UmaBoid,Daiwa Scarlet's Tiara (Christmas),Clothing
+Tab.UmaBoid,Base.DarleyArabian,2500,UmaBoid,Darley Arabian,Clothing
+Tab.UmaBoid,Base.EishinFlash,2500,UmaBoid,Eishin Flash,Clothing
+Tab.UmaBoid,Base.EishinFlashCasual,2500,UmaBoid,Eishin Flash (Casual),Clothing
+Tab.UmaBoid,Base.EishinFlashAlt,2500,UmaBoid,Eishin Flash (Valentine),Clothing
+Tab.UmaBoid,Base.EishinFlashAltHat,2500,UmaBoid,Eishin Flash's Hat (Valentine),Clothing
+Tab.UmaBoid,Base.ElCondorPasa,2500,UmaBoid,El Condor Pasa,Clothing
+Tab.UmaBoid,Base.ElCondorPasaCasual,2500,UmaBoid,El Condor Pasa (Casual),Clothing
+Tab.UmaBoid,Base.ElCondorPasaMask,2500,UmaBoid,El Condor Pasa Mask,Clothing
+Tab.UmaBoid,Base.ElCondorPasaAlt,2500,UmaBoid,El Condor Pasa (Fantasy),Clothing
+Tab.UmaBoid,Base.ElCondorPasaAltMask,2500,UmaBoid,El Condor Pasa's Mask (Fantasy),Clothing
+Tab.UmaBoid,Base.EtsukoOtonashi,2500,UmaBoid,Etsuko Otonashi,Clothing
+Tab.UmaBoid,Base.EtsukoOtonashiBag,3000,UmaBoid,Etsuko Otonashi's Bag,Container
+Tab.UmaBoid,Base.FineMotion,2500,UmaBoid,Fine Motion,Clothing
+Tab.UmaBoid,Base.FineMotionCasual,2500,UmaBoid,Fine Motion (Casual),Clothing
+Tab.UmaBoid,Base.FineMotionWedding,2500,UmaBoid,Fine Motion (Wedding),Clothing
+Tab.UmaBoid,Base.FineMotionWeddingVeil,2500,UmaBoid,Fine Motion's Veil (Wedding),Clothing
+Tab.UmaBoid,Base.FineMotionWeddingTiara,2500,UmaBoid,Fine Motion's Tiara (Wedding),Clothing
+Tab.UmaBoid,Base.FujiKiseki,2500,UmaBoid,Fuji Kiseki,Clothing
+Tab.UmaBoid,Base.FujiKisekiFlatHair,2500,UmaBoid,Fuji Kiseki (Flat Hair),Clothing
+Tab.UmaBoid,Base.FujiKisekiHat,2500,UmaBoid,Fuji Kiseki's Hat,Clothing
+Tab.UmaBoid,Base.FujiKisekiAlt,2500,UmaBoid,Fuji Kiseki (Ballroom),Clothing
+Tab.UmaBoid,Base.FujiKisekiCasual,2500,UmaBoid,Fuji Kiseki (Casual),Clothing
+Tab.UmaBoid,Base.GodolphinBarb,2500,UmaBoid,Godolphin Barb,Clothing
+Tab.UmaBoid,Base.GoldCity,2500,UmaBoid,Gold City,Clothing
+Tab.UmaBoid,Base.GoldCityAlt,2500,UmaBoid,Gold City (Festival),Clothing
+Tab.UmaBoid,Base.GoldCityCasual,2500,UmaBoid,Gold City (Casual),Clothing
+Tab.UmaBoid,Base.GoldShip,2500,UmaBoid,Gold Ship,Clothing
+Tab.UmaBoid,Base.GoldShipCasual,2500,UmaBoid,Gold Ship (Casual),Clothing
+Tab.UmaBoid,Base.GoldShipBag,3000,UmaBoid,Gold Ship's Bag,Container
+Tab.UmaBoid,Base.GrassWonder,2500,UmaBoid,Grass Wonder,Clothing
+Tab.UmaBoid,Base.GrassWonderCasual,2500,UmaBoid,Grass Wonder (Casual),Clothing
+Tab.UmaBoid,Base.GrassWonderAlt,2500,UmaBoid,Grass Wonder (Fantasy),Clothing
+Tab.UmaBoid,Base.GrassWonderAltHat,2500,UmaBoid,Grass Wonder's Hat (Fantasy),Clothing
+Tab.UmaBoid,Base.GrassWonderUmaRap,2500,UmaBoid,Grass Wonder (UMARap),Clothing
+Tab.UmaBoid,Base.GrassWonderUmaRapHat,2500,UmaBoid,Grass Wonder's Hat (UMARap),Clothing
+Tab.UmaBoid,Base.HappyMeek,2500,UmaBoid,Happy Meek,Clothing
+Tab.UmaBoid,Base.HaruUrara,2500,UmaBoid,Haru Urara,Clothing
+Tab.UmaBoid,Base.HaruUraraCasual,2500,UmaBoid,Haru Urara (Casual),Clothing
+Tab.UmaBoid,Base.HaruUraraAlt,2500,UmaBoid,Haru Urara (New Year),Clothing
+Tab.UmaBoid,Base.HishiAkebono,2500,UmaBoid,Hishi Akebono,Clothing
+Tab.UmaBoid,Base.HishiAkebonoCasual,2500,UmaBoid,Hishi Akebono (Casual),Clothing
+Tab.UmaBoid,Base.HishiAkebonoHairPin,2500,UmaBoid,Hishi Akebono's Hair Pin,Clothing
+Tab.UmaBoid,Base.HishiAkebonoCasualHairPin,2500,UmaBoid,Hishi Akebono's Hair Pin (Casual),Clothing
+Tab.UmaBoid,Base.HishiAkebonoHat,2500,UmaBoid,Hishi Akebono's Hat,Clothing
+Tab.UmaBoid,Base.HishiAmazon,2500,UmaBoid,Hishi Amazon,Clothing
+Tab.UmaBoid,Base.HishiAmazonCasual,2500,UmaBoid,Hishi Amazon (Casual),Clothing
+Tab.UmaBoid,Base.HokkoTarumae,2500,UmaBoid,Hokko Tarumae,Clothing
+Tab.UmaBoid,Base.HokkoTarumaeCasual,2500,UmaBoid,Hokko Tarumae (Casual),Clothing
+Tab.UmaBoid,Base.HokkoTarumaeArmSling,2500,UmaBoid,Hokko Tarumae's Shoulder Strap,Clothing
+Tab.UmaBoid,Base.IkunoDictus,2500,UmaBoid,Ikuno Dictus,Clothing
+Tab.UmaBoid,Base.IkunoDictusCasual,2500,UmaBoid,Ikuno Dictus (Casual),Clothing
+Tab.UmaBoid,Base.IkunoDictusGlasses,2500,UmaBoid,Ikuno Dictus' Glasses,Clothing
+Tab.UmaBoid,Base.InariOne,2500,UmaBoid,Inari One,Clothing
+Tab.UmaBoid,Base.InariOneMask,2500,UmaBoid,Inari One's Mask,Clothing
+Tab.UmaBoid,Base.InariOneAlt,2500,UmaBoid,Inari One (Festival),Clothing
+Tab.UmaBoid,Base.InariOneCasual,2500,UmaBoid,Inari One (Casual),Clothing
+Tab.UmaBoid,Base.InesFujin,2500,UmaBoid,Ines Fujin,Clothing
+Tab.UmaBoid,Base.InesFujinCasual,2500,UmaBoid,Ines Fujin (Casual),Clothing
+Tab.UmaBoid,Base.InesFujinCasualNoHat,2500,UmaBoid,Ines Fujin (Casual No Hat),Clothing
+Tab.UmaBoid,Base.InesFujinAlt,2500,UmaBoid,Ines Fujin (Valentine),Clothing
+Tab.UmaBoid,Base.InesFujinHat,2500,UmaBoid,Ines Fujin's Hat,Clothing
+Tab.UmaBoid,Base.InesFujinAltHeadBand,2500,UmaBoid,Ines Fujin's Head Band (Valentine),Clothing
+Tab.UmaBoid,Base.JunglePocket,2500,UmaBoid,Jungle Pocket,Clothing
+Tab.UmaBoid,Base.JunglePocketCasual,2500,UmaBoid,Jungle Pocket (Casual),Clothing
+Tab.UmaBoid,Base.KatsuragiAce,2500,UmaBoid,Katsuragi Ace,Clothing
+Tab.UmaBoid,Base.KawakamiPrincess,2500,UmaBoid,Kawakami Princess,Clothing
+Tab.UmaBoid,Base.KawakamiPrincessCasual,2500,UmaBoid,Kawakami Princess (Casual),Clothing
+Tab.UmaBoid,Base.KingHalo,2500,UmaBoid,King Halo,Clothing
+Tab.UmaBoid,Base.KingHaloCasual,2500,UmaBoid,King Halo (Casual),Clothing
+Tab.UmaBoid,Base.KingHaloAlt,2500,UmaBoid,King Halo (Cheerleader),Clothing
+Tab.UmaBoid,Base.KitasanBlack,2500,UmaBoid,Kitasan Black,Clothing
+Tab.UmaBoid,Base.KitasanBlackAlt,2500,UmaBoid,Kitasan Black (New Year),Clothing
+Tab.UmaBoid,Base.KitasanBlackCasual,2500,UmaBoid,Kitasan Black (Casual),Clothing
+Tab.UmaBoid,Base.KSMiracle,2500,UmaBoid,K.S. Miracle,Clothing
+Tab.UmaBoid,Base.LightHello,2500,UmaBoid,Light Hello,Clothing
+Tab.UmaBoid,Base.LittleCocon,2500,UmaBoid,Little Cocon,Clothing
+Tab.UmaBoid,Base.LittleCoconHarness,3000,UmaBoid,Little Cocon's Harness,Container
+Tab.UmaBoid,Base.ManhattanCafe,2500,UmaBoid,Manhattan Cafe,Clothing
+Tab.UmaBoid,Base.ManhattanCafeCasual,2500,UmaBoid,Manhattan Cafe (Casual),Clothing
+Tab.UmaBoid,Base.Maruzensky,2500,UmaBoid,Maruzensky,Clothing
+Tab.UmaBoid,Base.MaruzenskyCasual,2500,UmaBoid,Maruzensky (Casual),Clothing
+Tab.UmaBoid,Base.MaruzenskyCasualNeckShirt,2500,UmaBoid,Maruzensky's Neck shirt (Casual),Clothing
+Tab.UmaBoid,Base.MarvelousSundayCasual,2500,UmaBoid,Marvelous Sunday (Casual),Clothing
+Tab.UmaBoid,Base.MarvelousSunday,2500,UmaBoid,Marvelous Sunday,Clothing
+Tab.UmaBoid,Base.MatikaneFukukitaru,2500,UmaBoid,Matikane Fukukitaru,Clothing
+Tab.UmaBoid,Base.MatikaneFukukitaruAlt,2500,UmaBoid,Matikane Fukukitaru (Full Armor),Clothing
+Tab.UmaBoid,Base.MatikaneFukukitaruAltNoHat,2500,UmaBoid,Matikane Fukukitaru (Full Armor No Hat),Clothing
+Tab.UmaBoid,Base.MatikaneFukukitaruBag,3000,UmaBoid,Matikane Fukukitaru's Bag,Container
+Tab.UmaBoid,Base.MatikaneFukukitaruAltBackBag,3000,UmaBoid,Matikane Fukukitaru's Bag (Full Armor - Back),Container
+Tab.UmaBoid,Base.MatikaneFukukitaruAltFrontBag,3000,UmaBoid,Matikane Fukukitaru's Bag (Full Armor - Front),Container
+Tab.UmaBoid,Base.MatikaneFukukitaruCasual,2500,UmaBoid,Matikane Fukukitaru (Casual),Clothing
+Tab.UmaBoid,Base.MatikaneTannhauserCape,2500,UmaBoid,Matikane Tannhauser's Cape,Clothing
+Tab.UmaBoid,Base.MatikaneTannhauserBag,3000,UmaBoid,Matikane Tannhauser's Bag,Container
+Tab.UmaBoid,Base.MatikaneTannhauserHat,2500,UmaBoid,Matikane Tannhauser's Hat,Clothing
+Tab.UmaBoid,Base.MatikaneTannhauserCasualHat,2500,UmaBoid,Matikane Tannhauser's Hat (Casual),Clothing
+Tab.UmaBoid,Base.MatikaneTannhauser,2500,UmaBoid,Matikane Tannhauser,Clothing
+Tab.UmaBoid,Base.MatikaneTannhauserCasual,2500,UmaBoid,Matikane Tannhauser (Casual),Clothing
+Tab.UmaBoid,Base.MayanoTopGun,2500,UmaBoid,Mayano Top Gun,Clothing
+Tab.UmaBoid,Base.MayanoTopGunCasual,2500,UmaBoid,Mayano Top Gun (Casual),Clothing
+Tab.UmaBoid,Base.MayanoTopGunWedding,2500,UmaBoid,Mayano Top Gun (Wedding),Clothing
+Tab.UmaBoid,Base.MeishoDoto,2500,UmaBoid,Meisho Doto,Clothing
+Tab.UmaBoid,Base.MeishoDotoCasual,2500,UmaBoid,Meisho Doto (Casual),Clothing
+Tab.UmaBoid,Base.MeishoDotoAlt,2500,UmaBoid,Meisho Doto (Halloween),Clothing
+Tab.UmaBoid,Base.MeishoDotoAlt2,2500,UmaBoid,Meisho Doto (Halloween Alt),Clothing
+Tab.UmaBoid,Base.MeishoDotoBag,3000,UmaBoid,Meisho Doto's Bag,Container
+Tab.UmaBoid,Base.MejiroArdan,2500,UmaBoid,Mejiro Ardan,Clothing
+Tab.UmaBoid,Base.MejiroArdanCasual,2500,UmaBoid,Mejiro Ardan (Casual),Clothing
+Tab.UmaBoid,Base.MejiroBright,2500,UmaBoid,Mejiro Bright,Clothing
+Tab.UmaBoid,Base.MejiroBrightCasual,2500,UmaBoid,Mejiro Bright (Casual),Clothing
+Tab.UmaBoid,Base.MejiroDober,2500,UmaBoid,Mejiro Dober,Clothing
+Tab.UmaBoid,Base.MejiroDoberAlt,2500,UmaBoid,Mejiro Dober (Camping),Clothing
+Tab.UmaBoid,Base.MejiroDoberCasual,2500,UmaBoid,Mejiro Dober (Casual),Clothing
+Tab.UmaBoid,Base.MejiroMcQueen,2500,UmaBoid,Mejiro McQueen,Clothing
+Tab.UmaBoid,Base.MejiroMcQueenCasual,2500,UmaBoid,Mejiro McQueen (Casual),Clothing
+Tab.UmaBoid,Base.MejiroMcQueenAnime,2500,UmaBoid,Mejiro McQueen (Anime),Clothing
+Tab.UmaBoid,Base.MejiroMcQueenAnimeHat,2500,UmaBoid,Mejiro McQueen's Hat (Anime),Clothing
+Tab.UmaBoid,Base.MejiroPalmer,2500,UmaBoid,Mejiro Palmer,Clothing
+Tab.UmaBoid,Base.MejiroPalmerCasual,2500,UmaBoid,Mejiro Palmer (Casual),Clothing
+Tab.UmaBoid,Base.MejiroRamonu,2500,UmaBoid,Mejiro Ramonu,Clothing
+Tab.UmaBoid,Base.MejiroRyanHairMain,2500,UmaBoid,Mejiro Ryan,Clothing
+Tab.UmaBoid,Base.MejiroRyanCasualHairMain,2500,UmaBoid,Mejiro Ryan (Casual),Clothing
+Tab.UmaBoid,Base.MejiroRyanAltHairMain,2500,UmaBoid,Mejiro Ryan (Valentine),Clothing
+Tab.UmaBoid,Base.MejiroRyanHairAlt,2500,UmaBoid,Mejiro Ryan (Alt Hair),Clothing
+Tab.UmaBoid,Base.MejiroRyanCasualHairAlt,2500,UmaBoid,Mejiro Ryan (Casual - Alt Hair),Clothing
+Tab.UmaBoid,Base.MejiroRyanAltHairAlt,2500,UmaBoid,Mejiro Ryan (Valentine - Alt Hair),Clothing
+Tab.UmaBoid,Base.MihonoBourbon,2500,UmaBoid,Mihono Bourbon,Clothing
+Tab.UmaBoid,Base.MihonoBourbonCasual,2500,UmaBoid,Mihono Bourbon (Casual),Clothing
+Tab.UmaBoid,Base.MihonoBourbonAlt,2500,UmaBoid,Mihono Bourbon (Valentine),Clothing
+Tab.UmaBoid,Base.MihonoBourbonFootPart,2500,UmaBoid,Mihono Bourbon's Foot Armor,Clothing
+Tab.UmaBoid,Base.MihonoBourbonHipsPart,2500,UmaBoid,Mihono Bourbon's Hips Armor,Clothing
+Tab.UmaBoid,Base.MihonoBourbonTailPart,2500,UmaBoid,Mihono Bourbon's Tail Armor,Clothing
+Tab.UmaBoid,Base.Montjeu,2500,UmaBoid,Montjeu,Clothing
+Tab.UmaBoid,Base.MrCBUniform,2500,UmaBoid,Mr. C.B. (Uniform),Clothing
+Tab.UmaBoid,Base.MrCB,2500,UmaBoid,Mr. C.B.,Clothing
+Tab.UmaBoid,Base.MrCBCasual,2500,UmaBoid,Mr. C.B. (Casual),Clothing
+Tab.UmaBoid,Base.MrCBHat,2500,UmaBoid,Mr. C.B.'s Hat,Clothing
+Tab.UmaBoid,Base.MrCBCasualHairPin,2500,UmaBoid,Mr. C.B.'s Hair Pin (Casual),Clothing
+Tab.UmaBoid,Base.NakayamaFesta,2500,UmaBoid,Nakayama Festa,Clothing
+Tab.UmaBoid,Base.NakayamaFestaCasual,2500,UmaBoid,Nakayama Festa (Casual),Clothing
+Tab.UmaBoid,Base.NaritaBrian,2500,UmaBoid,Narita Brian,Clothing
+Tab.UmaBoid,Base.NaritaBrianAlt,2500,UmaBoid,Narita Brian (Blaze),Clothing
+Tab.UmaBoid,Base.NaritaBrianCasual,2500,UmaBoid,Narita Brian (Casual),Clothing
+Tab.UmaBoid,Base.NaritaTaishin,2500,UmaBoid,Narita Taishin,Clothing
+Tab.UmaBoid,Base.NaritaTaishinUmaRap,2500,UmaBoid,Narita Taishin (UMARap),Clothing
+Tab.UmaBoid,Base.NaritaTaishinFlatHair,2500,UmaBoid,Narita Taishin (Flat Hair),Clothing
+Tab.UmaBoid,Base.NaritaTaishinShirtWaist,2500,UmaBoid,Narita Taishin's Waist Shirt,Clothing
+Tab.UmaBoid,Base.NaritaTaishinCasual,2500,UmaBoid,Narita Taishin (Casual),Clothing
+Tab.UmaBoid,Base.NaritaTaishinCasualFlatHair,2500,UmaBoid,Narita Taishin (Casual Flat Hair),Clothing
+Tab.UmaBoid,Base.NaritaTaishinCasualHat,2500,UmaBoid,Narita Taishin's Hat (Casual),Clothing
+Tab.UmaBoid,Base.NaritaTaishinAlt,2500,UmaBoid,Narita Taishin (Steampunk),Clothing
+Tab.UmaBoid,Base.NaritaTaishinAltPouches,3000,UmaBoid,Narita Taishin's Pouches (Steampunk),Container
+Tab.UmaBoid,Base.NaritaTaishinAltMonocle,2500,UmaBoid,Narita Taishin's Monocle (Steampunk),Clothing
+Tab.UmaBoid,Base.NaritaTopRoadUniform,2500,UmaBoid,Narita Top Road (Uniform),Clothing
+Tab.UmaBoid,Base.NiceNature,2500,UmaBoid,Nice Nature,Clothing
+Tab.UmaBoid,Base.NiceNatureCasual,2500,UmaBoid,Nice Nature (Casual),Clothing
+Tab.UmaBoid,Base.NiceNatureAlt,2500,UmaBoid,Nice Nature (Cheerleader),Clothing
+Tab.UmaBoid,Base.NiceNatureAltPom,2500,UmaBoid,Nice Nature's Pom (Cheerleader),Clothing
+Tab.UmaBoid,Base.NishinoFlower,2500,UmaBoid,Nishino Flower,Clothing
+Tab.UmaBoid,Base.NishinoFlowerCasual,2500,UmaBoid,Nishino Flower (Casual),Clothing
+Tab.UmaBoid,Base.OguriCap,2500,UmaBoid,Oguri Cap,Clothing
+Tab.UmaBoid,Base.OguriCapCasual,2500,UmaBoid,Oguri Cap (Casual),Clothing
+Tab.UmaBoid,Base.OguriCapAlt,2500,UmaBoid,Oguri Cap (Christmas),Clothing
+Tab.UmaBoid,Base.RiceShower,2500,UmaBoid,Rice Shower,Clothing
+Tab.UmaBoid,Base.RiceShowerCasual,2500,UmaBoid,Rice Shower (Casual),Clothing
+Tab.UmaBoid,Base.RiceShowerAlt,2500,UmaBoid,Rice Shower (Halloween),Clothing
+Tab.UmaBoid,Base.RikoKashimoto,2500,UmaBoid,Riko Kashimoto,Clothing
+Tab.UmaBoid,Base.SakuraBakushinO,2500,UmaBoid,Sakura Bakushin O,Clothing
+Tab.UmaBoid,Base.SakuraBakushinOCasual,2500,UmaBoid,Sakura Bakushin O (Casual),Clothing
+Tab.UmaBoid,Base.SakuraChiyonoO,2500,UmaBoid,Sakura Chiyono O,Clothing
+Tab.UmaBoid,Base.SakuraChiyonoOAlt,2500,UmaBoid,Sakura Chiyono O (Alt),Clothing
+Tab.UmaBoid,Base.SakuraChiyonoOCasual,2500,UmaBoid,Sakura Chiyono O (Casual),Clothing
+Tab.UmaBoid,Base.SakuraLaurelUniform,2500,UmaBoid,Sakura Laurel (Uniform),Clothing
+Tab.UmaBoid,Base.SakuraLaurel,2500,UmaBoid,Sakura Laurel,Clothing
+Tab.UmaBoid,Base.SasamiAnshinzawa,2500,UmaBoid,Sasami Anshinzawa,Clothing
+Tab.UmaBoid,Base.SasamiEyeMask,2500,UmaBoid,Sasami Eye Mask,Clothing
+Tab.UmaBoid,Base.SatonoCrown,2500,UmaBoid,Satono Crown,Clothing
+Tab.UmaBoid,Base.SatonoCrownCrown,2500,UmaBoid,Satono Crown's Crown,Clothing
+Tab.UmaBoid,Base.SatonoDiamond,2500,UmaBoid,Satono Diamond,Clothing
+Tab.UmaBoid,Base.SatonoDiamondAlt,2500,UmaBoid,Satono Diamond (New Year),Clothing
+Tab.UmaBoid,Base.SatonoDiamondCasual,2500,UmaBoid,Satono Diamond (Casual),Clothing
+Tab.UmaBoid,Base.SeiunSky,2500,UmaBoid,Seiun Sky,Clothing
+Tab.UmaBoid,Base.SeiunSkyCasual,2500,UmaBoid,Seiun Sky (Casual),Clothing
+Tab.UmaBoid,Base.SeiunSkyAlt,2500,UmaBoid,Seiun Sky (Ballroom),Clothing
+Tab.UmaBoid,Base.SeekingThePearl,2500,UmaBoid,Seeking the Pearl,Clothing
+Tab.UmaBoid,Base.SeekingThePearlCasual,2500,UmaBoid,Seeking the Pearl (Casual),Clothing
+Tab.UmaBoid,Base.SeekingThePearlCasualShirtHip,2500,UmaBoid,Seeking the Pearl's Hip Shirt (Casual),Clothing
+Tab.UmaBoid,Base.SeekingThePearlGlassesOnHead,2500,UmaBoid,Seeking the Pearl's Glasses (Off),Clothing
+Tab.UmaBoid,Base.SeekingThePearlGlassesOnFace,2500,UmaBoid,Seeking the Pearl's Glasses (On),Clothing
+Tab.UmaBoid,Base.ShinkoWindyUniform,2500,UmaBoid,Shinko Windy (Uniform),Clothing
+Tab.UmaBoid,Base.ShinkoWindy,2500,UmaBoid,Shinko Windy,Clothing
+Tab.UmaBoid,Base.ShinkoWindyCasual,2500,UmaBoid,Shinko Windy (Casual),Clothing
+Tab.UmaBoid,Base.SilenceSuzuka,2500,UmaBoid,Silence Suzuka,Clothing
+Tab.UmaBoid,Base.SilenceSuzukaCasual,2500,UmaBoid,Silence Suzuka (Casual),Clothing
+Tab.UmaBoid,Base.SmartFalcon,2500,UmaBoid,Smart Falcon,Clothing
+Tab.UmaBoid,Base.SmartFalconAlt,2500,UmaBoid,Smart Falcon (Grand Live),Clothing
+Tab.UmaBoid,Base.SmartFalconCasual,2500,UmaBoid,Smart Falcon (Casual),Clothing
+Tab.UmaBoid,Base.SpecialWeek,2500,UmaBoid,Special Week,Clothing
+Tab.UmaBoid,Base.SpecialWeekAlt,2500,UmaBoid,Special Week (Commander),Clothing
+Tab.UmaBoid,Base.SpecialWeekCasual,2500,UmaBoid,Special Week (Casual),Clothing
+Tab.UmaBoid,Base.SpecialWeekCasualBag,3000,UmaBoid,Special Week's Bag (Casual),Container
+Tab.UmaBoid,Base.SuperCreek,2500,UmaBoid,Super Creek,Clothing
+Tab.UmaBoid,Base.SuperCreekCasual,2500,UmaBoid,Super Creek (Casual),Clothing
+Tab.UmaBoid,Base.SuperCreekAlt,2500,UmaBoid,Super Creek (Halloween),Clothing
+Tab.UmaBoid,Base.SuperCreekBag,3000,UmaBoid,Super Creek's Bag,Container
+Tab.UmaBoid,Base.SuperCreekBagRight,3000,UmaBoid,Super Creek's Bag (Right),Container
+Tab.UmaBoid,Base.SuperCreekScarf,2500,UmaBoid,Super Creek's Scarf,Clothing
+Tab.UmaBoid,Base.SuperCreekScarfRight,2500,UmaBoid,Super Creek's Scarf (Right),Clothing
+Tab.UmaBoid,Base.SweepToshoHat,2500,UmaBoid,Sweep Tosho's Hat,Clothing
+Tab.UmaBoid,Base.SweepTosho,2500,UmaBoid,Sweep Tosho,Clothing
+Tab.UmaBoid,Base.SweepToshoAlt,2500,UmaBoid,Sweep Tosho (Alt),Clothing
+Tab.UmaBoid,Base.SweepToshoCasual,2500,UmaBoid,Sweep Tosho (Casual),Clothing
+Tab.UmaBoid,Base.SweepToshoCasualAlt,2500,UmaBoid,Sweep Tosho (Casual Alt),Clothing
+Tab.UmaBoid,Base.SymboliKrisS,2500,UmaBoid,Symboli Kris S,Clothing
+Tab.UmaBoid,Base.SymboliRudolf,2500,UmaBoid,Symboli Rudolf,Clothing
+Tab.UmaBoid,Base.SymboliRudolfAlt,2500,UmaBoid,Symboli Rudolf (Festival),Clothing
+Tab.UmaBoid,Base.SymboliRudolfCasual,2500,UmaBoid,Symboli Rudolf (Casual),Clothing
+Tab.UmaBoid,Base.SymboliRudolfCasualBag,3000,UmaBoid,Symboli Rudolf (Casual)'s Bag,Container
+Tab.UmaBoid,Base.SymboliRudolfCasualGlasses,2500,UmaBoid,Symboli Rudolf (Casual)'s Glasses,Clothing
+Tab.UmaBoid,Base.SymboliSiriusUniform,2500,UmaBoid,Symboli Sirius (Uniform),Clothing
+Tab.UmaBoid,Base.TaikiShuttle,2500,UmaBoid,Taiki Shuttle,Clothing
+Tab.UmaBoid,Base.TaikiShuttleHatScarf,2500,UmaBoid,Taiki Shuttle's Hat & Scarf,Clothing
+Tab.UmaBoid,Base.TaikiShuttleCasual,2500,UmaBoid,Taiki Shuttle (Casual),Clothing
+Tab.UmaBoid,Base.TaikiShuttleAlt,2500,UmaBoid,Taiki Shuttle (Camping),Clothing
+Tab.UmaBoid,Base.TaikiShuttleAltCamera,3000,UmaBoid,Taiki Shuttle's Camera (Camping),Container
+Tab.UmaBoid,Base.TamamoCross,2500,UmaBoid,Tamamo Cross,Clothing
+Tab.UmaBoid,Base.TamamoCrossCasual,2500,UmaBoid,Tamamo Cross (Casual),Clothing
+Tab.UmaBoid,Base.TamamoCrossAlt,2500,UmaBoid,Tamamo Cross (Festival),Clothing
+Tab.UmaBoid,Base.TaninoGimletUniform,2500,UmaBoid,Tanino Gimlet (Uniform),Clothing
+Tab.UmaBoid,Base.TaninoGimlet,2500,UmaBoid,Tanino Gimlet,Clothing
+Tab.UmaBoid,Base.TaninoGimletEyepatch,2500,UmaBoid,Tanino Gimlet's Eyepatch,Clothing
+Tab.UmaBoid,Base.TazunaHayakawa,2500,UmaBoid,Tazuna Hayakawa,Clothing
+Tab.UmaBoid,Base.TMOperaO,2500,UmaBoid,TM Opera O,Clothing
+Tab.UmaBoid,Base.TMOperaOCasual,2500,UmaBoid,TM Opera O (Casual),Clothing
+Tab.UmaBoid,Base.TMOperaOUmaRap,2500,UmaBoid,TM Opera O (UMARap),Clothing
+Tab.UmaBoid,Base.TMOperaOAlt,2500,UmaBoid,TM Opera O (New Year),Clothing
+Tab.UmaBoid,Base.TMOperaOCrown,2500,UmaBoid,TM Opera O's Crown,Clothing
+Tab.UmaBoid,Base.TokaiTeio,2500,UmaBoid,Tokai Teio,Clothing
+Tab.UmaBoid,Base.TokaiTeioCasual,2500,UmaBoid,Tokai Teio (Casual),Clothing
+Tab.UmaBoid,Base.TokaiTeioAnime,2500,UmaBoid,Tokai Teio (Anime),Clothing
+Tab.UmaBoid,Base.TosenJordan,2500,UmaBoid,Tosen Jordan,Clothing
+Tab.UmaBoid,Base.TosenJordanCasual,2500,UmaBoid,Tosen Jordan (Casual),Clothing
+Tab.UmaBoid,Base.TsurumaruTsuyoshi,2500,UmaBoid,Tsurumaru Tsuyoshi,Clothing
+Tab.UmaBoid,Base.TwinTurbo,2500,UmaBoid,Twin Turbo,Clothing
+Tab.UmaBoid,Base.TwinTurboCasual,2500,UmaBoid,Twin Turbo (Casual),Clothing
+Tab.UmaBoid,Base.Vodka,2500,UmaBoid,Vodka,Clothing
+Tab.UmaBoid,Base.VodkaCasual,2500,UmaBoid,Vodka (Casual),Clothing
+Tab.UmaBoid,Base.VodkaAlt,2500,UmaBoid,Vodka (Christmas),Clothing
+Tab.UmaBoid,Base.WinningTicket,2500,UmaBoid,Winning Ticket,Clothing
+Tab.UmaBoid,Base.WinningTicketCasual,2500,UmaBoid,Winning Ticket (Casual),Clothing
+Tab.UmaBoid,Base.WinningTicketCasualNoHat,2500,UmaBoid,Winning Ticket (Casual No Hat),Clothing
+Tab.UmaBoid,Base.WinningTicketCasualShirtWaist,2500,UmaBoid,Winning Ticket's Waist Shirt (Casual),Clothing
+Tab.UmaBoid,Base.WinningTicketAlt,2500,UmaBoid,Winning Ticket (Steampunk),Clothing
+Tab.UmaBoid,Base.WinningTicketUmaRap,2500,UmaBoid,Winning Ticket (UMARap),Clothing
+Tab.UmaBoid,Base.WinningTicketUmaRapHat,2500,UmaBoid,Winning Ticket's Hat (UMARap),Clothing
+Tab.UmaBoid,Base.WinningTicketAltGogglesOnHead,2500,UmaBoid,Winning Ticket's Goggles (Steampunk Off),Clothing
+Tab.UmaBoid,Base.WinningTicketAltGogglesOnFace,2500,UmaBoid,Winning Ticket's Goggles (Steampunk On),Clothing
+Tab.UmaBoid,Base.WinningTicketAltScarf,2500,UmaBoid,Winning Ticket's Scarf (Steampunk),Clothing
+Tab.UmaBoid,Base.WinningTicketAltToolbelt,3000,UmaBoid,Winning Ticket's Toolbelt (Steampunk),Container
+Tab.UmaBoid,Base.WonderAcute,2500,UmaBoid,Wonder Acute,Clothing
+Tab.UmaBoid,Base.WonderAcuteCasual,2500,UmaBoid,Wonder Acute (Casual),Clothing
+Tab.UmaBoid,Base.YaenoMuteki,2500,UmaBoid,Yaeno Muteki,Clothing
+Tab.UmaBoid,Base.YaenoMutekiCasual,2500,UmaBoid,Yaeno Muteki (Casual),Clothing
+Tab.UmaBoid,Base.YamaninZephyr,2500,UmaBoid,Yamanin Zephyr,Clothing
+Tab.UmaBoid,Base.YamaninZephyrCasual,2500,UmaBoid,Yamanin Zephyr (Casual),Clothing
+Tab.UmaBoid,Base.YayoiAkikawa,2500,UmaBoid,Yayoi Akikawa,Clothing
+Tab.UmaBoid,Base.YayoiHat,2500,UmaBoid,Yayoi Akikawa's Hat,Clothing
+Tab.UmaBoid,Base.YukinoBijin,2500,UmaBoid,Yukino Bijin,Clothing
+Tab.UmaBoid,Base.YukinoBijinCasual,2500,UmaBoid,Yukino Bijin (Casual),Clothing
+Tab.UmaBoid,Base.YukinoBijinUmaRap,2500,UmaBoid,Yukino Bijin (UMARap),Clothing
+Tab.UmaBoid,Base.YukinoBijinUmaRapSunglasses,2500,UmaBoid,Yukino Bijin's Sunglasses (UMARap),Clothing
+Tab.UmaBoid,Base.YukinoBijinUmaRapHat,2500,UmaBoid,Yukino Bijin's Hat (UMARap),Clothing
+Tab.UmaBoid,Base.ZennoRobRoy,2500,UmaBoid,Zenno Rob Roy,Clothing
+Tab.UmaBoid,Base.ZennoRobRoyHarness,3000,UmaBoid,Zenno Rob Roy's Harness,Container
+Tab.UmaBoid,Base.ZennoRobRoyGlasses,2500,UmaBoid,Zenno Rob Roy's Glasses,Clothing
+Tab.UmaBoid,Base.ZennoRobRoyHat,2500,UmaBoid,Zenno Rob Roy's Hat,Clothing
+Tab.UmaBoid,Base.ZennoRobRoyCasual,2500,UmaBoid,Zenno Rob Roy (Casual),Clothing
+Tab.UmaBoid,Base.ZennoRobRoyCasualBag,3000,UmaBoid,Zenno Rob Roy's Bag (Casual),Container
+Tab.UmaBoid,Base.Toughness,5000,Food,Toughness,Food
+Tab.UmaBoid,Base.ToughnessMax,5000,Food,Toughness MAX,Food
+Tab.UmaBoid,Base.UmaDrink,5000,Food,Uma Drink,Food
+Tab.UmaBoid,Base.HachimiXL,5000,Food,Hachimi (XL),Food
+Tab.UmaBoid,Base.Hachimi,5000,Food,Hachimi,Food
+Tab.UmaBoid,Base.UmaSnack,5000,Food,Uma Snack,Food
+Tab.UmaBoid,Base.UmaBookNumber,20000,SkillBook,Uma Book : Number Collab,Literature
+Tab.UmaBoid,Base.GrassWonderNaginata,10000,Weapon,Grass Wonder's Naginata,Weapon
+Tab.UmaBoid,Base.EishinFlashSword,10000,Weapon,Eishin Flash's Sword,Weapon
+Tab.UmaBoid,Base.WonderAcuteUmbrella,10000,Weapon,Wonder Acute's Umbrella,Weapon
+Tab.UmaBoid,Base.MejiroBrightUmbrellaOpen,10000,Weapon,Mejiro Bright's Umbrella (Open),Weapon
+Tab.UmaBoid,Base.MejiroBrightUmbrellaClose,10000,Weapon,Mejiro Bright's Umbrella (Close),Weapon
+Tab.UmaBoid,Base.SweepToshoBroom,10000,Weapon,Sweep Tosho's Broom,Weapon
+Tab.UmaBoid,Base.KitasanBlackMochiMallet,10000,Weapon,Kitasan Black's Mochi Mallet,Weapon
+Tab.UmaBoid,Base.SymboliRudolfAcheryTarget,10000,Weapon,Symboli Rudolf's Archery Target,Weapon
+Tab.UmaBoid,Base.ZennoRobRoyClaymore,10000,Weapon,Zenno Rob Roy's Claymore,Weapon
+Tab.UmaBoid,Base.UmaGolfClub,10000,Weapon,Uma Golf Club,Weapon
+Tab.UmaBoid,Base.BambooMemoryShinai,10000,Weapon,Bamboo Memory's Shinai,Weapon
+Tab.UmaBoid,Base.TMOperaOStaff,10000,Weapon,TM Opera O's Staff,Weapon
+Tab.UmaBoid,Base.AnshinsawaNeedle,10000,Weapon,Sasami Anshinsawa's Needle,Weapon
+Tab.UmaBoid,Base.GrassWonderStaff,10000,,Grass Wonder's Staff,Weapon
+Tab.UmaBoid,Base.DaiwaScarletStaff,10000,,Daiwa Scarlet's Staff,Weapon
+Tab.UmaBoid,Base.AstonMachanBomb,10000,Explosives,Aston Machan Plushie Bomb,Weapon

@@ -1,168 +1,163 @@
-Tab.RE,Base.Aada,1000
-Tab.RE,Base.Aada2,7500
-Tab.RE,Base.AageL,1000
-Tab.RE,Base.AageR,1000
-Tab.RE,Base.Abag,7500
-Tab.RE,Base.Abar,15000
-Tab.RE,Base.Achr,7500
-Tab.RE,Base.Ahunk,50000
-Tab.RE,Base.Ajill,7500
-Tab.RE,Base.Ajill2,1000
-Tab.RE,Base.Aquiet,50000
-Tab.RE,Base.ArmbagL,1000
-Tab.RE,Base.ArmbagR,1000
-Tab.RE,Base.Bada,15000
-Tab.RE,Base.Bage,15000
-Tab.RE,Base.Bchr,15000
-Tab.RE,Base.Bcla,15000
-Tab.RE,Base.Bhunk,50000
-Tab.RE,Base.Bjill,15000
-Tab.RE,Base.Blei,75000
-Tab.RE,Base.Bmr,1000
-Tab.RE,Base.Bquiet,50000
-Tab.RE,Base.Breb,15000
-Tab.RE,Base.BVjill,1000
-Tab.RE,Base.ChunkL,1000
-Tab.RE,Base.ChunkR,1000
-Tab.RE,Base.Cjill,1000
-Tab.RE,Base.CPBB,75000
-Tab.RE,Base.CPBC,75000
-Tab.RE,Base.CPD,1000
-Tab.RE,Base.CPJ,1000
-Tab.RE,Base.CtbL,1000
-Tab.RE,Base.CtbR,1000
-Tab.RE,Base.Eemo,1000
-Tab.RE,Base.Ejill,1000
-Tab.RE,Base.Emo,1000
-Tab.RE,Base.Gada,1000
-Tab.RE,Base.Gchr,1000
-Tab.RE,Base.Ghunk,1000
-Tab.RE,Base.Ghunkr,1000
-Tab.RE,Base.Gjill,1000
-Tab.RE,Base.Gjill2,1000
-Tab.RE,Base.Gquiet,1000
-Tab.RE,Base.Gshv,1000
-Tab.RE,Base.Gtb,1000
-Tab.RE,Base.Hada,1000
-Tab.RE,Base.Hage,1000
-Tab.RE,Base.Hbada,1000
-Tab.RE,Base.HCJ,1000
-Tab.RE,Base.Hcla,1000
-Tab.RE,Base.Hemo,1000
-Tab.RE,Base.Hhunk,1000
-Tab.RE,Base.Hjill,1000
-Tab.RE,Base.Hjill2,1000
-Tab.RE,Base.Hjill2m,1000
-Tab.RE,Base.Hjill3,1000
-Tab.RE,Base.Hlei,1000
-Tab.RE,Base.Hleon,1000
-Tab.RE,Base.Hquiet,1000
-Tab.RE,Base.Hreb,1000
-Tab.RE,Base.Hshe,1000
-Tab.RE,Base.Hshv,1000
-Tab.RE,Base.Hwhatdown,1000
-Tab.RE,Base.Hwhatup,1000
-Tab.RE,Base.Jada,1000
-Tab.RE,Base.Jchr,1000
-Tab.RE,Base.Jhunk,1000
-Tab.RE,Base.Jjill,1000
-Tab.RE,Base.Jleon,1000
-Tab.RE,Base.Jshe,1000
-Tab.RE,Base.KHB,1000
-Tab.RE,Base.KPtb,1000
-Tab.RE,Base.Kquiet,1000
-Tab.RE,Base.LBada,1000
-Tab.RE,Base.LBchr,1000
-Tab.RE,Base.LBCla,1000
-Tab.RE,Base.LBhunk,1000
-Tab.RE,Base.LBJill,1000
-Tab.RE,Base.LBJill2,1000
-Tab.RE,Base.LBquiet,1000
-Tab.RE,Base.LBtb,1000
-Tab.RE,Base.LElbowPads,1000
-Tab.RE,Base.LElbowPads2,1000
-Tab.RE,Base.LKneePads,1000
-Tab.RE,Base.LKneePads2,1000
-Tab.RE,Base.LNWDO,1000
-Tab.RE,Base.LNWUP,1000
-Tab.RE,Base.LSBRL,1000
-Tab.RE,Base.LSBRR,1000
-Tab.RE,Base.LSBWL,1000
-Tab.RE,Base.LSBWR,1000
-Tab.RE,Base.LSCL,1000
-Tab.RE,Base.LSCPL,1000
-Tab.RE,Base.LSCPR,1000
-Tab.RE,Base.LSCR,1000
-Tab.RE,Base.Mhunk2,1000
-Tab.RE,Base.Mhunk3,1000
-Tab.RE,Base.MhunkL,20000
-Tab.RE,Base.MhunkR,20000
-Tab.RE,Base.Mjill,1000
-Tab.RE,Base.Nage,1000
-Tab.RE,Base.Nchr,1000
-Tab.RE,Base.Njill,1000
-Tab.RE,Base.Nshe,1000
-Tab.RE,Base.Pada,1000
-Tab.RE,Base.PadaL,1000
-Tab.RE,Base.PadaR,1000
-Tab.RE,Base.Pchr,1000
-Tab.RE,Base.Preb,1000
-Tab.RE,Base.Qchr,15000
-Tab.RE,Base.Qchr2,15000
-Tab.RE,Base.Qjill,1000
-Tab.RE,Base.Qjill2,1000
-Tab.RE,Base.QquietL,1000
-Tab.RE,Base.QquietR,1000
-Tab.RE,Base.RGoggles,1000
-Tab.RE,Base.RPDS,1000
-Tab.RE,Base.RPDT,1000
-Tab.RE,Base.RPDVest,1000
-Tab.RE,Base.Sada,1000
-Tab.RE,Base.Sage,1000
-Tab.RE,Base.Scla,1000
-Tab.RE,Base.Sjill,1000
-Tab.RE,Base.SPbag,1000
-Tab.RE,Base.Squiet,1000
-Tab.RE,Base.Sreb,1000
-Tab.RE,Base.SSada,1000
-Tab.RE,Base.SSJill,1000
-Tab.RE,Base.Stb,1000
-Tab.RE,Base.Tada,1000
-Tab.RE,Base.TBjill,1000
-Tab.RE,Base.Tchr,1000
-Tab.RE,Base.TFA,75000
-Tab.RE,Base.TFG,1000
-Tab.RE,Base.TFH,1000
-Tab.RE,Base.TFJ,1000
-Tab.RE,Base.TFLB,1000
-Tab.RE,Base.TFS,1000
-Tab.RE,Base.TFSS,1000
-Tab.RE,Base.TFV,1000
-Tab.RE,Base.Thunk,1000
-Tab.RE,Base.Thunkm,1000
-Tab.RE,Base.Tjill,1000
-Tab.RE,Base.Tjill2,1000
-Tab.RE,Base.Tjill3,1000
-Tab.RE,Base.Tjill4,1000
-Tab.RE,Base.Tleon,1000
-Tab.RE,Base.Treb,1000
-Tab.RE,Base.Tshe,1000
-Tab.RE,Base.tuer,1000
-Tab.RE,Base.tusuit,1000
-Tab.RE,Base.tutail,1000
-Tab.RE,Base.Vage,15000
-Tab.RE,Base.Vchr,15000
-Tab.RE,Base.Vchr2,1000
-Tab.RE,Base.Vcla,1000
-Tab.RE,Base.Vhunk,20000
-Tab.RE,Base.Vjill,1000
-Tab.RE,Base.Vmr,1000
-Tab.RE,Base.Vreb,1000
-Tab.RE,Base.Vshv,1000
-Tab.RE,Base.WBW,1000
-Tab.RE,Base.ArmbagL,10000
-Tab.RE,Base.ArmbagR,10000
-Tab.RE,Base.Relife,25000
-Tab.RE,Base.HerbG,1250
-Tab.RE,Base.HerbR,1250
-Tab.RE,Base.HipPouch,7500
+Tab.RE,Base.Hquiet,1000,,Quiet hair,Clothing
+Tab.RE,Base.Bquiet,50000,,Quiet Bag,Container
+Tab.RE,Base.Aquiet,50000,,Quiet Belt,Container
+Tab.RE,Base.Gquiet,1000,,Quiet Gloves,Clothing
+Tab.RE,Base.Squiet,1000,,Quiet Socks,Clothing
+Tab.RE,Base.LBquiet,1000,,Quiet Boots,Clothing
+Tab.RE,Base.Kquiet,1000,,Quiet Bikini,Clothing
+Tab.RE,Base.QquietL,1000,,Quiet Holster left,Clothing
+Tab.RE,Base.QquietR,1000,,Quiet Holster right,Clothing
+Tab.RE,Base.SPbag,1000,,Spiffo Bag,Container
+Tab.RE,Base.Emo,1000,,Demon horn,Clothing
+Tab.RE,Base.Tuer,1000,,Rabbit ears,Clothing
+Tab.RE,Base.Tusuit,1000,,Rabbitsuit,Clothing
+Tab.RE,Base.Tutail,1000,,Rabbit Tail,Clothing
+Tab.RE,Base.Ehat,1000,,hat with earmuffs,Clothing
+Tab.RE,Base.Stb,1000,,The Boss Suit,Clothing
+Tab.RE,Base.Gtb,1000,,The Boss Gloves,Clothing
+Tab.RE,Base.LBtb,1000,,The Boss Boots,Clothing
+Tab.RE,Base.CtbL,1000,,The Boss ArmPadsLeft,Clothing
+Tab.RE,Base.CtbR,1000,,The Boss ArmPadsRight,Clothing
+Tab.RE,Base.KPtb,1000,,The Boss KneePads,Clothing
+Tab.RE,Base.CPJ,1000,,Dark Hoodie,Clothing
+Tab.RE,Base.CPD,1000,,Dark Hoodie,Clothing
+Tab.RE,Base.LNWUP,1000,,Little Nightmares,Clothing
+Tab.RE,Base.LNWDO,1000,,Little Nightmares,Clothing
+Tab.RE,Base.TFH,1000,,Tifa hair,Clothing
+Tab.RE,Base.TFLB,1000,,Tifa Boots,Clothing
+Tab.RE,Base.TFA,75000,,Tifa Belt,Container
+Tab.RE,Base.TFS,1000,,Tifa Short Skirt,Clothing
+Tab.RE,Base.TFJ,1000,,Tifa Elbow,Clothing
+Tab.RE,Base.TFV,1000,,Tifa Bra vest,Clothing
+Tab.RE,Base.TFG,1000,,Tifa Gloves,Clothing
+Tab.RE,Base.TFSS,1000,,Tifa Socks,Clothing
+Tab.RE,Base.WBW,1000,,Dark Windbreaker,Clothing
+Tab.RE,Base.Hlei,1000,,Leilei hat,Clothing
+Tab.RE,Base.Blei,75000,,Leilei Bag,Container
+Tab.RE,Base.Hemo,1000,,Demon hair,Clothing
+Tab.RE,Base.Eemo,1000,,Demon patch,Clothing
+Tab.RE,Base.HCJ,1000,,China hair,Clothing
+Tab.RE,Base.HerbG,1250,,Green Herb,Food
+Tab.RE,Base.HerbR,1250,,Red Herb,Food
+Tab.RE,Base.HipPouch,7500,,Hip Pouch,Container
+Tab.RE,Base.Hjill,1000,,Jill hair,Clothing
+Tab.RE,Base.Hjill2,1000,,Jill beret,Clothing
+Tab.RE,Base.Hjill2m,1000,,Jill camo beret,Clothing
+Tab.RE,Base.Hjill3,1000,,BSAA hat,Clothing
+Tab.RE,Base.Mjill,1000,,Jill Mask,Clothing
+Tab.RE,Base.Hleon,1000,,Leon hair,Clothing
+Tab.RE,Base.Hreb,1000,,Rebecca hair,Clothing
+Tab.RE,Base.Hcla,1000,,Claire hair,Clothing
+Tab.RE,Base.Hada,1000,,Ada hair,Clothing
+Tab.RE,Base.Hshe,1000,,Sherry hair,Clothing
+Tab.RE,Base.Hshv,1000,,Sheva hair,Clothing
+Tab.RE,Base.Hhunk,1000,,Hunk helmet,Clothing
+Tab.RE,Base.Mhunk2,1000,,Hunk Mask,Clothing
+Tab.RE,Base.Mhunk3,1000,,Hunk Mask2,Clothing
+Tab.RE,Base.MhunkL,20000,,Hunk Holster,Container
+Tab.RE,Base.MhunkR,20000,,Hunk Holster2,Container
+Tab.RE,Base.Qchr,15000,,BSAA Holster,Container
+Tab.RE,Base.Qchr2,15000,,BSAA Holster2,Container
+Tab.RE,Base.Qjill,1000,,Jill Holster,Clothing
+Tab.RE,Base.Qjill2,1000,,Jill Holster2,Clothing
+Tab.RE,Base.Vjill,1000,,Jill vest,Clothing
+Tab.RE,Base.Vshv,1000,,Sheva vest,Clothing
+Tab.RE,Base.BVjill,1000,,Jill Bra vest,Clothing
+Tab.RE,Base.RPDT,1000,,RPD Tshirt,Clothing
+Tab.RE,Base.RPDS,1000,,RPD Shirt,Clothing
+Tab.RE,Base.Jhunk,1000,,Hunk jacket,Clothing
+Tab.RE,Base.Jchr,1000,,BSAA army jacket,Clothing
+Tab.RE,Base.Jleon,1000,,Leon jacket,Clothing
+Tab.RE,Base.Jjill,1000,,BSAA jacket,Clothing
+Tab.RE,Base.Bjill,15000,,Jill Bag,Container
+Tab.RE,Base.Bada,15000,,Ada Bag,Container
+Tab.RE,Base.Bcla,15000,,Claire Bag,Container
+Tab.RE,Base.Vcla,1000,,Claire Jacket,Clothing
+Tab.RE,Base.Scla,1000,,Claire Shorts,Clothing
+Tab.RE,Base.TBjill,1000,,Jill Tshirt Bag,Container
+Tab.RE,Base.Bhunk,50000,,Hunk Bag,Container
+Tab.RE,Base.Bchr,15000,,BSAA Bag,Container
+Tab.RE,Base.Breb,15000,,Rebecca Bag,Container
+Tab.RE,Base.Cjill,1000,,Jill badge,Container
+Tab.RE,Base.Abag,7500,,Ammo bag,Container
+Tab.RE,Base.Achr,7500,,BSAA Ammo bag,Container
+Tab.RE,Base.Tjill,1000,,Jill Pants,Clothing
+Tab.RE,Base.Tjill3,1000,,STARS Pants,Clothing
+Tab.RE,Base.Tjill4,1000,,BSAA Pants,Clothing
+Tab.RE,Base.Tshe,1000,,Sherry Pants,Clothing
+Tab.RE,Base.Thunk,1000,,Hunk Pants,Clothing
+Tab.RE,Base.Thunkm,1000,,Hunk Camo Pants,Clothing
+Tab.RE,Base.Pchr,1000,,Chris Pants,Clothing
+Tab.RE,Base.SSJill,1000,,Jill Short Skirt,Clothing
+Tab.RE,Base.SSada,1000,,Ada Dress,Clothing
+Tab.RE,Base.Pada,1000,,Ada Pants,Clothing
+Tab.RE,Base.PadaL,1000,,Ada Pants Left,Clothing
+Tab.RE,Base.PadaR,1000,,Ada Pants Right,Clothing
+Tab.RE,Base.Tleon,1000,,RPD Pants,Clothing
+Tab.RE,Base.Treb,1000,,Rebecca TShirt,Clothing
+Tab.RE,Base.Tjill2,1000,,Jill TShirt,Clothing
+Tab.RE,Base.Tchr,1000,,BSAA TShirt,Clothing
+Tab.RE,Base.Preb,1000,,Rebecca Pants,Clothing
+Tab.RE,Base.Ajill,7500,,Jill Belt,Container
+Tab.RE,Base.Ajill2,1000,,Jill Belt2,Clothing
+Tab.RE,Base.Aada,1000,,Ada Belt,Clothing
+Tab.RE,Base.Aada2,7500,,Ada Belt2,Container
+Tab.RE,Base.Sada,1000,,Ada Socks,Clothing
+Tab.RE,Base.Jada,1000,,Ada Jacket,Clothing
+Tab.RE,Base.Tada,1000,,Ada Jumper,Clothing
+Tab.RE,Base.Jshe,1000,,Sherry Jumper,Clothing
+Tab.RE,Base.Gjill,1000,,Jill Gloves,Clothing
+Tab.RE,Base.Gjill2,1000,,BSAA Gloves,Clothing
+Tab.RE,Base.Gada,1000,,Ada Gloves,Clothing
+Tab.RE,Base.Gshv,1000,,Sheva Gloves,Clothing
+Tab.RE,Base.Ghunk,1000,,Hunk Gloves,Clothing
+Tab.RE,Base.Ghunkr,1000,,Hunk Gloves Red,Clothing
+Tab.RE,Base.Gchr,1000,,Chris Gloves,Clothing
+Tab.RE,Base.Sjill,1000,,Jill Boots,Clothing
+Tab.RE,Base.LBhunk,1000,,Hunk Boots,Clothing
+Tab.RE,Base.Sreb,1000,,Rebecca Boots,Clothing
+Tab.RE,Base.LBjill,1000,,Jill Long Boots,Clothing
+Tab.RE,Base.LBjill2,1000,,BSAA Boots,Clothing
+Tab.RE,Base.LBchr,1000,,BSAA Army Boots,Clothing
+Tab.RE,Base.HBada,1000,,Ada high heeled shoes,Clothing
+Tab.RE,Base.LBada,1000,,Ada Long Boots,Clothing
+Tab.RE,Base.LBcla,1000,,Claire Long Boots,Clothing
+Tab.RE,Base.Ejill,1000,,Jill Elbow,Clothing
+Tab.RE,Base.Njill,1000,,Jill Necklace,Clothing
+Tab.RE,Base.Nshe,1000,,Sherry Scarf,Clothing
+Tab.RE,Base.Nchr,1000,,BSAA Scarf,Clothing
+Tab.RE,Base.LElbowPads,1000,,RPD Elbow Pads,Clothing
+Tab.RE,Base.LKneePads,1000,,RPD Knee Pads,Clothing
+Tab.RE,Base.LElbowPads2,1000,,Army Elbow Pads,Clothing
+Tab.RE,Base.LKneePads2,1000,,Army Knee Pads,Clothing
+Tab.RE,Base.RPDVest,1000,,RPD Vest,Clothing
+Tab.RE,Base.Vreb,1000,,Rebecca Vest,Clothing
+Tab.RE,Base.Vhunk,20000,,Hunk Vest,Container
+Tab.RE,Base.Vchr,15000,,BSAA Vest,Container
+Tab.RE,Base.Vchr2,1000,,BSAA Vest2,Clothing
+Tab.RE,Base.Ahunk,50000,,Hunk blackbag,Container
+Tab.RE,Base.ChunkL,1000,,Hunk ArmPadsLeft,Clothing
+Tab.RE,Base.ChunkR,1000,,Hunk ArmPadsRight,Clothing
+Tab.RE,Base.Sage,1000,,Agent Suit,Clothing
+Tab.RE,Base.Hage,1000,,Agent helmet,Clothing
+Tab.RE,Base.Nage,1000,,Agent Neck,Clothing
+Tab.RE,Base.Vage,15000,,Agent Vest,Container
+Tab.RE,Base.Bage,15000,,Agent Bag,Container
+Tab.RE,Base.AageL,1000,,Agent ArmPadsLeft,Clothing
+Tab.RE,Base.AageR,1000,,Agent ArmPadsRight,Clothing
+Tab.RE,Base.Abar,15000,,Barry Belt,Container
+Tab.RE,Base.TL,1000,,TL,Normal
+Tab.RE,Base.RGoggles,1000,,Red Goggles,Clothing
+Tab.RE,Base.HWhatup,1000,,Hound Wolf helmet,Clothing
+Tab.RE,Base.HWhatdown,1000,,Hound Wolf helmet,Clothing
+Tab.RE,Base.ArmbagL,1000,,Arm bag left,Container
+Tab.RE,Base.ArmbagR,1000,,Arm bag right,Container
+Tab.RE,Base.KHB,1000,,Knee high boots,Clothing
+Tab.RE,Base.LSBWL,1000,,Long short socks black white left,Clothing
+Tab.RE,Base.LSBWR,1000,,Long short socks black white right,Clothing
+Tab.RE,Base.LSBRL,1000,,Long short socks black red left,Clothing
+Tab.RE,Base.LSBRR,1000,,Long short socks black red right,Clothing
+Tab.RE,Base.LSCL,1000,,Long short socks rainbow left,Clothing
+Tab.RE,Base.LSCR,1000,,Long short socks rainbow right,Clothing
+Tab.RE,Base.LSCPL,1000,,Long short socks China power left,Clothing
+Tab.RE,Base.LSCPR,1000,,Long short socks China power right,Clothing
