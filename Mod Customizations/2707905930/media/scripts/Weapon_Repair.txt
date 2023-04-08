@@ -1,0 +1,128 @@
+module Base
+{
+	fixing Halberd
+	{
+	   Require : Halberd,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=1,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+
+
+	fixing Aestus Estus
+	{
+	   Require : Aestus Estus,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+
+
+	fixing Naginata
+	{
+	   Require : Naginata,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=1,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=2,
+	}
+
+
+	fixing Dark Wand
+	{
+	   Require : Dark Wand,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+
+
+
+	fixing Long Magic Wand
+	{
+	   Require : Long Magic Wand,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+
+
+
+	fixing Short Wand
+	{
+	   Require : Short Wand,
+	   
+       Fixer : Woodglue=1; Woodwork=2,
+       Fixer : DuctTape=1,
+       Fixer : Glue=1,
+       Fixer : Scotchtape=2,
+	}
+
+	fixing Short Wand2
+	{
+	   Require : Short Wand2,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2; Axe=1,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+
+	fixing Short Wand3
+	{
+	   Require : Short Wand3,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2; Axe=1,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+
+
+
+
+
+	fixing Spear of Longinus
+	{
+	   Require : Spear of Longinus,
+	   
+       Fixer : Woodglue=1; Woodwork=2,
+       Fixer : DuctTape=1,
+       Fixer : Glue=1,
+       Fixer : Scotchtape=2,
+	}
+
+
+
+	fixing PGM-Hecate-II
+	{
+	   Require : PGM-Hecate-II,
+	   
+       Fixer : AssaultRifle; Aiming=5,
+       Fixer : AssaultRifle2; Aiming=5,
+	}
+
+
+
+                fixing Long Handle Awl
+                {
+       Require : Long Handle Awl,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+                }
+
+
+
+
+}

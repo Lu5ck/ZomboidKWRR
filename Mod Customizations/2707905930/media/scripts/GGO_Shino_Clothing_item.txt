@@ -1,0 +1,175 @@
+module Base
+{
+                item Shino Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Shino Mask,
+                               ClothingItem = ShinoMask,
+                               BodyLocation = kigurumi,
+                               Icon = ShinoMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.6,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = ShinoMask_Ground,
+                }
+                model ShinoMask_Ground
+                {
+                                mesh = WorldItems/Clothing/ShinoMask_Ground,
+                                texture = Clothes\GGO\ShinoMask,
+                                scale = 0.1,
+                }
+	item Shino Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Shino Shoes,
+		ClothingItem 		= ShinoShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= ShinoShoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.3,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.5,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = ShinoShoes_ground,
+	}
+                model ShinoShoes_ground
+                {
+                                mesh = WorldItems/Clothing/ShinoShoes_ground,
+                                texture = Clothes/GGO/ShinoShoes,
+                                scale = 0.1,
+                }
+                item Shino Knickers
+	{
+		Type = Clothing,
+		DisplayName = Shino Knickers,
+		ClothingItem = ShinoKnickers,
+		BodyLocation = UnderwearBottom,
+                                BloodLocation = ShortsShort,
+		Icon = ShinoKnickers,
+                                BiteDefense = 5,
+                                ScratchDefense = 10,
+                                Insulation = 0.2,
+                                WindResistance = 0.15,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Boxers_Silk_Black,
+	}
+	item Shino Cartridge Belt
+                {
+                Type	                                    = Container,
+                DisplayName	                    = Shino Cartridge Belt,
+                ClothingItem                                = ShinoCartridgeBelt,
+                Icon                         = ShinoCartridgeBelt,
+                CanBeEquipped                            = Exoskeleton,
+                BodyLocation                               = Exoskeleton,
+                ClothingItemExtra = Shino Cartridge Belt,
+                ClothingItemExtraOption = FannyPack_WearBack,
+                RunSpeedModifier 		= 1.0,
+                Capacity	                                    = 10,
+                WeightReduction	                    = 80,
+                PutInSound                                  =PutItemInBag,
+                Weight	                                    =1,
+                WorldStaticModel = ShinoCartridgeBelt_Ground,
+                }
+                model ShinoCartridgeBelt_Ground
+                {
+                                mesh = WorldItems/Clothing/ShinoCartridgeBelt_Ground,
+                                texture = Clothes/GGO/ShinoShoes,
+                                scale = 0.1,
+                }
+	item Shino Corselet
+	{
+		Type = Clothing,
+		DisplayName = Shino Corselet,
+		ClothingItem = ShinoCorselet,
+		BodyLocation = UnderwearTop,
+		BloodLocation = ShirtNoSleeves,
+		Icon = ShinoCorselet,
+		BiteDefense                    = 7,
+                                ScratchDefense              = 15,
+                                Insulation                       = 0.3,
+                                WindResistance              = 0.2,
+ 		Weight                           = 0.2,
+                                FabricType = Cotton,
+		WorldStaticModel = SwimSuit_Ground,
+	}
+                item Shino Leg Guard
+                {
+                                Type = Clothing,
+                                DisplayName = Shino Leg Guard,
+                                ClothingItem = ShinoLegGuard,
+                                BodyLocation = Legs5,
+                                Icon = ShinoLegGuard,
+                                BloodLocation = Trousers,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                Insulation                       = 0.5,
+                                WindResistance              = 0.8,
+                                Weight                            = 2.5,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = ShinoLegGuard_Ground,
+                }
+                model ShinoLegGuard_Ground
+                {
+                                mesh = WorldItems/Clothing/ShinoLegGuard_Ground,
+                                texture = Clothes/GGO/ShinoShoes,
+                                scale = 0.1,
+                }
+                item Shino Coat
+                {
+                                Type = Clothing,
+                                DisplayName = Shino Coat,
+                                ClothingItem = ShinoCoat,
+                                BodyLocation = Jacket,
+                                Icon = ShinoCoat,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.50,
+                                WindResistance              = 0.8,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = ShinoCoat_Ground,
+                }
+                model ShinoCoat_Ground
+                {
+                                mesh = WorldItems/Clothing/ShinoCoat_Ground,
+                                texture = Clothes/GGO/ShinoShoes,
+                                scale = 0.1,
+                }
+                item Shino Scarf
+                {
+                                DisplayCategory = Accessory,
+                                Type = Clothing,
+                                DisplayName = Shino Scarf,
+                                ClothingItem = ShinoScarf,
+                                BodyLocation = Scarf,
+                                BloodLocation = Neck,
+                                Icon = ShinoScarf,
+                                ScratchDefense = 10,
+                                Insulation                       = 1.0,
+                                WindResistance = 1.0,
+                                FabricType = Cotton,
+                                Weight                            = 0.2,
+                                WorldStaticModel = ShinoScarf_Ground,
+                }
+                model ShinoScarf_Ground
+                {
+                                mesh = WorldItems/Clothing/ShinoScarf_Ground,
+                                texture = Clothes/GGO/ShinoShoes,
+                                scale = 0.1,
+                }
+}

@@ -1,0 +1,162 @@
+module Base
+{
+	item Cat Hoodie
+	{
+                                DisplayCategory = Clothing,
+		Type 		= Clothing,
+		DisplayName 		= Cat Hoodie,
+		ClothingItem 		= CatHoodie,
+		BodyLocation = JacketHat,
+		Icon 		= CatHoodie,
+		BloodLocation 		= Jacket;FullHelmet,
+                                NeckProtectionModifier = 0.5,
+                                RunSpeedModifier = 0.95,
+                                CombatSpeedModifier = 0.96,
+                                ClothingItemExtra = Cat HoodieDOWN,
+                                ClothingItemExtraOption = DownHoodie,
+                                clothingExtraSubmenu = UpHoodie,
+		ScratchDefense 		= 20,
+		BiteDefense 		= 10,
+		Insulation 		= 0.80,
+		WindResistance 		= 0.95,
+                                FabricType                      = Cotton,
+		Weight 		= 2,
+                                WorldStaticModel = CatHoodie_Ground,
+	}
+	item Cat HoodieDOWN
+	{
+                                DisplayCategory = Clothing,
+		Type 		= Clothing,
+		DisplayName 		= Cat Hoodie,
+		ClothingItem 		= CatHoodie2,
+		BodyLocation = Jacket,
+		Icon 		= CatHoodie,
+		BloodLocation 		= Jacket,
+                                NeckProtectionModifier = 0.7,
+                                RunSpeedModifier = 0.95,
+                                CombatSpeedModifier = 1.02,
+                                ClothingItemExtra = Cat Hoodie,
+                                ClothingItemExtraOption = UpHoodie,
+                                clothingExtraSubmenu = DownHoodie,
+		ScratchDefense 		= 20,
+		BiteDefense 		= 10,
+		Insulation 		= 0.70,
+		WindResistance 		= 0.75,
+                                FabricType                      = Cotton,
+		Weight 		= 2,
+                                WorldStaticModel = CatHoodie_Ground,
+	}
+                model CatHoodie_Ground
+                {
+                                mesh = WorldItems/Clothing/CatHoodie_ground,
+                                texture = Clothes\CAT\CatHoodie,
+                                scale = 0.1,
+                }
+	item Striped Stockings
+	{
+		Type = Clothing,
+		DisplayName = Striped Stockings,
+		ClothingItem = StripedStockings,
+		BodyLocation = UnderwearExtra1,
+		Icon = StripedStockings,
+                                BloodLocation = Trousers,
+                                BiteDefense                    = 5,
+                                ScratchDefense              = 8,
+                                Insulation                       = 0.2,
+                                WindResistance              = 0.3,
+                                FabricType                      = Cotton,
+		Weight = 0.2,
+		WorldStaticModel = StockingsWhite_Ground,
+	}
+
+
+	item Cat Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Cat Sneakers,
+		ClothingItem 		= CatShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= CatShoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.6,
+		Weight 		= 1,
+                                WorldStaticModel = CatShoes_ground,
+	}
+                model CatShoes_ground
+                {
+                                mesh = WorldItems/Clothing/CatShoes_Ground,
+                                texture = Clothes/CAT/CatShoes,
+                                scale = 0.1,
+                }
+	item Paws Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Paws Shoes,
+		ClothingItem 		= PawsShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= PawsShoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.05,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 1,
+		WindResistance 		= 1,
+		Weight 		= 1,
+                                WorldStaticModel = PawsShoes_ground,
+	}
+                model PawsShoes_ground
+                {
+                                mesh = WorldItems/Clothing/PawsShoes_Ground,
+                                texture = Clothes/CAT/PawsShoes,
+                                scale = 0.1,
+                }
+	item Paws Gloves
+	{
+		Type 		= Clothing,
+		DisplayName 		= Paws Gloves,
+		ClothingItem 		= PawsGloves,
+		BodyLocation 		= Hands,
+		BloodLocation 		= Hands,
+		Icon 		= PawsGloves,
+		ScratchDefense 		= 30,
+		BiteDefense 		= 20,
+		Insulation 		= 1,
+		WindResistance 		= 1,
+		FabricType 		= Cotton,
+		Weight 		= 0.4,
+                                WorldStaticModel = PawsGloves_Ground,
+	}
+                model PawsGloves_ground
+                {
+                                mesh = WorldItems/Clothing/PawsGloves_ground,
+                                texture = Clothes/CAT/PawsGloves,
+                                scale = 0.1,
+                }
+                item Cat Ears
+	{
+		Type = Clothing,
+		DisplayName = Cat Ears,
+		ClothingItem = CatEars,
+		BodyLocation = Hat,
+		Icon = CatEars,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		Insulation 		= 0.2,
+		ChanceToFall = 0,
+		WorldStaticModel = CatEars_ground,
+	}
+                model CatEars_ground
+                {
+                                mesh = WorldItems/Clothing/CatEars_ground,
+                                texture = Clothes\CAT\CatEars,
+                                scale = 1,
+                }
+}

@@ -1,0 +1,303 @@
+module Base
+{
+                item 2B Mask
+                {
+                               Type = Clothing,
+                               DisplayName = 2B Mask,
+                               ClothingItem = 2BMask,
+                               BodyLocation = kigurumi,
+                               Icon = 2BMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.6,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.55,
+		WindResistance 		= 0.6,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = 2BMask_Ground,
+                }
+                model 2BMask_Ground
+                {
+                                mesh = WorldItems/Clothing/2BMask_Ground,
+                                texture = Clothes\MaskOnly\2B,
+                                scale = 0.1,
+                }
+                item Peritya Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Peritya Mask,
+                               ClothingItem = PerityaMask,
+                               BodyLocation = kigurumi,
+                               Icon = PerityaMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 30,
+		Insulation 		= 0.7,
+		WindResistance 		= 0.75,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = PerityaMask_Ground,
+                }
+                model PerityaMask_Ground
+                {
+                                mesh = WorldItems/Clothing/PerityaMask_Ground,
+                                texture = Clothes\MaskOnly\Peritya,
+                                scale = 0.1,
+                }
+                item Lenna Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Lenna Mask,
+                               ClothingItem = LennaMask,
+                               BodyLocation = kigurumi,
+                               Icon = LennaMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.55,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = LennaMask_Ground,
+                }
+                model LennaMask_Ground
+                {
+                                mesh = WorldItems/Clothing/LennaMask_Ground,
+                                texture = Clothes\MaskOnly\Lenna,
+                                scale = 0.1,
+                }
+                item Sora Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Sora Mask,
+                               ClothingItem = SoraMask,
+                               BodyLocation = kigurumi,
+                               Icon = SoraMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = SoraMask_Ground,
+                }
+                model SoraMask_Ground
+                {
+                                mesh = WorldItems/Clothing/SoraMask_Ground,
+                                texture = Clothes\MaskOnly\Sora,
+                                scale = 0.1,
+                }
+                item Kirito Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Kirito Mask,
+                               ClothingItem = KiritoMask,
+                               BodyLocation = kigurumi,
+                               Icon = KiritoMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = KiritoMask_Ground,
+                }
+                model KiritoMask_Ground
+                {
+                                mesh = WorldItems/Clothing/KiritoMask_Ground,
+                                texture = Clothes\MaskOnly\KiritoMask,
+                                scale = 0.1,
+                }
+                item Eugeo Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Eugeo Mask,
+                               ClothingItem = EugeoMask,
+                               BodyLocation = kigurumi,
+                               Icon = EugeoMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = EugeoMask_Ground,
+                }
+                model EugeoMask_Ground
+                {
+                                mesh = WorldItems/Clothing/EugeoMask_Ground,
+                                texture = Clothes\MaskOnly\EugeoMask,
+                                scale = 0.1,
+                }
+                item Yuuki Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Yuuki Mask,
+                               ClothingItem = YuukiMask,
+                               BodyLocation = kigurumi,
+                               Icon = YuukiMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = YuukiMask_Ground,
+                }
+                model YuukiMask_Ground
+                {
+                                mesh = WorldItems/Clothing/YuukiMask_Ground,
+                                texture = Clothes\MaskOnly\YuukiMask,
+                                scale = 0.1,
+                }
+                item Alice Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Alice Mask,
+                               ClothingItem = AliceMask,
+                               BodyLocation = kigurumi,
+                               Icon = AliceMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = AliceMask_Ground,
+                }
+                model AliceMask_Ground
+                {
+                                mesh = WorldItems/Clothing/AliceMask_Ground,
+                                texture = Clothes\MaskOnly\AliceMask,
+                                scale = 0.1,
+                }
+                item Kitagawa Marin Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Kitagawa Marin Mask,
+                               ClothingItem = KitagawaMarinMask,
+                               BodyLocation = kigurumi,
+                               Icon = KitagawaMarinMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.6,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.55,
+		WindResistance 		= 0.6,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = KitagawaMarinMask_Ground,
+                }
+                model KitagawaMarinMask_Ground
+                {
+                                mesh = WorldItems/Clothing/KitagawaMarinMask_Ground,
+                                texture = Clothes\MaskOnly\KitagawaMarinMask,
+                                scale = 0.1,
+                }
+                item Mai Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Mai Mask,
+                               ClothingItem = MaiMask,
+                               BodyLocation = kigurumi,
+                               Icon = MaiMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = MaiMask_Ground,
+                }
+                model MaiMask_Ground
+                {
+                                mesh = WorldItems/Clothing/MaiMask_Ground,
+                                texture = Clothes\MaskOnly\MaiMask,
+                                scale = 0.1,
+                }
+                item Ram Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Ram Mask,
+                               ClothingItem = RamMask,
+                               BodyLocation = kigurumi,
+                               Icon = RamMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = RamMask_Ground,
+                }
+                model RamMask_Ground
+                {
+                                mesh = WorldItems/Clothing/RamMask_Ground,
+                                texture = Clothes\MaskOnly\RamMask,
+                                scale = 0.1,
+                }
+	item Rem Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Rem Mask,
+                               ClothingItem = RemMask,
+                               BodyLocation = kigurumi,
+                               Icon = RemMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = RemMask_Ground,
+                }
+                model RemMask_Ground
+                {
+                                mesh = WorldItems/Clothing/RemMask_Ground,
+                                texture = Clothes\MaskOnly\RemMask,
+                                scale = 0.1,
+                }
+}

@@ -1,0 +1,331 @@
+module Base
+{
+                item Chocola Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Chocola Mask,
+                               ClothingItem = ChocolaMask,
+                               BodyLocation = kigurumi,
+                               Icon = ChocolaMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.50,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 30,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = ChocolaMask_Ground,
+                }
+                model ChocolaMask_Ground
+                {
+                                mesh = WorldItems/Clothing/ChocolaMask_Ground,
+                                texture = Clothes\Nekopara\ChocolaMask,
+                                scale = 0.1,
+                }
+                item Vanilla Mask 
+                {
+                               Type = Clothing,
+                               DisplayName = Vanilla Mask,
+                               ClothingItem = VanillaMask,
+                               BodyLocation = kigurumi,
+                               Icon = VanillaMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.50,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 30,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = VanillaMask_Ground,
+                }
+                model VanillaMask_Ground
+                {
+                                mesh = WorldItems/Clothing/VanillaMask_Ground,
+                                texture = Clothes\Nekopara\VanillaMask,
+                                scale = 0.1,
+                }
+	item Maid Outfit
+	{
+                                DisplayCategory = Clothing,
+		Type 		= Clothing,
+		DisplayName 		= Maid Outfit,
+		ClothingItem 		= MaidOutfit,
+		BodyLocation = Dress,
+		Icon 		= MaidOutfit,
+		BloodLocation 		= ShortsShort;Shirt,
+                                NeckProtectionModifier = 0.5,
+                                RunSpeedModifier = 1.15,
+		ScratchDefense 		= 25,
+		BiteDefense 		= 20,
+		Insulation 		= 0.60,
+		WindResistance 		= 0.75,
+                                FabricType                      = Cotton,
+		Weight 		= 2,
+                                WorldStaticModel = MaidOutfit_Ground,
+	}
+                model MaidOutfit_Ground
+                {
+                                mesh = WorldItems/Clothing/MaidOutfit_Ground,
+                                texture = Clothes\Nekopara\MaidOutfit,
+                                scale = 0.1,
+                }
+	item Vanilla Stocking
+	{
+		Type = Clothing,
+		DisplayName = Vanilla Stocking,
+		ClothingItem = VanillaStocking,
+		BodyLocation = UnderwearExtra1,
+		Icon = VanillaStocking,
+                                BloodLocation = Trousers,
+                                BiteDefense                    = 5,
+                                ScratchDefense              = 8,
+                                Insulation                       = 0.2,
+                                WindResistance              = 0.3,
+                                FabricType                      = Cotton,
+		Weight = 0.2,
+		WorldStaticModel = StockingsWhite_Ground,
+	}
+	item Chocola Stocking
+	{
+		Type = Clothing,
+		DisplayName = Chocola Stocking,
+		ClothingItem = ChocolaStocking,
+		BodyLocation = UnderwearExtra1,
+		Icon = ChocolaStocking,
+                                BloodLocation = Trousers,
+                                BiteDefense                    = 5,
+                                ScratchDefense              = 8,
+                                Insulation                       = 0.2,
+                                WindResistance              = 0.3,
+                                FabricType                      = Cotton,
+		Weight = 0.2,
+		WorldStaticModel = StockingsWhite_Ground,
+	}
+                item Chocola Cat Tail
+                {
+                               Type = Clothing,
+                               DisplayName = Chocola Cat Tail,
+                               ClothingItem = ChocolaCatTail,
+                               BodyLocation = Tail,
+                               Icon = ChocolaCatTail,
+	               Insulation 		= 0.1,
+                               WorldStaticModel = ChocolaCatTail_Ground,
+                }
+                model ChocolaCatTail_Ground
+                {
+                                mesh = WorldItems/Clothing/CatTail_Ground,
+                                texture = Clothes\Nekopara\ChocolaCatTail,
+                                scale = 0.1,
+                }
+                item Vanilla Cat Tail
+                {
+                               Type = Clothing,
+                               DisplayName = Vanilla Cat Tail,
+                               ClothingItem = VanillaCatTail,
+                               BodyLocation = Tail,
+                               Icon = VanillaCatTail,
+	               Insulation 		= 0.1,
+                               WorldStaticModel = VanillaCatTail_Ground,
+                }
+                model VanillaCatTail_Ground
+                {
+                                mesh = WorldItems/Clothing/CatTail_Ground,
+                                texture = Clothes\Nekopara\VanillaCatTail,
+                                scale = 0.1,
+                }
+	item Vanilla Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Vanilla Shoes,
+		ClothingItem 		= VanillaShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= VanillaShoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.05,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.4,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = VanillaShoes_Ground,
+	}
+                model VanillaShoes_Ground
+                {
+                                mesh = WorldItems/Clothing/VanillaShoes_Ground,
+                                texture = Clothes/Nekopara/VanillaShoes,
+                                scale = 0.1,
+                }
+                 item Chocola Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Chocola Shoes,
+		ClothingItem 		= ChocolaShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= ChocolaShoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.05,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.4,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = ChocolaShoes_Ground,
+	}
+                model ChocolaShoes_Ground
+                {
+                                mesh = WorldItems/Clothing/VanillaShoes_Ground,
+                                texture = Clothes/Nekopara/ChocolaShoes,
+                                scale = 0.1,
+                }
+	item Chocola Swimsuit
+	{
+		Type = Clothing,
+		DisplayName = Chocola Swimsuit,
+		ClothingItem = ChocolaSwimsuit,
+		BodyLocation = Underwear,
+		BloodLocation = ShirtNoSleeves,
+		Icon = ChocolaSwimsuit,
+		BiteDefense                    = 2,
+                                ScratchDefense              = 4,
+                                Insulation                       = 0.1,
+                                WindResistance              = 0.1,
+ 		Weight                           = 0.1,
+                                FabricType = Cotton,
+		WorldStaticModel = SwimSuit_Ground,
+	}
+	item Vanilla Swimsuit
+	{
+		Type = Clothing,
+		DisplayName = Vanilla Swimsuit,
+		ClothingItem = VanillaSwimsuit,
+		BodyLocation = Underwear,
+		BloodLocation = ShirtNoSleeves,
+		Icon = VanillaSwimsuit,
+		BiteDefense                    = 2,
+                                ScratchDefense              = 4,
+                                Insulation                       = 0.1,
+                                WindResistance              = 0.1,
+ 		Weight                           = 0.1,
+                                FabricType = Cotton,
+		WorldStaticModel = SwimSuit_Ground,
+	}
+                item Azuki Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Azuki Mask,
+                               ClothingItem = AzukiMask,
+                               BodyLocation = kigurumi,
+                               Icon = AzukiMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.50,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 30,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = AzukiMask_Ground,
+                }
+                model AzukiMask_Ground
+                {
+                                mesh = WorldItems/Clothing/AzukiMask_Ground,
+                                texture = Clothes\Nekopara\AzukiMask,
+                                scale = 0.1,
+                }
+                 item Azuki Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Azuki Shoes,
+		ClothingItem 		= AzukiShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= AzukiShoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.05,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.4,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = AzukiShoes_Ground,
+	}
+                model AzukiShoes_Ground
+                {
+                                mesh = WorldItems/Clothing/AzukiShoes_Ground,
+                                texture = Clothes/Nekopara/AzukiShoes,
+                                scale = 0.1,
+                }
+                item Azuki Cat Tail
+                {
+                               Type = Clothing,
+                               DisplayName = Azuki Cat Tail,
+                               ClothingItem = AzukiCatTail,
+                               BodyLocation = Tail,
+                               Icon = AzukiCatTail,
+	               Insulation 		= 0.1,
+                               WorldStaticModel = AzukiCatTail_Ground,
+                }
+                model AzukiCatTail_Ground
+                {
+                                mesh = WorldItems/Clothing/CatTail_Ground,
+                                texture = Clothes\Nekopara\AzukiCatTail,
+                                scale = 0.1,
+                }
+                item Coconut Mask 
+                {
+                               Type = Clothing,
+                               DisplayName = Coconut Mask,
+                               ClothingItem = CoconutMask,
+                               BodyLocation = kigurumi,
+                               Icon = CoconutMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.50,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 30,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = CoconutMask_Ground,
+                }
+                model CoconutMask_Ground
+                {
+                                mesh = WorldItems/Clothing/CoconutMask_Ground,
+                                texture = Clothes\Nekopara\CoconutMask,
+                                scale = 0.1,
+                }
+                item Coconut Cat Tail
+                {
+                               Type = Clothing,
+                               DisplayName = Coconut Cat Tail,
+                               ClothingItem = CoconutCatTail,
+                               BodyLocation = Tail,
+                               Icon = CoconutCatTail,
+	               Insulation 		= 0.2,
+                               WorldStaticModel = CoconutTail_Ground,
+                }
+                model CoconutTail_Ground
+                {
+                                mesh = WorldItems/Clothing/CoconutCatTail_Ground,
+                                texture = Clothes\Nekopara\CoconutMask,
+                                scale = 0.1,
+                }
+}

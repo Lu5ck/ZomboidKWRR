@@ -1,0 +1,342 @@
+module Base
+{
+    /************************Normal************************/
+
+                item Nemesis_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Nemesis_garage_kit,
+		Icon	=	Nemesis,
+		WorldStaticModel = Nemesis,
+	}
+                item Nemesis_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Nemesis_garage_kit--big,
+		Icon	=	Nemesis,
+		WorldStaticModel = Nemesis_big,
+	}
+                model Nemesis
+                {
+                                mesh = WorldItems/GarageKit/Nemesis,
+                                texture = WorldItems/Nemesis,
+                                scale = 0.3,
+                }
+                model Nemesis_big
+                {
+                                mesh = WorldItems/GarageKit/Nemesis,
+                                texture = WorldItems/Nemesis,
+                                scale = 1,
+                }
+                item Asuka_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Asuka_garage_kit,
+		Icon	=	Asuka,
+		WorldStaticModel = EVA_Asuka,
+	}
+                item Asuka_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Asuka_garage_kit--big,
+		Icon	=	Asuka,
+		WorldStaticModel = EVA_Asuka_big,
+	}
+                model EVA_Asuka
+                {
+                                mesh = WorldItems/GarageKit/EVA_Asuka,
+                                texture = WorldItems/Asuka,
+                                scale = 0.3,
+                }
+                model EVA_Asuka_big
+                {
+                                mesh = WorldItems/GarageKit/EVA_Asuka,
+                                texture = WorldItems/Asuka,
+                                scale = 1,
+                }
+                item red_02_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=red_02_garage_kit,
+		Icon	=	02red,
+		WorldStaticModel = 02_red,
+	}
+                item red_02_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=red_02_garage_kit--big,
+		Icon	=	02red,
+		WorldStaticModel = 02_red_big,
+	}
+                model 02_red
+                {
+                                mesh = WorldItems/GarageKit/02red,
+                                texture = WorldItems/02red,
+                                scale = 0.3,
+                }
+                model 02_red_big
+                {
+                                mesh = WorldItems/GarageKit/02red,
+                                texture = WorldItems/02red,
+                                scale = 1,
+                }
+                item white_02_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=white_02_garage_kit,
+		Icon	=	02white,
+		WorldStaticModel = 02_white,
+	}
+                item white_02_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=white_02_garage_kit--big,
+		Icon	=	02white,
+		WorldStaticModel = 02_white_big,
+	}
+                model 02_white
+                {
+                                mesh = WorldItems/GarageKit/02white,
+                                texture = WorldItems/02white,
+                                scale = 0.3,
+                }
+                model 02_white_big
+                {
+                                mesh = WorldItems/GarageKit/02white,
+                                texture = WorldItems/02white,
+                                scale = 1,
+                }
+                item Noelle_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Noelle_garage_kit,
+		Icon	=	Noelle,
+		WorldStaticModel = Noelle,
+	}
+                item Noelle_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Noelle_garage_kit--big,
+		Icon	=	Noelle,
+		WorldStaticModel = Noelle_big,
+	}
+                model Noelle
+                {
+                                mesh = WorldItems/GarageKit/Noelle,
+                                texture = WorldItems/Noelle,
+                                scale = 0.3,
+                }
+                model Noelle_big
+                {
+                                mesh = WorldItems/GarageKit/Noelle,
+                                texture = WorldItems/Noelle,
+                                scale = 1,
+                }
+                item Rem_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Rem_garage_kit,
+		Icon	=	Rem,
+		WorldStaticModel = Rem,
+	}
+                item Rem_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Rem_garage_kit--big,
+		Icon	=	Rem,
+		WorldStaticModel = Rem_big,
+	}
+                model Rem
+                {
+                                mesh = WorldItems/GarageKit/Rem,
+                                texture = WorldItems/Rem,
+                                scale = 0.3,
+                }
+                model Rem_big
+                {
+                                mesh = WorldItems/GarageKit/Rem,
+                                texture = WorldItems/Rem,
+                                scale = 1,
+                }
+                item Ram_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Ram_garage_kit,
+		Icon	=	Ram,
+		WorldStaticModel = Ram,
+	}
+                item Ram_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Ram_garage_kit--big,
+		Icon	=	Ram,
+		WorldStaticModel = Ram_big,
+	}
+                model Ram
+                {
+                                mesh = WorldItems/GarageKit/Ram,
+                                texture = WorldItems/Ram,
+                                scale = 0.3,
+                }
+                model Ram_big
+                {
+                                mesh = WorldItems/GarageKit/Ram,
+                                texture = WorldItems/Ram,
+                                scale = 1,
+                }
+                item Alice_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Alice_garage_kit,
+		Icon	=	Alice,
+		WorldStaticModel = Alice,
+	}
+                item Alice_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Alice_garage_kit--big,
+		Icon	=	Alice,
+		WorldStaticModel = Alice_big,
+	}
+                model Alice
+                {
+                                mesh = WorldItems/GarageKit/Alice,
+                                texture = WorldItems/Alice,
+                                scale = 0.3,
+                }
+                model Alice_big
+                {
+                                mesh = WorldItems/GarageKit/Alice,
+                                texture = WorldItems/Alice,
+                                scale = 1,
+                }
+                item Remilia_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Remilia_garage_kit,
+		Icon	=	Remilia,
+		WorldStaticModel = Remilia,
+	}
+                item Remilia_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Remilia_garage_kit--big,
+		Icon	=	Remilia,
+		WorldStaticModel = Remilia_big,
+	}
+                model Remilia
+                {
+                                mesh = WorldItems/GarageKit/Remilia,
+                                texture = WorldItems/Remilia,
+                                scale = 0.3,
+                }
+                model Remilia_big
+                {
+                                mesh = WorldItems/GarageKit/Remilia,
+                                texture = WorldItems/Remilia,
+                                scale = 1,
+                }
+                item Chii_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Chii_garage_kit,
+		Icon	=	Chii,
+		WorldStaticModel = Chii,
+	}
+                item Chii_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Chii_garage_kit--big,
+		Icon	=	Chii,
+		WorldStaticModel = Chii_big,
+	}
+                model Chii
+                {
+                                mesh = WorldItems/GarageKit/Chii,
+                                texture = WorldItems/Chii,
+                                scale = 0.3,
+                }
+                model Chii_big
+                {
+                                mesh = WorldItems/GarageKit/Chii,
+                                texture = WorldItems/Chii,
+                                scale = 1,
+                }
+                item Tokisaki_Kurumi_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Tokisaki_Kurumi_garage_kit,
+		Icon	=	Kurumi,
+		WorldStaticModel = Kurumi,
+	}
+                item Tokisaki_Kurumi_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Tokisaki_Kurumi_garage_kit--big,
+		Icon	=	Kurumi,
+		WorldStaticModel = Kurumi_big,
+	}
+                model Kurumi
+                {
+                                mesh = WorldItems/GarageKit/Kurumi,
+                                texture = WorldItems/Kurumi,
+                                scale = 0.3,
+                }
+                model Kurumi_big
+                {
+                                mesh = WorldItems/GarageKit/Kurumi,
+                                texture = WorldItems/Kurumi,
+                                scale = 1,
+                }
+                item Bayonetta_garage_kit
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=Bayonetta_garage_kit,
+		Icon	=	Bayonetta,
+		WorldStaticModel = Bayonetta,
+	}
+                item Bayonetta_garage_kit--big
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=Bayonetta_garage_kit--big,
+		Icon	=	Bayonetta,
+		WorldStaticModel = Bayonetta_big,
+	}
+                model Bayonetta
+                {
+                                mesh = WorldItems/GarageKit/Bayonetta,
+                                texture = WorldItems/Bayonetta,
+                                scale = 0.3,
+                }
+                model Bayonetta_big
+                {
+                                mesh = WorldItems/GarageKit/Bayonetta,
+                                texture = WorldItems/Bayonetta,
+                                scale = 1,
+                }
+}
+

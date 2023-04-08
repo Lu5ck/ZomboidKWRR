@@ -1,0 +1,54 @@
+module Base
+{
+	item Beast Girl Skin
+	{
+		Type 		= Clothing,
+		DisplayName 		= Beast Girl Skin,
+		ClothingItem 		= Beastgirl,
+		BodyLocation = BellyButton,
+		Icon 		= Beastgirl,
+		BloodLocation 		= Trousers;Jumper,
+		CanHaveHoles = false,
+		ScratchDefense 		= 15,
+		BiteDefense 		= 15,
+		Insulation 		= 0.3,
+		WindResistance 		= 0.5,
+		Weight 		= 1,
+                                WorldStaticModel = BoilerSuit_Ground,
+	}
+                item Wolf Ears
+	{
+		Type = Clothing,
+		DisplayName = Wolf Ears,
+		ClothingItem = WolfEar,
+		BodyLocation = Hat,
+		Icon = WolfEar,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		Insulation 		= 0.2,
+		ChanceToFall = 0,
+		WorldStaticModel = WolfEar_ground,
+	}
+                model WolfEar_ground
+                {
+                                mesh = WorldItems/Clothing/WolfEar_ground,
+                                texture = Clothes\BeastGirl\WolfEar,
+                                scale = 1,
+                }
+                item Wolf Tail
+                {
+                               Type = Clothing,
+                               DisplayName = Wolf Tail,
+                               ClothingItem = WolfTail,
+                               BodyLocation = Tail,
+                               Icon = WolfTail,
+	               Insulation 		= 0.3,
+                               WorldStaticModel = WolfTail_Ground,
+                }
+                model WolfTail_Ground
+                {
+                                mesh = WorldItems/Clothing/WolfTail_Ground,
+                                texture = Clothes\BeastGirl\WolfEar,
+                                scale = 1,
+                }
+}

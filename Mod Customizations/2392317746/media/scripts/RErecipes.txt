@@ -1,0 +1,21 @@
+module Base
+{
+recipe Combine
+    {
+keep MortarPestle,
+keep Tweezers,
+HerbG=10,
+HerbR=10,
+SkillRequired:Doctor=4,
+        Result:Relife,
+Time:500.0,
+    }
+
+recipe Combine
+    {
+keep Scissors,
+Pada,
+        Result:PadaL,
+Time:100.0,
+    }
+}

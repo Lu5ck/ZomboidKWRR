@@ -1,0 +1,398 @@
+module Base
+{
+	item Dark Wand
+	{
+	                DisplayCategory = ToolWeapon,
+		MaxRange	=	1.2,
+		WeaponSprite	= DarkWand,
+		MinAngle	=	0.72,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3.0,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.002,
+		Categories	=	Axe,
+		ConditionLowerChanceOneIn	=	35,
+		Weight	=	3,
+		SplatNumber	=	3,
+		PushBackMod	=	0.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	13,
+		MaxHitCount	=	2,
+		DoorDamage	=	35,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		DisplayName	=	Dark Wand,
+		MinRange	=	0.61,
+		SwingTime	=	3.0,
+		HitAngleMod	=	-30,
+		SplatSize	=	5,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	DarkWand,
+		RunAnim	=	Run_Weapon2,
+                                TwoHandWeapon = TRUE,
+                                DoorHitSound = AxeHit,
+		HitSound = AxeHit,
+		HitFloorSound = AxeHit,
+		SwingSound = AxeSwing,
+                                BreakSound  =   AxeBreak,
+                                TreeDamage  =   35,
+                                MetalValue = 120,
+                                CriticalChance	=	20,
+                                CritDmgMultiplier = 5,
+                                BaseSpeed = 1,
+                                MinDamage	=	0.8,
+                                MaxDamage	=	2,
+		WeaponLength = 0.38,
+		DamageCategory = Slash,
+		DamageMakeHole = TRUE,
+		AttachmentType = BigWeapon,
+		Tags = ChopTree;CutPlant,
+                }
+                model DarkWand
+                {
+                                mesh = weapons/DarkWand,
+                                texture = weapons/DarkWand,
+                }
+	item Long Magic Wand
+	{
+	                DisplayCategory = ToolWeapon,
+		MaxRange	=	1.2,
+		WeaponSprite	= LongMagicWand,
+		MinAngle	=	0.72,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3.0,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.002,
+		Categories	=	Axe,
+		ConditionLowerChanceOneIn	=	35,
+		Weight	=	3,
+		SplatNumber	=	3,
+		PushBackMod	=	0.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	13,
+		MaxHitCount	=	2,
+		DoorDamage	=	35,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		DisplayName	=	Long Magic Wand,
+		MinRange	=	0.61,
+		SwingTime	=	3.0,
+		HitAngleMod	=	-30,
+		SplatSize	=	5,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	LongMagicWand,
+		RunAnim	=	Run_Weapon2,
+                                TwoHandWeapon = TRUE,
+                                DoorHitSound = AxeHit,
+		HitSound = AxeHit,
+		HitFloorSound = AxeHit,
+		SwingSound = AxeSwing,
+                                BreakSound  =   AxeBreak,
+                                TreeDamage  =   35,
+                                MetalValue = 120,
+                                CriticalChance	=	20,
+                                CritDmgMultiplier = 5,
+                                BaseSpeed = 1,
+                                MinDamage	=	0.8,
+                                MaxDamage	=	2,
+		WeaponLength = 0.38,
+		DamageCategory = Slash,
+		DamageMakeHole = TRUE,
+		AttachmentType = BigWeapon,
+		Tags = ChopTree;CutPlant,
+                }
+                model LongMagicWand
+                {
+                                mesh = weapons/LongMagicWand,
+                                texture = weapons/LongMagicWand,
+                }
+                item Short Wand
+	{
+	                DisplayCategory = ToolWeapon,
+		MaxRange	=	1.1,
+		WeaponSprite	=	ShortWand,
+		MinAngle	=	0.67,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Axe,
+		ConditionLowerChanceOneIn	=	15,
+		Weight	=	2,
+		SplatNumber	=	2,
+		PushBackMod	=	0.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	2,
+		DoorDamage	=	20,
+		SwingAnim	=	Bat,
+		DisplayName	=	Short Wand,
+		MinRange	=	0.61,
+		SwingTime	=	4,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	ShortWand,
+                                BreakSound  =   HandAxeBreak,
+                                DoorHitSound = HandAxeHit,
+                                HitSound = HandAxeHit,
+                                HitFloorSound = HandAxeHit,
+		SwingSound = HandAxeSwing,
+                                TreeDamage  =   15,
+                                CriticalChance	=	15,
+                                CritDmgMultiplier = 5,
+                                MinDamage	=	0.7,
+                                MaxDamage	=	1.5,
+                                BaseSpeed = 1,
+                       	WeaponLength = 0.35,
+                     	DamageCategory = Slash,
+                                DamageMakeHole = TRUE,
+                                AttachmentType = Hammer,
+                                Tags = ChopTree;CutPlant,
+  	}
+                model ShortWand
+                {
+                                mesh = weapons/ShortWand,
+                                texture = weapons/ShortWand,
+                }
+                item Short Wand2
+	{
+	                DisplayCategory = ToolWeapon,
+		MaxRange	=	8,
+		WeaponSprite	=	ShortWand,
+		MinAngle	=	0.5,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	true,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Axe,
+		ConditionLowerChanceOneIn	=	20,
+		Weight	=	2,
+		SplatNumber	=	2,
+		PushBackMod	=	0.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	4,
+		DoorDamage	=	20,
+		SwingAnim	=	Bat,
+		DisplayName	=	Wand Enchantment:Sectumsempra (Female),
+		MinRange	=	0.61,
+		SwingTime	=	4,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	ShortWand,
+                                BreakSound  =   HandAxeBreak,
+                                DoorHitSound = HandAxeHit,
+                                HitSound = SectumsempraHit,
+                                HitFloorSound = SectumsempraHit,
+		SwingSound = Sectumsempra,
+                                TreeDamage  =   15,
+                                CriticalChance	=	20,
+                                CritDmgMultiplier = 5,
+                                MinDamage	=	1.2,
+                                MaxDamage	=	1.6,
+                                BaseSpeed = 1,
+                       	WeaponLength = 8,
+                     	DamageCategory = Slash,
+                                DamageMakeHole = TRUE,
+                                AttachmentType = Hammer,
+                                Tags = ChopTree;CutPlant,
+  	}
+                item Short Wand3
+	{
+	                DisplayCategory = ToolWeapon,
+		MaxRange	=	8,
+		WeaponSprite	=	ShortWand,
+		MinAngle	=	0.5,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	true,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Axe,
+		ConditionLowerChanceOneIn	=	20,
+		Weight	=	2,
+		SplatNumber	=	2,
+		PushBackMod	=	0.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	4,
+		DoorDamage	=	20,
+		SwingAnim	=	Bat,
+		DisplayName	=	Wand Enchantment:Sectumsempra (Male),
+		MinRange	=	0.61,
+		SwingTime	=	4,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	ShortWand,
+                                BreakSound  =   HandAxeBreak,
+                                DoorHitSound = HandAxeHit,
+                                HitSound = SectumsempraHit,
+                                HitFloorSound = SectumsempraHit,
+		SwingSound = Sectumsempra_Man,
+                                TreeDamage  =   15,
+                                CriticalChance	=	20,
+                                CritDmgMultiplier = 5,
+                                MinDamage	=	1.2,
+                                MaxDamage	=	1.6,
+                                BaseSpeed = 1,
+                       	WeaponLength = 8,
+                     	DamageCategory = Slash,
+                                DamageMakeHole = TRUE,
+                                AttachmentType = Hammer,
+                                Tags = ChopTree;CutPlant,
+  	}
+                 item Advanced Potion Making
+                {
+                               DisplayCategory = SkillBook,
+                               Tooltip = Tooltip_( 'This is the property of the Half-Blood Prince' ),
+                               Weight	=	0.3,
+                               Type	=	Literature,
+                               DisplayName	= Advanced Potion-Making,
+                               Icon	=	AdvancedPotionMaking,
+                               NumberOfPages	=	300,
+                               TeachedRecipes  =   Harry Potter***Enchant a wand-Sectumsempra (Female);Harry Potter***Enchant a wand-Sectumsempra (Male);Harry Potter***Concoct a potion-Elixir to Induce Euphoria;Harry Potter***Concoct a potion-Invigoration Draught,
+                               ReplaceOnUse    = Advanced Potion Making,
+                               StaticModel = AdvancedPotionMaking,
+                               WorldStaticModel = AdvancedPotionMaking_Ground,
+                }
+	model AdvancedPotionMaking
+	{
+		mesh =  Book,
+                                texture = WorldItems/AdvancedPotionMaking,
+	}
+	model AdvancedPotionMaking_Ground
+                {
+                                mesh = WorldItems/BookClosed,
+                                texture = WorldItems/AdvancedPotionMaking,
+                                scale = 0.4,
+                }
+	item Elixir to Induce Euphoria
+	{
+		DisplayName = Elixir to Induce Euphoria,
+		DisplayCategory = Food,
+                                Tooltip = Tooltip_(A potion that brings happiness)<br>(Do not take too much),
+		Type = Food,
+		Weight = 0.7,
+		Icon = ElixirToInduceEuphoria,
+		FoodType = Liquor,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = WhiskeyEmpty,
+                                StressChange	=	-100,
+                                BoredomChange	=	-100,
+		UnhappyChange = -100,
+		HungerChange = -20,
+		ThirstChange = -20,
+		Calories = 1800,
+		Carbohydrates = 2,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		StaticModel = ElixirToInduceEuphoria,
+		WorldStaticModel = ElixirToInduceEuphoria_Ground,
+		Tags = Liquor,
+	}
+	model ElixirToInduceEuphoria
+	{
+		mesh = WhiskeyBottle,
+		texture = WorldItems/ElixirToInduceEuphoria,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 27.0000 -89.0000,
+		}
+	}
+	model ElixirToInduceEuphoria_Ground
+                {
+                               mesh = WorldItems/WhiskeyBottle,
+                               texture = WorldItems/ElixirToInduceEuphoria,
+                               scale = 0.4,
+                }
+                 recipe Harry Potter***Concoct a potion-Elixir to Induce Euphoria
+                {
+                                keep Advanced Potion Making,
+                                WhiskeyFull,
+                                MintCandy/Peppermint/Pop3/Violets/Rosemary,
+                                Nettles/LemonGrass,
+
+                                Result:Elixir to Induce Euphoria,
+                                Time:100.0,
+                                CanBeDoneFromFloor:true,
+                                NeedToBeLearn:true,
+                                Category:cosplay,
+                 }	
+
+
+
+	item Invigoration Draught
+	{
+		DisplayCategory = Food,
+		Tooltip = Tooltip_Vitamins,
+	 	DisplayName	=Invigoration Draught,
+		Icon	                =InvigorationDraught,
+		Type = Food,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ThirstChange = -20,
+		HungerChange = -8,
+                                FatigueChange	=-100,
+                                EnduranceChange	=100,
+		Calories = 220,
+		Carbohydrates = 34,
+		Lipids = 0,
+		Proteins = 8,
+		Weight = 0.6,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = InvigorationDraught,
+		WorldStaticModel = InvigorationDraught_Ground,
+		Medical       = TRUE,
+	}
+	model InvigorationDraught
+                {
+                                mesh = WorldItems/InvigorationDraught_Ground,
+		texture = WorldItems/InvigorationDraught,
+                                scale = 0.4,
+                }
+	model InvigorationDraught_Ground
+                {
+                                mesh = WorldItems/InvigorationDraught_Ground,
+		texture = WorldItems/InvigorationDraught,
+                                scale = 0.4,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+                }
+                 recipe Harry Potter***Concoct a potion-Invigoration Draught
+                {
+                                keep Advanced Potion Making,
+                                PillsVitamins=5,
+		Water=6,
+                                Ginseng/Carrots,
+                                Parsley/Nettles,
+
+                                Result:Invigoration Draught,
+                                Time:100.0,
+                                CanBeDoneFromFloor:true,
+                                NeedToBeLearn:true,
+                                Category:cosplay,
+                 }
+
+
+
+
+
+
+
+
+}

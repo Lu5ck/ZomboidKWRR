@@ -1,0 +1,78 @@
+module Base
+{
+                item Yor Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Yor Mask,
+                               ClothingItem = YorMask,
+                               BodyLocation = kigurumi,
+                               Icon = YorMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.50,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 30,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = YorMask_Ground,
+                }
+                model YorMask_Ground
+                {
+                                mesh = WorldItems/Clothing/YorMask_Ground,
+                                texture = Clothes\SPYxFamily\YorMask,
+                                scale = 0.1,
+                }
+	item Yor Sweater
+	{
+                                DisplayCategory = Clothing,
+		Type 		= Clothing,
+		DisplayName 		= Yor Sweater,
+		ClothingItem 		= YorSweater,
+		BodyLocation = Sweater,
+		Icon 		= YorSweater,
+		BloodLocation 		= ShortsShort;Jacket,
+                                NeckProtectionModifier = 0.5,
+                                CombatSpeedModifier = 1.15,
+		ScratchDefense 		= 25,
+		BiteDefense 		= 20,
+		Insulation 		= 0.60,
+		WindResistance 		= 0.75,
+                                FabricType                      = Cotton,
+		Weight 		= 1.5,
+                                WorldStaticModel = YorSweater_Ground,
+	}
+                model YorSweater_Ground
+                {
+                                mesh = WorldItems/Clothing/YorSweater_Ground,
+                                texture = Clothes\SPYxFamily\YorSweater,
+                                scale = 0.1,
+                }
+	item Yor Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Yor Shoes,
+		ClothingItem 		= YorShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= YorShoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.1,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.5,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = YorShoes_ground,
+	}
+                model YorShoes_ground
+                {
+                                mesh = WorldItems/Clothing/YorShoes_ground,
+                                texture = Clothes/SPYxFamily/YorShoes,
+                                scale = 0.1,
+                }
+}

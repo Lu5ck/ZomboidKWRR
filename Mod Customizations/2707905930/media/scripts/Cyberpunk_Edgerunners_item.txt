@@ -1,0 +1,207 @@
+module Base
+{
+                item Lucy Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Lucy Mask,
+                               ClothingItem = LucyMask,
+                               BodyLocation = kigurumi,
+                               Icon = LucyMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.6,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = LucyMask_Ground,
+                }
+                model LucyMask_Ground
+                {
+                                mesh = WorldItems/Clothing/LucyMask_Ground,
+                                texture = Clothes\CyberpunkEdgerunners\LucyMask,
+                                scale = 0.1,
+                }
+	item Lucy Skin
+	{
+		Type 		= Clothing,
+		DisplayName 		=Lucy Hacker skin,
+		ClothingItem 		= LucySkin,
+		BodyLocation = BellyButton,
+		Icon 		= LucySkin,
+		BloodLocation 		= Head;Neck;Trousers;Jumper;Hands;Shoes,
+		CanHaveHoles = false,
+		ScratchDefense 		= 15,
+		BiteDefense 		= 15,
+		Insulation 		= 0.15,
+		WindResistance 		= 0.25,
+                                BulletDefense = 35,
+		Weight 		= 0.5,
+                                WorldStaticModel = BoilerSuit_Ground,
+	}
+                item Lucy Tights
+	{
+		Type = Clothing,
+		DisplayName = Lucy Tights,
+		ClothingItem = LucyTights,
+		BodyLocation = UnderwearExtra2,
+		BloodLocation = Trousers,
+		Icon = LucyTights,
+		BiteDefense = 20,
+		ScratchDefense = 25,
+		Insulation = 0.2,
+		WindResistance = 0.35,
+		Weight = 1,
+		CanHaveHoles = false,
+		WorldStaticModel = Trousers_Ground,
+	}
+	item Lucy Clothes
+	{
+		Type = Clothing,
+		DisplayName = Lucy Corselet,
+		ClothingItem = LucyClothes,
+		BodyLocation = TankTop,
+		BloodLocation = ShirtNoSleeves,
+		Icon = LucyClothes,
+		BiteDefense                    = 15,
+                                ScratchDefense              = 20,
+                                Insulation                       = 0.2,
+                                WindResistance              = 0.3,
+ 		Weight                           = 0.5,
+		FabricType = Cotton,
+		WorldStaticModel = SwimSuit_Ground,
+	}
+	item Lucy Cartridge Belt
+                {
+                Type	                                    = Container,
+                DisplayName	                    = Lucy Cartridge Belt,
+                ClothingItem                                = LucyCartridgeBelt,
+                Icon                         = LucyCartridgeBelt,
+                CanBeEquipped                            = Exoskeleton,
+                BodyLocation                               = Exoskeleton,
+                ClothingItemExtra = Lucy Cartridge Belt,
+                ClothingItemExtraOption = FannyPack_WearFront,
+                RunSpeedModifier 		= 1.0,
+                Capacity	                                    = 10,
+                WeightReduction	                    = 80,
+                PutInSound                                  =PutItemInBag,
+                Weight	                                    =1,
+                WorldStaticModel = LucyCartridgeBelt_Ground,
+                }
+                model LucyCartridgeBelt_Ground
+                {
+                                mesh = WorldItems/Clothing/LucyCartridgeBelt_Ground,
+                                texture = Clothes/CyberpunkEdgerunners/LucyCartridgeBelt,
+                                scale = 0.1,
+                }
+	item Lucy Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Lucy Shoes,
+		ClothingItem 		= LucyShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= LucyShoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.3,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.5,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = LucyShoes_Ground,
+	}
+                model LucyShoes_Ground
+                {
+                                mesh = WorldItems/Clothing/LucyShoes_Ground,
+                                texture = Clothes/CyberpunkEdgerunners/LucyShoes,
+                                scale = 0.1,
+                }
+                item Lucy Coat
+                {
+                                Type = Clothing,
+                                DisplayName = Lucy Coat,
+                                ClothingItem = LucyCoat,
+                                BodyLocation = Jacket,
+                                Icon = LucyCoat,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.40,
+                                WindResistance              = 0.6,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = LucyCoat_Ground,
+                }
+                model LucyCoat_Ground
+                {
+                                mesh = WorldItems/Clothing/LucyCoat_Ground,
+                                texture = Clothes/CyberpunkEdgerunners/LucyCoat,
+                                scale = 0.1,
+                }
+                item Lucy Space Helmet
+                {
+                               Type = Clothing,
+                               DisplayName = Lucy Space Helmet,
+                               ClothingItem = LucySpaceHelmet,
+                               BodyLocation = FullHat,
+                               Icon = LucySpaceHelmet,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 45,
+		ScratchDefense 		= 55,
+                                BulletDefense = 45,
+		Insulation 		= 0.6,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 2,
+                               WorldStaticModel = LucySpaceHelmet_Ground,
+                }
+                model LucySpaceHelmet_Ground
+                {
+                                mesh = WorldItems/Clothing/LucySpaceHelmet_Ground,
+                                texture = Clothes/CyberpunkEdgerunners/LucySpaceHelmet,
+                                scale = 0.1,
+                }
+	item David Martinez
+	{
+		DisplayName = The David Martinez,
+		DisplayCategory = Food,
+                                Tooltip = Tooltip_(A shot of vodka on the rocks.topped with NiCola.)<br>(Aim high and go out with a bang.),
+		Type = Food,
+		Weight = 0.1,
+		Icon = DavidMartinez,
+		FoodType = Liquor,
+		Alcoholic = TRUE,
+                                CantBeFrozen = TRUE,
+		EatType = popcan,
+		ReplaceOnUse = GlassTumbler,
+		HungerChange = -4,
+		ThirstChange = -10,
+                                StressChange	=	-8,
+                                BoredomChange	=	-4,
+		Calories = 160,
+		Carbohydrates = 39,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromMug,
+		WorldStaticModel = DavidMartinez_Ground,
+		Tags = LowAlcohol,
+		
+	}
+	model DavidMartinez_Ground
+	{
+		mesh = WorldItems/GlassTumbler,
+                                texture = Clothes/CyberpunkEdgerunners/DavidMartinez,
+		scale = 0.3,
+	}
+}

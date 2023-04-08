@@ -1,0 +1,842 @@
+module Base
+{
+
+item Hquiet
+	{
+		Type = Clothing,
+		DisplayName	=	Quiet hair,
+        ClothingItem = Hquiet,
+        BodyLocation = Hat,
+		Icon	=	Hcla,
+		CanHaveHoles = false,
+		BloodLocation = Head;Neck,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+        		BulletDefense = 100,
+        		NeckProtectionModifier = 0.9,
+		ChanceToFall = 0,
+		Insulation = 0.10,
+		WaterResistance = 1.0,
+		WindResistance = 1.0,
+		Weight = 0.1,
+	}
+
+item Bquiet	
+{
+
+        WeightReduction	=	100,
+
+        Weight	=	0.5,
+
+        Type	=	Container,
+
+        Capacity	=	39,
+
+        DisplayName	=	Quiet Bag,
+
+        Icon	=	Bhunk,
+
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = FannyPackBack,
+
+        ClothingItem = Bquiet,
+
+        CanBeEquipped = FannyPackBack,
+
+        RunSpeedModifier = 1.0,
+
+
+        ClothingItemExtra = Bquiet,
+
+        ClothingItemExtraOption = FannyPack_WearBack,
+
+}
+
+    item Aquiet
+    {
+        Type = Container,
+        DisplayName = Quiet Belt,
+        ClothingItem = Aquiet,
+        BodyLocation = Belt423,
+        Icon = Ajill,
+        WeightReduction	=	100,
+	    Capacity	=	39,
+        RunSpeedModifier = 1.0,
+        ClothingItemExtra = Aquiet,
+        ClothingItemExtraOption = Wearup,
+        CanBeEquipped = Belt423,
+        PutInSound   =   PutItemInBag,
+		Weight = 0.1,
+    }
+
+	item Gquiet
+	{
+		Type = Clothing,
+		DisplayName = Quiet Gloves,
+		ClothingItem = Gquiet,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = Gquiet,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.5,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+        FabricType = Leather,
+		Weight = 0.1,
+	CombatSpeedModifier = 1.8
+	}
+
+    item Squiet
+    {
+        Type = Clothing,
+        DisplayName = Quiet Socks,
+        ClothingItem = Squiet,
+        BodyLocation = Legs1,
+        BloodLocation = Trousers,
+        Icon = Sada,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        BulletDefense = 100,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+		Weight = 0.1,
+    }
+
+	item LBquiet
+	{
+		Type = Clothing,
+		DisplayName = Quiet Boots,
+		ClothingItem = LBquiet,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = BootsHiking,
+		StompPower = 3.0,
+        RunSpeedModifier = 1.5,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+        Weight	=	0.1,
+	}
+
+	item Kquiet
+	{
+		Type = Clothing,
+		DisplayName = Quiet Bikini,
+		ClothingItem = Kquiet,
+		BodyLocation = TankTop,
+		Icon = Bikini_White,
+		CanHaveHoles = false,
+		BloodLocation = ShirtLongSleeves,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+        		BulletDefense = 100,
+		Insulation = 0.10,
+		WaterResistance = 1.0,
+		WindResistance = 1.0,
+        FabricType = Cotton,
+		Weight = 0.1,
+	}
+
+	item QquietL
+    {
+        Weight	=	0.1,
+        Type	=	Clothing,
+        DisplayName	=	Quiet Holster left,
+	Icon = Qjill,
+        BodyLocation = Belt420,
+        ClothingItem = QquietL,
+        AttachmentsProvided = HolsterLeft,
+        ClothingItemExtra = QquietR,
+        ClothingItemExtraOption = TurnRight,
+    }
+
+	item QquietR
+    {
+        Weight	=	0.1,
+        Type	=	Clothing,
+        DisplayName	=	Quiet Holster right,
+	Icon = Qjill2,
+        BodyLocation = Belt419,
+        ClothingItem = QquietR,
+        AttachmentsProvided = HolsterRight,
+        ClothingItemExtra = QquietL,
+        ClothingItemExtraOption = TurnLeft,
+    }
+
+item SPbag	
+{
+
+Type = Container,
+		
+DisplayName = Spiffo Bag,
+		
+ClothingItem = SPbag,
+
+CanBeEquipped = Back,
+		
+WeightReduction	=	100,
+		
+Weight	=	0.5,
+		
+Capacity	=	39,
+		
+Icon	=	PlushSpiffo,
+		
+OpenSound   =   OpenBag,
+		
+CloseSound   =   CloseBag,
+		
+PutInSound   =   PutItemInBag,
+		
+BloodLocation = Bag,
+		
+RunSpeedModifier = 1.0,
+		
+CanHaveHoles = false,
+
+        AttachmentReplacement = Bag,
+}
+
+item Emo
+	{
+		Type = Clothing,
+		DisplayName	=	Demon horn,
+        ClothingItem = Emo,
+        BodyLocation = Head001,
+		Icon	=	Emo,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		CombatSpeedModifier = 1.2,
+		ChanceToFall = 0,
+		Insulation = 0.10,
+		WaterResistance = 1.0,
+		WindResistance = 1.0,
+		Weight = 0.1,
+	}
+
+item Tuer
+	{
+		Type = Clothing,
+		DisplayName	=	Rabbit ears,
+        ClothingItem = tuer,
+        BodyLocation = Head001,
+		Icon	=	tuer,
+		CanHaveHoles = false,
+		BloodLocation = Head;Neck,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 0,
+		Insulation = 0.10,
+		WaterResistance = 1.0,
+		WindResistance = 1.0,
+		Weight = 0.1,
+	}
+
+	item Tusuit
+	{
+		Type = Clothing,
+		DisplayName = Rabbitsuit,
+		ClothingItem = tusuit,
+		BodyLocation = Underwear,
+		Icon = Swimsuit_White,
+		ChanceToFall = 0,
+		Insulation = 0.10,
+		WaterResistance = 1.0,
+		WindResistance = 1.0,
+		Weight = 0.1,
+	}
+
+    item Tutail
+    {
+        Type = Clothing,
+        DisplayName = Rabbit Tail,
+        ClothingItem = tutail,
+        BodyLocation = Tail001,
+        Icon = tutail,
+    }
+
+item Ehat
+	{
+		Type = Clothing,
+		DisplayName	=	hat with earmuffs,
+        ClothingItem = Ehat,
+        BodyLocation = Head001,
+		Icon	=	Ehat,
+		CanHaveHoles = false,
+		BloodLocation = Head;Neck,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+        		NeckProtectionModifier = 0.5,
+		ChanceToFall = 0,
+		Insulation = 0.50,
+		WaterResistance = 1.0,
+		WindResistance = 1.0,
+		CombatSpeedModifier = 1.2,
+		Weight = 0.1,
+	}
+
+    item Stb
+    {
+        Type = Clothing,
+        DisplayName = The Boss Suit,
+        ClothingItem = Stb,
+        BodyLocation = Sweater,
+        Icon = Stb,
+        BloodLocation = Trousers;Jumper,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        BulletDefense = 100,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+        FabricType = Leather,
+        Weight	=	0.3,
+    }
+
+	item Gtb
+	{
+
+		Type = Clothing,
+
+		DisplayName = The Boss Gloves,
+
+		ClothingItem = Gtb,
+
+		BodyLocation = Hands,
+
+		BloodLocation = Hands,
+
+		Icon = Gchr,
+
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.5,
+
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+        FabricType = Leather,
+		Weight = 0.1,
+	CombatSpeedModifier = 1.8
+	}
+
+	item LBtb
+	{
+		Type = Clothing,
+		DisplayName = The Boss Boots,
+		ClothingItem = LBtb,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = BootsHiking,
+		StompPower = 3.0,
+        RunSpeedModifier = 1.5,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+        Weight	=	0.1,
+	}
+
+    item CtbL
+	{
+	Type = Clothing,
+	DisplayName = The Boss ArmPadsLeft ,
+	ClothingItem = CtbL,
+	BodyLocation = Uparml,
+	BloodLocation = Jumper,
+	Icon = CtbL,
+	ConditionLowerChanceOneIn = 30,
+        ConditionMax = 50,
+        RemoveOnBroken = true,
+        ScratchDefense = 50,
+        BiteDefense = 50,
+        BulletDefense = 50,
+        ClothingItemExtra = CtbR,
+
+        ClothingItemExtraOption = TurnRight,
+		Weight = 0.3,
+	}
+
+    item CtbR
+	{
+	Type = Clothing,
+	DisplayName = The Boss ArmPadsRight,
+	ClothingItem = CtbR,
+	BodyLocation = Uparmr,
+	BloodLocation = Jumper,
+	Icon = CtbR,
+	ConditionLowerChanceOneIn = 30,
+        ConditionMax = 50,
+        RemoveOnBroken = true,
+        ScratchDefense = 50,
+        BiteDefense = 50,
+        BulletDefense = 50,
+        ClothingItemExtra = CtbL,
+
+        ClothingItemExtraOption = TurnLeft,
+		Weight = 0.3,
+	}
+
+    item KPtb
+	{
+	Type = Clothing,
+	DisplayName = The Boss KneePads,
+	ClothingItem = KPtb,
+	BodyLocation = Kneepads,
+	BloodLocation = Trousers,
+	Icon = Ejill,
+	ConditionLowerChanceOneIn = 30,
+        ConditionMax = 50,
+        RemoveOnBroken = true,
+        ScratchDefense = 50,
+        BiteDefense = 50,
+        BulletDefense = 50,
+		Weight = 0.3,
+	}
+
+	item CPJ
+    {
+        Type = Clothing,
+        DisplayName = Dark Hoodie,
+        ClothingItem = CPJ,
+        ClothingItemExtra = CPD,
+        ClothingItemExtraOption = DownHoodie,
+        clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        Icon	=	HoodieWhite,
+        BloodLocation = LongJacket,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 100,
+        NeckProtectionModifier = 0.9,
+        Insulation = 0.55,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WaterResistance = 1.0,
+        Weight	=	0.3,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+	item CPD
+    {
+        Type = Clothing,
+        DisplayName = Dark Hoodie,
+        ClothingItem = CPD,
+        ClothingItemExtra = CPJ,
+        ClothingItemExtraOption = UpHoodie,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        Icon	=	HoodieWhite,
+        BloodLocation = LongJacket,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 100,
+        NeckProtectionModifier = 0.9,
+        Insulation = 0.55,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WaterResistance = 1.0,
+        Weight	=	0.3,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+	item LNWUP
+    {
+        Type = Clothing,
+        DisplayName = Little Nightmares,
+        ClothingItem = LNWUP,
+        ClothingItemExtra = LNWDO,
+        ClothingItemExtraOption = DownHoodie,
+        clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        Icon	=	HoodieWhite,
+        BloodLocation = LongJacket,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 100,
+        NeckProtectionModifier = 0.9,
+        Insulation = 0.55,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WaterResistance = 1.0,
+        Weight	=	0.3,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+	item LNWDO
+    {
+        Type = Clothing,
+        DisplayName = Little Nightmares,
+        ClothingItem = LNWDO,
+        ClothingItemExtra = LNWUP,
+        ClothingItemExtraOption = UpHoodie,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        Icon	=	HoodieWhite,
+        BloodLocation = LongJacket,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 100,
+        NeckProtectionModifier = 0.9,
+        Insulation = 0.55,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WaterResistance = 1.0,
+        Weight	=	0.3,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+	item CPBB
+    {
+        Weight	=	0.5,
+        Type	=	Container,
+        DisplayName	=	China Power bag back,
+	Icon = CPB,
+        BodyLocation =Bag,
+        ClothingItem = CPBB,
+        WeightReduction	=	100,
+	    Capacity	=	60,
+	RunSpeedModifier = 1.0,
+	CanHaveHoles = false,
+        ClothingItemExtra = CPBC,
+        ClothingItemExtraOption = Wearchest,
+	CanBeEquipped = Back,
+        PutInSound   =   PutItemInBag,
+        AttachmentReplacement = Bag,
+    }
+
+	item CPBC
+    {
+        Weight	=	0.5,
+        Type	=	Container,
+        DisplayName	=	China Power bag chest,
+	Icon = CPB,
+        BodyLocation = Back001,
+        ClothingItem = CPBC,
+        WeightReduction	=	100,
+	    Capacity	=	60,
+        CanBeEquipped = Back001,
+        PutInSound   =   PutItemInBag,
+        ClothingItemExtra = CPBB,
+       ClothingItemExtraOption = Wearback,
+        clothingExtraSubmenu = Wearchest,
+    }
+
+item TFH
+	{
+		Type = Clothing,
+		DisplayName	=	Tifa hair,
+        ClothingItem = TFH,
+        BodyLocation = Hat,
+		Icon	=	Hcla,
+		CanHaveHoles = false,
+		BloodLocation = Head;Neck,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+        		BulletDefense = 100,
+        		NeckProtectionModifier = 0.9,
+		ChanceToFall = 0,
+		Insulation = 0.10,
+		WaterResistance = 1.0,
+		WindResistance = 1.0,
+		Weight = 0.1,
+	}
+
+	item TFLB
+	{
+		Type = Clothing,
+		DisplayName = Tifa Boots,
+		ClothingItem = TFLB,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = BootsHiking,
+		StompPower = 3.0,
+        RunSpeedModifier = 1.5,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+        Weight	=	0.1,
+	}
+
+    item TFA
+    {
+        Type = Container,
+        DisplayName = Tifa Belt,
+        ClothingItem = TFA,
+        BodyLocation = Belt423,
+        Icon = Ajill,
+        WeightReduction	=	100,
+	    Capacity	=	60,
+        RunSpeedModifier = 1.0,
+        ClothingItemExtra = TFA,
+        ClothingItemExtraOption = Wearup,
+        CanBeEquipped = Belt423,
+        PutInSound   =   PutItemInBag,
+		Weight = 0.1,
+    }
+
+    item TFS
+    {
+        Type = Clothing,
+        DisplayName = Tifa Short Skirt,
+        ClothingItem = TFS,
+        BodyLocation = Skirt,
+        Icon = SkirtGeneric,
+        BloodLocation = ShortsShort,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        Insulation = 0.45,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WaterResistance = 1.0,
+        Weight	=	0.1,
+    }
+
+    item TFJ
+	{
+	Type = Clothing,
+	DisplayName = Tifa Elbow,
+	ClothingItem = TFJ,
+	BodyLocation = Elbowpads,
+	BloodLocation = Jumper,
+	Icon = TFJ,
+	ConditionLowerChanceOneIn = 100,
+        ConditionMax = 100,
+        RemoveOnBroken = true,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        BulletDefense = 100,
+		Weight = 0.1,
+	}
+
+item TFV
+	{
+		Type = Clothing,
+		DisplayName	=	Tifa Bra vest,
+        ClothingItem = TFV,
+        BodyLocation = TankTop,
+		Icon	=	TFV,
+		CanHaveHoles = false,
+		BloodLocation = ShirtNoSleeves,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		Insulation = 0.10,
+		WaterResistance = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        Weight	=	0.2,
+	}
+
+	item TFG
+	{
+		Type = Clothing,
+		DisplayName = Tifa Gloves,
+		ClothingItem = TFG,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesLongBlack,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.5,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+        FabricType = Leather,
+		Weight = 0.1,
+	CombatSpeedModifier = 1.8
+	}
+
+    item TFSS
+    {
+        Type = Clothing,
+        DisplayName = Tifa Socks,
+        ClothingItem = TFSS,
+        BodyLocation = Legs1,
+        BloodLocation = Trousers,
+        Icon = Sada,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        BulletDefense = 100,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+		Weight = 0.1,
+    }
+
+    item WBW
+    {
+        Type = Clothing,
+        DisplayName = Dark Windbreaker,
+        ClothingItem = WBW,
+        BodyLocation = Jacket,
+        Icon = JacketLongBlack,
+        BloodLocation = LongJacket,
+        BiteDefense = 50,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.65,
+        WindResistance = 1.0,
+        FabricType = Leather,
+        WaterResistance = 1.0,
+        Weight = 0.5,
+        WorldStaticModel = JacketLong_Ground,
+    }
+
+item Hlei
+	{
+		Type = Clothing,
+		DisplayName	=	Leilei hat,
+        ClothingItem = Hlei,
+        BodyLocation = Head001,
+		Icon	=	Hlei,
+		CanHaveHoles = false,
+		BloodLocation = Head;Neck,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+        		NeckProtectionModifier = 0.9,
+		ChanceToFall = 0,
+		Insulation = 0.50,
+		WaterResistance = 1.0,
+		WindResistance = 1.0,
+		Weight = 0.1,
+	}
+
+item Blei	
+{
+
+Type = Container,
+		
+DisplayName = Leilei Bag,
+		
+ClothingItem = Blei,
+
+CanBeEquipped = Back,
+		
+WeightReduction	=	100,
+		
+Weight	=	0.5,
+		
+Capacity	=	60,
+		
+Icon	=	Blei,
+		
+OpenSound   =   OpenBag,
+		
+CloseSound   =   CloseBag,
+		
+PutInSound   =   PutItemInBag,
+		
+BloodLocation = Bag,
+		
+RunSpeedModifier = 1.0,
+		
+CanHaveHoles = false,
+
+        AttachmentReplacement = Bag,
+}
+
+item Hemo
+	{
+		Type = Clothing,
+		DisplayName	=	Demon hair,
+        ClothingItem = Hemo,
+        BodyLocation = Hat,
+		Icon	=	Hshe,
+		CanHaveHoles = false,
+		BloodLocation = Head;Neck,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+        		BulletDefense = 100,
+        		NeckProtectionModifier = 0.9,
+		ChanceToFall = 0,
+		Insulation = 0.10,
+		WaterResistance = 0.8,
+		WindResistance = 0.8,
+		Weight = 0.1,
+	}
+
+    item Eemo
+   	{
+	Type = Clothing,
+	DisplayName = Demon patch,
+	ClothingItem = Eemo,
+	BodyLocation = Eyes,
+	Icon = Eemo,
+	CombatSpeedModifier = 1.5,
+	Weight = 0.1,
+	ChanceToFall = 0,
+    	}
+
+item HCJ
+	{
+		Type = Clothing,
+		DisplayName	=	China hair,
+        ClothingItem = HCJ,
+        BodyLocation = Hat,
+		Icon	=	HCJ,
+		CanHaveHoles = false,
+		BloodLocation = Head;Neck,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+        		BulletDefense = 100,
+        		NeckProtectionModifier = 1.0,
+		ChanceToFall = 0,
+		Insulation = 0.10,
+		WaterResistance = 1.0,
+		WindResistance = 1.0,
+		Weight = 0.1,
+	}
+
+item Hongbao
+{
+Weight=0,
+Type=Normal,
+DisplayName= Red envelopes,
+Icon= Hongbao,
+       		 Tooltip = Tooltip_Hongbao,
+}
+
+item JewelR
+{
+Weight=0,
+Type=Normal,
+DisplayName= Red Jewel,
+Icon= JewelR,
+}
+
+item JewelG
+{
+Weight=0,
+Type=Normal,
+DisplayName= Green Jewel,
+Icon= JewelG,
+}
+
+item JewelY
+{
+Weight=0,
+Type=Normal,
+DisplayName= Yellow Jewel,
+Icon= JewelY,
+}
+
+item JewelB
+{
+Weight=0,
+Type=Normal,
+DisplayName= Blue Jewel,
+Icon= JewelB,
+}
+}

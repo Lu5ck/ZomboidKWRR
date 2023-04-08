@@ -1,0 +1,126 @@
+module Base
+{
+	item Stocking
+	{
+		Type = Clothing,
+		DisplayName = Stocking,
+		ClothingItem = Stocking,
+		BodyLocation = UnderwearExtra1,
+		Icon = Stocking,
+                                BloodLocation = Trousers,
+                                BiteDefense                    = 5,
+                                ScratchDefense              = 8,
+                                Insulation                       = 0.2,
+                                WindResistance              = 0.3,
+                                FabricType                      = Cotton,
+		Weight = 0.2,
+		WorldStaticModel = StockingsWhite_Ground,
+	}
+	item Long Glove
+	{
+	                DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Long Glove,
+		ClothingItem = LongGlove,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = LongGlove,
+		Weight = 0.1,
+                                Insulation = 0.5,
+                                WindResistance = 0.5,
+                                FabricType = Cotton,
+                                WorldStaticModel = GlovesLong_Ground,
+                }
+	item Paimon Bag Back
+                {
+                DisplayCategory = Bag,
+                Type	                                    = Container,
+                DisplayName	                    = Paimon Bag(Back),
+                ClothingItem                                = PaimonBag,
+                Icon                         = PaimonBag,
+                CanBeEquipped                            = Exoskeleton,
+                BodyLocation                               = Exoskeleton,
+                ClothingItemExtra = Paimon Bag Front,
+                ClothingItemExtraOption = FannyPack_WearFront,
+                clothingExtraSubmenu = FannyPack_WearBack,
+                Capacity	                                    = 15,
+                WeightReduction	                    = 95,
+                PutInSound                                  =PutItemInBag,
+                RunSpeedModifier = 1.10,
+                Weight	                                    =0.1,
+                WorldStaticModel = PaimonBag_Ground,
+                }
+	item Paimon Bag Front
+                {
+                DisplayCategory = Bag,
+                Type	                                    = Container,
+                DisplayName	                    = Paimon Bag(Front),
+                ClothingItem                                = PaimonBag2,
+                Icon                         = PaimonBag,
+                CanBeEquipped                            = Exoskeleton,
+                BodyLocation                               = Exoskeleton,
+                ClothingItemExtra = Paimon Bag Back,
+                ClothingItemExtraOption = FannyPack_WearBack,
+                clothingExtraSubmenu = FannyPack_WearFront,
+                Capacity	                                    = 15,
+                WeightReduction	                    = 100,
+                PutInSound                                  =PutItemInBag,
+                RunSpeedModifier = 1.10,
+                Weight	                                    =0.1,
+                WorldStaticModel = PaimonBag_Ground,
+                }
+                model PaimonBag_Ground
+                {
+                                mesh = WorldItems/Clothing/PaimonBag_Ground,
+                                texture = Clothes/Other/PaimonBag,
+                                scale = 0.1,
+                }
+    item SatchelPurple
+    {
+                DisplayCategory = Bag,
+                WeightReduction	=	30,
+                Weight	=	1,
+                Type	=	Container,
+                Capacity	=	15,
+                DisplayName	=HK416 Satchel,
+                Icon          = SatchelPurple,
+                CanBeEquipped = Back,
+                OpenSound   =   OpenBag,
+                CloseSound   =   CloseBag,
+                PutInSound   =   PutItemInBag,
+                ClothingItem = SatchelPurple,
+                BloodLocation = Bag,
+                RunSpeedModifier = 0.99,
+                ReplaceInSecondHand = SatchelPurple_LHand holdingbagleft,
+                ReplaceInPrimaryHand = SatchelPurple_RHand holdingbagright,
+                WorldStaticModel = Satchel_Ground,
+                }
+	item Peach Skin
+	{
+                                DisplayCategory = Accessory,
+		Cosmetic = TRUE,
+		Type 		= Clothing,
+		DisplayName 		= Peach Skin,
+		ClothingItem 		= PeachSkin,
+		BodyLocation = BellyButton,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+		Icon 		= PeachSkin,
+		CanHaveHoles = false,
+		Weight 		= 0.01,
+                                WorldStaticModel = BoilerSuit_Ground,
+	}
+	item Brown Skin
+	{
+                                DisplayCategory = Accessory,
+		Cosmetic = TRUE,
+		Type 		= Clothing,
+		DisplayName 		= Brown Skin,
+		ClothingItem 		= BrownSkin,
+		BodyLocation = BellyButton,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+		Icon 		= BrownSkin,
+		CanHaveHoles = false,
+		Weight 		= 0.01,
+                                WorldStaticModel = BoilerSuit_Ground,
+	}
+}

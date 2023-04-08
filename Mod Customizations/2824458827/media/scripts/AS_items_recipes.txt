@@ -1,0 +1,1242 @@
+/**items**/
+module Smelting
+{
+
+imports {
+Base
+}
+
+
+	item projectilelead
+	{
+		Count			=	1,
+		Weight			=	0.005,
+		Type			=	Normal,
+		DisplayCategory 	=	Components,
+		DisplayName		=	Projectile Lead,
+		Icon			=	Lead30,
+		MetalValue 		=	0.1,
+		WorldStaticModel	=	W_Projectiles,
+	}
+	
+	item projectilebrass
+	{
+		Count			=	1,
+		Weight			=	0.005,
+		Type			=	Normal,
+		DisplayCategory 	=	Components,
+		DisplayName		=	Projectile Brass,
+		Icon			=	Brass50MAG,
+		WorldStaticModel	=	Spent_PL_Brass,
+		MetalValue 		=	0.1,
+	}
+	item primermixed
+	{
+		Count			=	1,
+		Weight			=	0.005,
+		Type			=	Normal,
+		DisplayCategory 	=	Components,
+		DisplayName		=	Mixed Primer,
+		Icon			=	PrimerSG,
+		MetalValue 		=	0.1,
+		WorldStaticModel	=	W_Primer,
+	}
+	
+		item paperscraps
+	{
+		Count			=	1,
+		Weight			=	0.001,
+		Type			=	Normal,
+		DisplayCategory 	=	Components,
+		DisplayName		=	Paper Scraps,
+		Icon			=	Paper,
+		WorldStaticModel	=	SheetOfPaper,
+	}
+	
+	item AmmoSmeltingFurnace
+	{
+		Count			=	1,
+		Weight			=	25,
+		Type			=	Normal,
+		DisplayCategory 	=	Item,
+		DisplayName		=	Ammo Smelting Furnace,
+		Icon			=	PropaneTank,
+		WorldStaticModel	=	PropaneTank,
+		MetalValue 		= 10,
+	}
+
+		recipe Make Ammo Smelting Furnace
+   {
+	
+    	SheetMetal=1,
+		SmallSheetMetal=2,
+		Screws=40,
+		Stone=5,
+		destroy PropaneTank,
+		ConcretePowder=1,
+		Sheet=2,
+		Thread=2,
+		keep WeldingMask,
+		keep TirePump,
+		keep Hammer,
+		BlowTorch=5,
+        Result           		: AmmoSmeltingFurnace,
+        Time             		: 500,
+        Category         		: Smelting,
+	    Sound 					: BlowTorch,
+		OnGiveXP 				: Give1SmltWeldBigxp,
+		AnimNode 				: Disassemble,
+		SkillRequired 			: MetalWelding=2,
+		CanBeDoneFromFloor: TRUE,
+    }
+
+		recipe Make Lee Load-Master Reloading Press
+   {
+	
+    	SheetMetal=4,
+		SmallSheetMetal=3,
+		Screws=60,
+		ConcretePowder=1,
+		PlasterPowder=1,
+		DuctTape=2,
+		WeldingRods=4,
+		MetalBar=4,
+		MetalPipe=2,
+		Hinge=4,
+		Wire=2,
+		Plank=4,
+		destroy Extinguisher,
+		Rope/SheetRope=2,
+		NormalSuspension1/NormalSuspension2/NormalSuspension3/ModernSuspension1/ModernSuspension2/ModernSuspension3,
+		BallPeenHammer,
+		keep Wrench,
+		keep Screwdriver,
+		keep WeldingMask,
+		BlowTorch=25,
+        Result           		: Lee_LoadMaster,
+        Time             		: 500,
+        Category         		: Smelting,
+	    Sound 					: BlowTorch,
+		OnGiveXP 				: Give1SmltWeldBigxp,
+		AnimNode 				: Disassemble,
+		SkillRequired 			: MetalWelding=3,
+		SkillRequired 			: Reloading=4,
+		CanBeDoneFromFloor: TRUE,
+    }
+
+/**scrap .22**/
+
+		recipe Scrap 22-LR Ammunition
+	{
+		Base.Bullets22,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 40.0,
+		OnCreate		: Scrap_22,
+		CanBeDoneFromFloor: TRUE,
+	}
+	
+	
+/**melt projectiles**/
+
+
+
+		recipe Melt Projectile 00-Buckshot
+	{
+		Lead00Buck,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=4,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 00-Buckshot
+	{
+		projectilelead=4,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead00Buck,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	
+		recipe Melt Projectile 5.7mm
+	{
+		Lead57,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 5.7mm
+	{
+		projectilelead=3,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead57,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}	
+	
+		recipe Melt Projectile 9mm
+	{
+		Lead9,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=4,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 9mm
+	{
+		projectilelead=4,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead9,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}		
+	
+	
+		recipe Melt Projectile 38-Cal
+	{
+		Lead38,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 38-Cal
+	{
+		projectilelead=3,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead38,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}		
+		
+	
+		
+		recipe Melt Projectile 45-Cal
+	{
+		Lead45,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=5,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 45-Cal
+	{
+		projectilelead=5,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead45,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}		
+		
+			
+		recipe Melt Projectile 44-Cal
+	{
+		Lead44,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=5,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 44-Cal
+	{
+		projectilelead=5,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead44,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}		
+	
+				
+		recipe Melt Projectile 5.56mm
+	{
+		Lead556,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 5.56mm
+	{
+		projectilelead=3,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead556,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}		
+	
+					
+		recipe Melt Projectile 5.45mm
+	{
+		Lead545,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 5.45mm
+	{
+		projectilelead=3,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead545,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}		
+	
+						
+		recipe Melt Projectile 30-Cal
+	{
+		Lead30,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=7,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 30-Cal
+	{
+		projectilelead=7,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead30,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}		
+	
+							
+		recipe Melt Projectile 50-Cal
+	{
+		Lead50,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=10,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Cast Projectile 50-Cal
+	{
+		projectilelead=10,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Lead50,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}		
+	
+	
+	
+/**melt brass**/
+
+
+
+	recipe Melt Casing 223-REM
+	{
+		Brass223		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=4,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 223-REM
+	{
+		projectilebrass		= 4,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass223=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+	recipe Melt Casing 5.56x45mm
+	{
+		Brass556		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=4,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 5.56x45mm
+	{
+		projectilebrass		= 4,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass556=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+
+	recipe Melt Casing 5.45x39mm
+	{
+		Brass545x39		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=4,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 5.45x39mm
+	{
+		projectilebrass		= 4,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass545x39=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+	recipe Melt Casing 7.62x39mm
+	{
+		Brass762x39		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=5,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 7.62x39mm
+	{
+		projectilebrass		= 5,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass762x39=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Melt Casing 308-WIN
+	{
+		Brass308		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=6,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 308-WIN
+	{
+		projectilebrass		= 6,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass308=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		
+		recipe Melt Casing 7.62x51mm
+	{
+		Brass762x51		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=6,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 7.62x51mm
+	{
+		projectilebrass		= 6,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass762x51=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+			
+		recipe Melt Casing 7.62x54mm-R
+	{
+		Brass762x54r		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=7,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 7.62x54mm-R
+	{
+		projectilebrass		= 7,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass762x54r=1,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+				
+		recipe Melt Casing 30-06 SPG
+	{
+		Brass3006		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=7,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 30-06 SPG
+	{
+		projectilebrass		= 7,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass3006=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+					
+		recipe Melt Casing 50-BMG
+	{
+		Brass50BMG		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=10,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 50-BMG
+	{
+		projectilebrass		= 10,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass50BMG=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+			recipe Melt Casing 22LR
+	{
+		Brass22		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=1,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 22LR
+	{
+		projectilebrass		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass22=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+	
+			recipe Melt Casing 5.7x28mm
+	{
+		Brass57		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=2,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 5.7x28mm
+	{
+		projectilebrass		= 2,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass57=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+	
+			recipe Melt Casing 380-ACP
+	{
+		Brass380		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=2,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 380-ACP
+	{
+		projectilebrass		= 2,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass380=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+
+	recipe Melt Casing 9x19mm
+	{
+		Brass9		= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=2,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 9x19mm
+	{
+		projectilebrass		= 2,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass9=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+
+	recipe Melt Casing 38-SPC
+	{
+		Brass38	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=2,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 38-SPC
+	{
+		projectilebrass		= 2,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass38=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+
+	recipe Melt Casing 357-Mag
+	{
+		Brass357	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=2,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 357-Mag
+	{
+		projectilebrass		= 2,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass357=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+
+	recipe Melt Casing 45-ACP
+	{
+		Brass45	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 45-ACP
+	{
+		projectilebrass		= 3,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass45=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+
+	recipe Melt Casing 45-LC
+	{
+		Brass45LC	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 45-LC
+	{
+		projectilebrass		= 3,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass45LC=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+	recipe Melt Casing 44-MAG
+	{
+		Brass44	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 44-MAG
+	{
+		projectilebrass		= 3,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass44=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Melt Casing 45-70 GOV
+	{
+		Brass4570	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 45-70 GOV
+	{
+		projectilebrass		= 3,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass4570=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+	recipe Melt Casing 50-MAG
+	{
+		Brass50MAG	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=4,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Casing 50-MAG
+	{
+		projectilebrass		= 4,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Brass50MAG=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+	recipe Melt Hull 410g
+	{
+		Hull410g	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=1,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Hull 410g
+	{
+		projectilebrass		= 1,
+		paperscraps=5,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Hull410g=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Melt Hull 20g
+	{
+		Hull20g	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=1,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Hull 20g
+	{
+		projectilebrass		= 1,
+		paperscraps=8,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Hull20g=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+			recipe Melt Hull 12g
+	{
+		Hull12g	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Hull 12g
+	{
+		projectilebrass		= 3,
+		paperscraps=10,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Hull12g=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Melt Hull 10g
+	{
+		Hull10g	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=4,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Hull 10g
+	{
+		projectilebrass		= 4,
+		paperscraps=12,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Hull10g=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+			recipe Melt Hull 4g
+	{
+		Hull4g	= 1,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=6,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Make Hull 4g
+	{
+		projectilebrass		= 6,
+		paperscraps=20,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Hull4g=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+/**mix primer**/
+
+
+			recipe Mix Primer (Small)
+	{
+		PrimerSM	= 1,
+		keep MortarPestle,
+		Sound			: FryingFood,
+		Result		: primermixed=2,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Separate Primer (Small)
+	{
+		primermixed		= 2,
+		keep MortarPestle,
+		Sound			: FryingFood,
+		Result		: PrimerSM=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	
+				recipe Mix Primer (Large)
+	{
+		PrimerLG	= 1,
+		keep MortarPestle,
+		Sound			: FryingFood,
+		Result		: primermixed=3,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Separate Primer (Large)
+	{
+		primermixed		= 3,
+		keep MortarPestle,
+		Sound			: FryingFood,
+		Result		: PrimerLG=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+		recipe Mix Primer (Shotgun)
+	{
+		PrimerSG	= 1,
+		keep MortarPestle,
+		Sound			: FryingFood,
+		Result		: primermixed=4,
+		Time			: 5.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+		recipe Separate Primer (Shotgun)
+	{
+		primermixed		= 4,
+		keep MortarPestle,
+		Sound			: FryingFood,
+		Result		: PrimerSG=1,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	
+			recipe Make Mixed Primer
+	{
+		GunPowder	= 200,
+		Aluminum = 1,
+		keep MortarPestle,
+		Sound			: FryingFood,
+		Result		: primermixed=1000,
+		Time			: 200.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+
+/** Make Base Materials **/
+
+	recipe Melt Jewelry
+	{
+		Necklace_DogTag/Necklace_Gold/Necklace_GoldRuby/Necklace_GoldDiamond/Necklace_Silver/Necklace_SilverSapphire/Necklace_SilverCrucifix/Necklace_SilverDiamond/Necklace_Crucifix/Necklace_YingYang/Necklace_Pearl/NecklaceLong_Gold/NecklaceLong_GoldDiamond/NecklaceLong_Silver/NecklaceLong_SilverEmerald/NecklaceLong_SilverSapphire/NecklaceLong_SilverDiamond/NecklaceLong_Amber/Necklace_Choker/Necklace_Choker_Sapphire/Necklace_Choker_Amber/Necklace_Choker_Diamond/NoseRing_Gold/NoseRing_Silver/NoseStud_Gold/NoseStud_Silver/Earring_LoopLrg_Gold/Earring_LoopLrg_Silver/Earring_LoopMed_Silver/Earring_LoopMed_Gold/Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Silver_Top/Earring_LoopSmall_Gold_Both/Earring_LoopSmall_Gold_Top/Earring_Stud_Gold/Earring_Stud_Silver/Earring_Stone_Sapphire/Earring_Stone_Emerald/Earring_Stone_Ruby/Earring_Pearl/Earring_Dangly_Sapphire/Earring_Dangly_Emerald/Earring_Dangly_Ruby/Earring_Dangly_Diamond/Earring_Dangly_Pearl/Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold/Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver/Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond/Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby/Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond/WristWatch_Right_ClassicBlack/WristWatch_Left_ClassicBlack/WristWatch_Right_ClassicBrown/WristWatch_Left_ClassicBrown/WristWatch_Right_ClassicMilitary/WristWatch_Left_ClassicMilitary/WristWatch_Right_ClassicGold/WristWatch_Left_ClassicGold/Bracelet_BangleRightGold/Bracelet_BangleLeftGold/Bracelet_ChainRightGold/Bracelet_ChainLeftGold/Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver/Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver/Bracelet_RightFriendshipTINT/Bracelet_LeftFriendshipTINT/BellyButton_DangleGold/BellyButton_DangleGoldRuby/BellyButton_DangleSilver/BellyButton_DangleSilverDiamond/BellyButton_RingGold/BellyButton_RingGoldDiamond/BellyButton_RingGoldRuby/BellyButton_RingSilver/BellyButton_RingSilverAmethyst/BellyButton_RingSilverDiamond/BellyButton_RingSilverRuby/BellyButton_StudGold/BellyButton_StudGoldDiamond/BellyButton_StudSilver/BellyButton_StudSilverDiamond/Ring/Locket,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=10,
+		Time			: 10.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Melt Mixed Metals
+	{
+		BakingTray/Fork/BreadKnife/ButterKnife/Spoon/Amplifier/ElectricWire/RadioReceiver/RadioTransmitter/LightBulbRed/LightBulbGreen/TinCanEmpty/KnittingNeedles/GrillBrush/CarvingFork/KitchenTongs/Spatula/Staples/Stapler/HolePuncher,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=30,
+		Time			: 10.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Melt Aluminium Items
+	{
+		PopEmpty/Pop2Empty/Pop3Empty/BeerCanEmpty/TentPeg,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Aluminum=1,
+		Time			: 10.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Melt Useful Mixed Metals
+	{
+		Tweezers/SutureNeedleHolder/Doorknob/LightBulb/AlarmClock2/PaintbucketEmpty,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=40,
+		Time			: 10.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Melt Scrap Metal
+	{
+		ScrapMetal,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=50,
+		Time			: 10.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Melt Small Metal Sheet
+	{
+		SmallSheetMetal,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=200,
+		Time			: 10.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Melt Metal Sheet
+	{
+		SheetMetal,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilelead=800,
+		Time			: 10.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Melt Big Aluminium Items
+	{
+		Pan/GridlePan/RoastingPan/Saucepan/Toolbox,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: Aluminum=5,
+		Time			: 10.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Use Aluminium as Casings
+	{
+		Aluminum,
+		keep AmmoSmeltingFurnace,
+		Sound			: BlowTorch,
+		Result		: projectilebrass=100,
+		Time			: 10.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltRxp,
+	}
+	
+	recipe Disassemble Car Battery
+	{
+		destroy CarBattery1/CarBattery2/CarBattery3/LeadPipe,
+		Sound			: Dismantle,
+		Result		: projectilelead=500,
+		Time			: 200.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		/**OnCreate : ScrapCarBatteries,**/
+		OnGiveXP 				: Give1SmltWeldMedxp,
+	}
+
+	recipe Cut Small Paper into Paper Scraps
+	{
+		Journal/SheetPaper2/Newspaper/ComicBook,
+		keep Scissors,
+		Sound			: ClothesRipping,
+		Result		: paperscraps=100,
+		Time			: 20.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+	}
+	recipe Cut Medium Paper into Paper Scraps
+	{
+		Magazine/HottieZ/MagazineCrossword1/MagazineCrossword2/MagazineCrossword3/MagazineWordsearch1/MagazineWordsearch2/MagazineWordsearch3/TVMagazine,
+		keep Scissors,
+		Sound			: ClothesRipping,
+		Result		: paperscraps=200,
+		Time			: 40.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+	}
+	recipe Cut Large Paper into Paper Scraps
+	{
+		Notebook/Book,
+		keep Scissors,
+		Sound			: ClothesRipping,
+		Result		: paperscraps=500,
+		Time			: 100.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+	}	
+	recipe Make Crude Gunpowder
+	{
+		CompostBag/Fertilizer=4,
+		Matches=10,
+		Log,
+		keep MortarPestle,
+		keep AmmoSmeltingFurnace,
+		Sound			: FryingFood,
+		Result		: Base.GunPowder=2,
+		Time			: 300.0,
+		CanBeDoneFromFloor: TRUE,
+		Category:Smelting,
+		OnGiveXP 				: Give1SmltWeldMedxp,
+	}
+}

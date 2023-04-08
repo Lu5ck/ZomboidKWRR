@@ -1,0 +1,114 @@
+module Base
+{
+                item I401 Mask
+                {
+                               Type = Clothing,
+                               DisplayName = I401 Mask,
+                               ClothingItem = I401Mask,
+                               BodyLocation = kigurumi,
+                               Icon = I401Mask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 40,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.6,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = I401Mask_Ground,
+                }
+                model I401Mask_Ground
+                {
+                                mesh = WorldItems/Clothing/I401Mask_Ground,
+                                texture = Clothes\401\I401Mask,
+                                scale = 0.1,
+                }
+	item I401 Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= I401 Shoes,
+		ClothingItem 		= I401Shoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= I401Shoes,
+		StompPower 		= 2.4,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.65,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 2,
+                                WorldStaticModel = I401Shoes_ground,
+	}
+                model I401Shoes_ground
+                {
+                                mesh = WorldItems/Clothing/I401Shoes_ground,
+                                texture = Clothes/401/I401Shoes,
+                                scale = 0.1,
+                }
+                item I401 Knickers
+	{
+		Type = Clothing,
+		DisplayName = I401 Knickers,
+		ClothingItem = I401Knickers,
+		BodyLocation = UnderwearBottom,
+                                BloodLocation = ShortsShort,
+		Icon = I401Knickers,
+                                BiteDefense = 5,
+                                ScratchDefense = 10,
+                                Insulation = 0.15,
+                                WindResistance = 0.2,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Boxers_Silk_Black,
+	}
+                item I401 Sailor Skirt
+                {
+                                Type = Clothing,
+                                DisplayName = I401 Sailor Skirt,
+                                ClothingItem = I401SailorSkirt,
+                                BodyLocation = Dress,
+                                Icon = I401SailorSkirt,
+                                BloodLocation = ShortsShort,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 20,
+                                Insulation                       = 0.35,
+                                WindResistance              = 0.45,
+                                Weight                            = 1.5,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = I401SailorSkirt_Ground,
+                }
+                model I401SailorSkirt_Ground
+                {
+                                mesh = WorldItems/Clothing/I401SailorSkirt_Ground,
+                                texture = Clothes/401/I401SailorSuit,
+                                scale = 0.1,
+                }
+                item I401 Sailor Suit
+                {
+                                Type = Clothing,
+                                DisplayName = I401 Sailor Suit,
+                                ClothingItem = I401SailorSuit,
+                                BodyLocation = Jacket,
+                                Icon = I401SailorSuit,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = I401SailorSuit_Ground,
+                }
+                model I401SailorSuit_Ground
+                {
+                                mesh = WorldItems/Clothing/I401SailorSuit_Ground,
+                                texture = Clothes/401/I401SailorSuit,
+                                scale = 0.1,
+                }
+}

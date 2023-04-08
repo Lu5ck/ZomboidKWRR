@@ -1,0 +1,217 @@
+module Base
+{
+                item Nero Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Nero Mask,
+                               ClothingItem = NeroMask,
+                               BodyLocation = kigurumi,
+                               Icon = NeroMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+                                ClothingItemExtra = Nero Mask2,
+                                ClothingItemExtraOption = DownHoodie,
+                                clothingExtraSubmenu = UpHoodie,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.6,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = NeroMask_Ground,
+                }
+                model NeroMask_Ground
+                {
+                                mesh = WorldItems/Clothing/NeroMask_Ground,
+                                texture = Clothes\FGO\NeroMask,
+                                scale = 0.1,
+                }
+
+
+                item Nero Mask2
+                {
+                               Type = Clothing,
+                               DisplayName = Nero Mask,
+                               ClothingItem = NeroMask2,
+                               BodyLocation = kigurumi,
+                               Icon = NeroMask2,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+                                ClothingItemExtra = Nero Mask,
+                                ClothingItemExtraOption = UpHoodie,
+                                clothingExtraSubmenu = DownHoodie,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.6,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = NeroMask2_Ground,
+                }
+                model NeroMask2_Ground
+                {
+                                mesh = WorldItems/Clothing/NeroMask2_Ground,
+                                texture = Clothes\FGO\NeroMask2,
+                                scale = 0.1,
+                }
+	item Nero Swimwear
+	{
+                                DisplayCategory = Clothing,
+		Type 		= Clothing,
+		DisplayName 		= Nero Swimwear,
+		ClothingItem 		= NeroSwimwear,
+		BodyLocation = Dress,
+		Icon 		= NeroSwimwear,
+		BloodLocation 		= ShortsShort;ShirtNoSleeves,
+                                RunSpeedModifier = 1.1,
+                                CombatSpeedModifier = 1.05,
+		ScratchDefense 		= 25,
+		BiteDefense 		= 20,
+		Insulation 		= 0.3,
+		WindResistance 		= 0.35,
+                                FabricType                      = Cotton,
+		Weight 		= 1.5,
+                                WorldStaticModel = NeroSwimwear_Ground,
+	}
+                model NeroSwimwear_Ground
+                {
+                                mesh = WorldItems/Clothing/NeroSwimwear_Ground,
+                                texture = Clothes\FGO\NeroSwimwear,
+                                scale = 0.1,
+                }
+	item Nero Swimsuit
+	{
+		Type = Clothing,
+		DisplayName = Nero Swimsuit,
+		ClothingItem = NeroSwimsuit,
+		BodyLocation = Underwear,
+		BloodLocation = ShirtNoSleeves,
+		Icon = NeroSwimsuit,
+		BiteDefense                    = 2,
+                                ScratchDefense              = 4,
+                                Insulation                       = 0.1,
+                                WindResistance              = 0.1,
+ 		Weight                           = 0.1,
+                                FabricType = Cotton,
+		WorldStaticModel = SwimSuit_Ground,
+	}
+	item Nero Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Nero Shoes,
+		ClothingItem 		= NeroShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= NeroShoes,
+		StompPower 		= 2.4,
+		RunSpeedModifier 		= 1.05,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 40,
+		BiteDefense 		= 50,
+		Insulation 		= 0.1,
+		WindResistance 		= 0.1,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = NeroShoes_Ground,
+	}
+                model NeroShoes_Ground
+                {
+                                mesh = WorldItems/Clothing/NeroShoes_Ground,
+                                texture = Clothes/FGO/NeroShoes,
+                                scale = 0.1,
+                }
+                item Kiyohime Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Kiyohime Mask,
+                               ClothingItem = KiyohimeMask,
+                               BodyLocation = kigurumi,
+                               Icon = KiyohimeMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.6,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = KiyohimeMask_Ground,
+                }
+                model KiyohimeMask_Ground
+                {
+                                mesh = WorldItems/Clothing/KiyohimeMask_Ground,
+                                texture = Clothes\FGO\KiyohimeMask,
+                                scale = 0.1,
+                }
+                item Kiyohime Bathrobe
+                {
+                                Type = Clothing,
+                                DisplayName = Kiyohime Bathrobe,
+                                ClothingItem = KiyohimeBathrobe,
+                                BodyLocation = BathRobe,
+                                Icon = KiyohimeBathrobe,
+                                BloodLocation = Jacket;Trousers,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 20,
+                                NeckProtectionModifier = 0.5,
+                                CombatSpeedModifier = 1.1,
+                                Insulation                       = 0.40,
+                                WindResistance              = 0.55,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = KiyohimeBathrobe_Ground,
+                }
+                model KiyohimeBathrobe_Ground
+                {
+                                mesh = WorldItems/Clothing/KiyohimeBathrobe_Ground,
+                                texture = Clothes/FGO/KiyohimeBathrobe,
+                                scale = 0.1,
+                }
+	item Kiyohime Swimsuit
+	{
+		Type = Clothing,
+		DisplayName = Kiyohime Swimsuit,
+		ClothingItem = KiyohimeSwimsuit,
+		BodyLocation = Underwear,
+		BloodLocation = ShirtNoSleeves,
+		Icon = KiyohimeSwimsuit,
+		BiteDefense                    = 2,
+                                ScratchDefense              = 4,
+                                Insulation                       = 0.1,
+                                WindResistance              = 0.1,
+ 		Weight                           = 0.1,
+                                FabricType = Cotton,
+		WorldStaticModel = SwimSuit_Ground,
+	}
+	item Kiyohime Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Kiyohime Shoes,
+		ClothingItem 		= KiyohimeShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= KiyohimeShoes,
+		StompPower 		= 2.4,
+		RunSpeedModifier 		= 1.05,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 40,
+		BiteDefense 		= 50,
+		Insulation 		= 0.1,
+		WindResistance 		= 0.1,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = KiyohimeShoes_Ground,
+	}
+                model KiyohimeShoes_Ground
+                {
+                                mesh = WorldItems/Clothing/KiyohimeShoes_Ground,
+                                texture = Clothes/FGO/KiyohimeShoes,
+                                scale = 0.1,
+                }
+}

@@ -1,0 +1,79 @@
+module Base
+{
+                item Asuna Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Asuna Mask,
+                               ClothingItem = AsunaMask,
+                               BodyLocation = kigurumi,
+                               Icon = AsunaMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.6,
+		WindResistance 		= 0.75,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = AsunaMask_Ground,
+                }
+                model AsunaMask_Ground
+                {
+                                mesh = WorldItems/Clothing/AsunaMask_Ground,
+                                texture = Clothes\CharacterCard\AsunaCard,
+                                scale = 0.1,
+                }
+	item Asuna Dress
+	{
+                                DisplayCategory = Clothing,
+		Type 		= Clothing,
+		DisplayName 		= Asuna Dress,
+		ClothingItem 		= AsunaDress,
+		BodyLocation = Dress,
+		Icon 		= AsunaDress,
+		BloodLocation 		= ShortsShort;Jacket,
+                                NeckProtectionModifier = 0.5,
+                                RunSpeedModifier = 0.98,
+                                CombatSpeedModifier = 1.1,
+		ScratchDefense 		= 25,
+		BiteDefense 		= 20,
+		Insulation 		= 0.60,
+		WindResistance 		= 0.75,
+                                FabricType                      = Cotton,
+		Weight 		= 2,
+                                WorldStaticModel = AsunaDress_Ground,
+	}
+                model AsunaDress_Ground
+                {
+                                mesh = WorldItems/Clothing/AsunaDress_Ground,
+                                texture = Clothes\SAO\AsunaDress,
+                                scale = 0.1,
+                }
+	item Asuna Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Asuna Shoes,
+		ClothingItem 		= AsunaShoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= AsunaShoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.65,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = AsunaShoes_ground,
+	}
+                model AsunaShoes_ground
+                {
+                                mesh = WorldItems/Clothing/AsunaShoes_ground,
+                                texture = Clothes/SAO/AsunaShoes,
+                                scale = 0.1,
+                }
+}

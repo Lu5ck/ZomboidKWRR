@@ -1,0 +1,100 @@
+module Base
+{
+	item DVA Clothes
+	{
+		Type 		= Clothing,
+		DisplayName 		= DVA Clothes,
+		ClothingItem 		= DVAclothes,
+		BodyLocation 		= TankTop,
+		Icon 		= Dvaclothes,
+		BloodLocation 		= Trousers;Jumper,
+		ScratchDefense 		= 20,
+		BiteDefense 		= 10,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		FabricType 		= Cotton,
+		Weight 		= 1,
+                                WorldStaticModel = BoilerSuit_Ground,
+	}
+	item DVA Hair
+	{
+		Type 		= Clothing,
+		DisplayName 		= DVA Hair,
+		ClothingItem 		= DVAhair,
+		BodyLocation 		= Mask,
+		Icon 		= Dvahair,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+		Insulation 		= 0.2,
+		Weight 		= 0.5,
+	}
+	item DVA Mask
+	{
+		Type 		= Clothing,
+		DisplayName 		= DVA Mask,
+		ClothingItem 		= DVAmask,
+		BodyLocation 		= kigurumi,
+		Icon 		= Dvamask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = DVAmask_Ground,
+                }
+                model DVAmask_Ground
+                {
+                                mesh = WorldItems/Clothing/DVAmask_Ground,
+                                texture = Clothes\DVA\DVAmask,
+                                scale = 0.1,
+                }
+	item DVA Gloves
+	{
+		Type 		= Clothing,
+		DisplayName 		= DVA Gloves,
+		ClothingItem 		= DVAgloves,
+		BodyLocation 		= Hands,
+		BloodLocation 		= Hands,
+		Icon 		= Dvagloves,
+		ScratchDefense 		= 30,
+		BiteDefense 		= 15,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		FabricType 		= Leather,
+		Weight 		= 0.1,
+		CombatSpeedModifier 		= 1.2,
+                                WorldStaticModel = Gloves_Ground,
+	}
+	item DVA Shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= DVA Shoes,
+		ClothingItem 		= DVAshoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= Dvashoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.4,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = DVAshoes_ground,
+	}
+                model DVAshoes_ground
+                {
+                                mesh = WorldItems/Clothing/DVAshoes_ground,
+                                texture = Clothes/DVA/DVAmask,
+                                scale = 0.1,
+                }
+}

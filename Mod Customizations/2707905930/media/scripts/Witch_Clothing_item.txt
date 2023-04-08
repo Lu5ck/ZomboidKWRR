@@ -1,0 +1,49 @@
+module Base
+{
+                item Magic Hat
+	{
+		Type = Clothing,
+		DisplayName = Magic Hat,
+		ClothingItem = MagicHat,
+		BodyLocation = Hat,
+		Icon = MagicHat,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		ChanceToFall = 0,
+		BiteDefense 		= 20,
+		ScratchDefense 		= 25,
+		Insulation 		= 0.3,
+		WindResistance 		= 0.5,
+		WaterResistance 		= 0.4,
+	                CombatSpeedModifier            = 1.20,
+		WorldStaticModel = MagicHat_Ground,
+	}
+                model MagicHat_Ground
+                {
+                                mesh = WorldItems/Clothing/MagicHat_Ground,
+                                texture = Clothes\Witch\MagicHat,
+                                scale = 1,
+                }
+	item Magic Cloak
+	{
+		Type = Clothing,
+		DisplayName = Magic Cloak,
+		ClothingItem = MagicCloak,
+		BodyLocation = BodyCostume,
+		BloodLocation = ShirtNoSleeves,
+		Icon = MagicCloak,
+		BiteDefense                    = 15,
+                                ScratchDefense              = 20,
+                                Insulation                       = 0.4,
+                                WindResistance              = 0.5,
+ 		Weight                           = 0.2,
+                                FabricType = Cotton,
+		WorldStaticModel = MagicCloak_Ground,
+	}
+                model MagicCloak_Ground
+                {
+                                mesh = WorldItems/Clothing/MagicCloak_Ground,
+                                texture = Clothes\Witch\MagicCloak,
+                                scale = 0.1,
+                }
+}
