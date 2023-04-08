@@ -1,0 +1,9 @@
+Tab.Others,Base.Mov_MannequinMale,1000
+Tab.Others,Base.Mov_MannequinFemale,1000
+Tab.Others,Base.Generator,10000
+Tab.Others,Base.ISAInverter,25000
+Tab.Others,Base.DeepCycleBattery,10000
+Tab.Others,Base.SuperBattery,20000
+Tab.Others,Base.SolarPanel,15000
+Tab.Others,Base.AutoForm,500
+Tab.Others,Base.AVCSClaimOrb,1000
