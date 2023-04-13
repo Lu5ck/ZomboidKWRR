@@ -3,7 +3,7 @@ Tab.UmaBoid,Base.AdmireVegaCasual,2500,UmaBoid,Admire Vega (Casual),Clothing
 Tab.UmaBoid,Base.AgnesDigital,2500,UmaBoid,Agnes Digital,Clothing
 Tab.UmaBoid,Base.AgnesDigitalRibbon,2500,UmaBoid,Agnes Digital's Ribbon,Clothing
 Tab.UmaBoid,Base.AgnesDigitalCasual,2500,UmaBoid,Agnes Digital (Casual),Clothing
-Tab.UmaBoid,Base.AgnesDigitalCasualBag,3000,UmaBoid,Agnes Digital's Bag (Casual),Container
+Tab.UmaBoid,Base.AgnesDigitalCasualBag,2500,UmaBoid,Agnes Digital's Bag (Casual),Container
 Tab.UmaBoid,Base.AgnesDigitalCasualRibbon,2500,UmaBoid,Agnes Digital's Ribbon (Casual),Clothing
 Tab.UmaBoid,Base.AgnesDigitalAlt,2500,UmaBoid,Agnes Digital (Halloween),Clothing
 Tab.UmaBoid,Base.AgnesTachyon,2500,UmaBoid,Agnes Tachyon,Clothing
@@ -32,7 +32,7 @@ Tab.UmaBoid,Base.BiwaHayahide,2500,UmaBoid,Biwa Hayahide,Clothing
 Tab.UmaBoid,Base.BiwaHayahideGlasses,2500,UmaBoid,Biwa Hayahide Glasses,Clothing
 Tab.UmaBoid,Base.BiwaHayahideCasual,2500,UmaBoid,Biwa Hayahide (Casual),Clothing
 Tab.UmaBoid,Base.BiwaHayahideCasualScarf,2500,UmaBoid,Biwa Hayahide's Scarf (Casual),Clothing
-Tab.UmaBoid,Base.BiwaHayahideCasualBag,3000,UmaBoid,Biwa Hayahide's Bag (Casual),Container
+Tab.UmaBoid,Base.BiwaHayahideCasualBag,2500,UmaBoid,Biwa Hayahide's Bag (Casual),Container
 Tab.UmaBoid,Base.BiwaHayahideAlt1,2500,UmaBoid,Biwa Hayahide (Christmas),Clothing
 Tab.UmaBoid,Base.BiwaHayahideAlt2,2500,UmaBoid,Biwa Hayahide (Christmas Alt),Clothing
 Tab.UmaBoid,Base.BiwaHayahideAlt1Glasses,2500,UmaBoid,Biwa Hayahide Glasses (Christmas),Clothing
@@ -68,7 +68,7 @@ Tab.UmaBoid,Base.ElCondorPasaMask,2500,UmaBoid,El Condor Pasa Mask,Clothing
 Tab.UmaBoid,Base.ElCondorPasaAlt,2500,UmaBoid,El Condor Pasa (Fantasy),Clothing
 Tab.UmaBoid,Base.ElCondorPasaAltMask,2500,UmaBoid,El Condor Pasa's Mask (Fantasy),Clothing
 Tab.UmaBoid,Base.EtsukoOtonashi,2500,UmaBoid,Etsuko Otonashi,Clothing
-Tab.UmaBoid,Base.EtsukoOtonashiBag,3000,UmaBoid,Etsuko Otonashi's Bag,Container
+Tab.UmaBoid,Base.EtsukoOtonashiBag,2500,UmaBoid,Etsuko Otonashi's Bag,Container
 Tab.UmaBoid,Base.FineMotion,2500,UmaBoid,Fine Motion,Clothing
 Tab.UmaBoid,Base.FineMotionCasual,2500,UmaBoid,Fine Motion (Casual),Clothing
 Tab.UmaBoid,Base.FineMotionWedding,2500,UmaBoid,Fine Motion (Wedding),Clothing
@@ -85,7 +85,7 @@ Tab.UmaBoid,Base.GoldCityAlt,2500,UmaBoid,Gold City (Festival),Clothing
 Tab.UmaBoid,Base.GoldCityCasual,2500,UmaBoid,Gold City (Casual),Clothing
 Tab.UmaBoid,Base.GoldShip,2500,UmaBoid,Gold Ship,Clothing
 Tab.UmaBoid,Base.GoldShipCasual,2500,UmaBoid,Gold Ship (Casual),Clothing
-Tab.UmaBoid,Base.GoldShipBag,3000,UmaBoid,Gold Ship's Bag,Container
+Tab.UmaBoid,Base.GoldShipBag,2500,UmaBoid,Gold Ship's Bag,Container
 Tab.UmaBoid,Base.GrassWonder,2500,UmaBoid,Grass Wonder,Clothing
 Tab.UmaBoid,Base.GrassWonderCasual,2500,UmaBoid,Grass Wonder (Casual),Clothing
 Tab.UmaBoid,Base.GrassWonderAlt,2500,UmaBoid,Grass Wonder (Fantasy),Clothing
@@ -133,7 +133,7 @@ Tab.UmaBoid,Base.KitasanBlackCasual,2500,UmaBoid,Kitasan Black (Casual),Clothing
 Tab.UmaBoid,Base.KSMiracle,2500,UmaBoid,K.S. Miracle,Clothing
 Tab.UmaBoid,Base.LightHello,2500,UmaBoid,Light Hello,Clothing
 Tab.UmaBoid,Base.LittleCocon,2500,UmaBoid,Little Cocon,Clothing
-Tab.UmaBoid,Base.LittleCoconHarness,3000,UmaBoid,Little Cocon's Harness,Container
+Tab.UmaBoid,Base.LittleCoconHarness,2500,UmaBoid,Little Cocon's Harness,Container
 Tab.UmaBoid,Base.ManhattanCafe,2500,UmaBoid,Manhattan Cafe,Clothing
 Tab.UmaBoid,Base.ManhattanCafeCasual,2500,UmaBoid,Manhattan Cafe (Casual),Clothing
 Tab.UmaBoid,Base.Maruzensky,2500,UmaBoid,Maruzensky,Clothing
@@ -144,12 +144,12 @@ Tab.UmaBoid,Base.MarvelousSunday,2500,UmaBoid,Marvelous Sunday,Clothing
 Tab.UmaBoid,Base.MatikaneFukukitaru,2500,UmaBoid,Matikane Fukukitaru,Clothing
 Tab.UmaBoid,Base.MatikaneFukukitaruAlt,2500,UmaBoid,Matikane Fukukitaru (Full Armor),Clothing
 Tab.UmaBoid,Base.MatikaneFukukitaruAltNoHat,2500,UmaBoid,Matikane Fukukitaru (Full Armor No Hat),Clothing
-Tab.UmaBoid,Base.MatikaneFukukitaruBag,3000,UmaBoid,Matikane Fukukitaru's Bag,Container
-Tab.UmaBoid,Base.MatikaneFukukitaruAltBackBag,3000,UmaBoid,Matikane Fukukitaru's Bag (Full Armor - Back),Container
-Tab.UmaBoid,Base.MatikaneFukukitaruAltFrontBag,3000,UmaBoid,Matikane Fukukitaru's Bag (Full Armor - Front),Container
+Tab.UmaBoid,Base.MatikaneFukukitaruBag,2500,UmaBoid,Matikane Fukukitaru's Bag,Container
+Tab.UmaBoid,Base.MatikaneFukukitaruAltBackBag,2500,UmaBoid,Matikane Fukukitaru's Bag (Full Armor - Back),Container
+Tab.UmaBoid,Base.MatikaneFukukitaruAltFrontBag,2500,UmaBoid,Matikane Fukukitaru's Bag (Full Armor - Front),Container
 Tab.UmaBoid,Base.MatikaneFukukitaruCasual,2500,UmaBoid,Matikane Fukukitaru (Casual),Clothing
 Tab.UmaBoid,Base.MatikaneTannhauserCape,2500,UmaBoid,Matikane Tannhauser's Cape,Clothing
-Tab.UmaBoid,Base.MatikaneTannhauserBag,3000,UmaBoid,Matikane Tannhauser's Bag,Container
+Tab.UmaBoid,Base.MatikaneTannhauserBag,2500,UmaBoid,Matikane Tannhauser's Bag,Container
 Tab.UmaBoid,Base.MatikaneTannhauserHat,2500,UmaBoid,Matikane Tannhauser's Hat,Clothing
 Tab.UmaBoid,Base.MatikaneTannhauserCasualHat,2500,UmaBoid,Matikane Tannhauser's Hat (Casual),Clothing
 Tab.UmaBoid,Base.MatikaneTannhauser,2500,UmaBoid,Matikane Tannhauser,Clothing
@@ -161,7 +161,7 @@ Tab.UmaBoid,Base.MeishoDoto,2500,UmaBoid,Meisho Doto,Clothing
 Tab.UmaBoid,Base.MeishoDotoCasual,2500,UmaBoid,Meisho Doto (Casual),Clothing
 Tab.UmaBoid,Base.MeishoDotoAlt,2500,UmaBoid,Meisho Doto (Halloween),Clothing
 Tab.UmaBoid,Base.MeishoDotoAlt2,2500,UmaBoid,Meisho Doto (Halloween Alt),Clothing
-Tab.UmaBoid,Base.MeishoDotoBag,3000,UmaBoid,Meisho Doto's Bag,Container
+Tab.UmaBoid,Base.MeishoDotoBag,2500,UmaBoid,Meisho Doto's Bag,Container
 Tab.UmaBoid,Base.MejiroArdan,2500,UmaBoid,Mejiro Ardan,Clothing
 Tab.UmaBoid,Base.MejiroArdanCasual,2500,UmaBoid,Mejiro Ardan (Casual),Clothing
 Tab.UmaBoid,Base.MejiroBright,2500,UmaBoid,Mejiro Bright,Clothing
@@ -207,7 +207,7 @@ Tab.UmaBoid,Base.NaritaTaishinCasual,2500,UmaBoid,Narita Taishin (Casual),Clothi
 Tab.UmaBoid,Base.NaritaTaishinCasualFlatHair,2500,UmaBoid,Narita Taishin (Casual Flat Hair),Clothing
 Tab.UmaBoid,Base.NaritaTaishinCasualHat,2500,UmaBoid,Narita Taishin's Hat (Casual),Clothing
 Tab.UmaBoid,Base.NaritaTaishinAlt,2500,UmaBoid,Narita Taishin (Steampunk),Clothing
-Tab.UmaBoid,Base.NaritaTaishinAltPouches,3000,UmaBoid,Narita Taishin's Pouches (Steampunk),Container
+Tab.UmaBoid,Base.NaritaTaishinAltPouches,2500,UmaBoid,Narita Taishin's Pouches (Steampunk),Container
 Tab.UmaBoid,Base.NaritaTaishinAltMonocle,2500,UmaBoid,Narita Taishin's Monocle (Steampunk),Clothing
 Tab.UmaBoid,Base.NaritaTopRoadUniform,2500,UmaBoid,Narita Top Road (Uniform),Clothing
 Tab.UmaBoid,Base.NiceNature,2500,UmaBoid,Nice Nature,Clothing
@@ -256,12 +256,12 @@ Tab.UmaBoid,Base.SmartFalconCasual,2500,UmaBoid,Smart Falcon (Casual),Clothing
 Tab.UmaBoid,Base.SpecialWeek,2500,UmaBoid,Special Week,Clothing
 Tab.UmaBoid,Base.SpecialWeekAlt,2500,UmaBoid,Special Week (Commander),Clothing
 Tab.UmaBoid,Base.SpecialWeekCasual,2500,UmaBoid,Special Week (Casual),Clothing
-Tab.UmaBoid,Base.SpecialWeekCasualBag,3000,UmaBoid,Special Week's Bag (Casual),Container
+Tab.UmaBoid,Base.SpecialWeekCasualBag,2500,UmaBoid,Special Week's Bag (Casual),Container
 Tab.UmaBoid,Base.SuperCreek,2500,UmaBoid,Super Creek,Clothing
 Tab.UmaBoid,Base.SuperCreekCasual,2500,UmaBoid,Super Creek (Casual),Clothing
 Tab.UmaBoid,Base.SuperCreekAlt,2500,UmaBoid,Super Creek (Halloween),Clothing
-Tab.UmaBoid,Base.SuperCreekBag,3000,UmaBoid,Super Creek's Bag,Container
-Tab.UmaBoid,Base.SuperCreekBagRight,3000,UmaBoid,Super Creek's Bag (Right),Container
+Tab.UmaBoid,Base.SuperCreekBag,2500,UmaBoid,Super Creek's Bag,Container
+Tab.UmaBoid,Base.SuperCreekBagRight,2500,UmaBoid,Super Creek's Bag (Right),Container
 Tab.UmaBoid,Base.SuperCreekScarf,2500,UmaBoid,Super Creek's Scarf,Clothing
 Tab.UmaBoid,Base.SuperCreekScarfRight,2500,UmaBoid,Super Creek's Scarf (Right),Clothing
 Tab.UmaBoid,Base.SweepToshoHat,2500,UmaBoid,Sweep Tosho's Hat,Clothing
@@ -273,14 +273,14 @@ Tab.UmaBoid,Base.SymboliKrisS,2500,UmaBoid,Symboli Kris S,Clothing
 Tab.UmaBoid,Base.SymboliRudolf,2500,UmaBoid,Symboli Rudolf,Clothing
 Tab.UmaBoid,Base.SymboliRudolfAlt,2500,UmaBoid,Symboli Rudolf (Festival),Clothing
 Tab.UmaBoid,Base.SymboliRudolfCasual,2500,UmaBoid,Symboli Rudolf (Casual),Clothing
-Tab.UmaBoid,Base.SymboliRudolfCasualBag,3000,UmaBoid,Symboli Rudolf (Casual)'s Bag,Container
+Tab.UmaBoid,Base.SymboliRudolfCasualBag,2500,UmaBoid,Symboli Rudolf (Casual)'s Bag,Container
 Tab.UmaBoid,Base.SymboliRudolfCasualGlasses,2500,UmaBoid,Symboli Rudolf (Casual)'s Glasses,Clothing
 Tab.UmaBoid,Base.SymboliSiriusUniform,2500,UmaBoid,Symboli Sirius (Uniform),Clothing
 Tab.UmaBoid,Base.TaikiShuttle,2500,UmaBoid,Taiki Shuttle,Clothing
 Tab.UmaBoid,Base.TaikiShuttleHatScarf,2500,UmaBoid,Taiki Shuttle's Hat & Scarf,Clothing
 Tab.UmaBoid,Base.TaikiShuttleCasual,2500,UmaBoid,Taiki Shuttle (Casual),Clothing
 Tab.UmaBoid,Base.TaikiShuttleAlt,2500,UmaBoid,Taiki Shuttle (Camping),Clothing
-Tab.UmaBoid,Base.TaikiShuttleAltCamera,3000,UmaBoid,Taiki Shuttle's Camera (Camping),Container
+Tab.UmaBoid,Base.TaikiShuttleAltCamera,2500,UmaBoid,Taiki Shuttle's Camera (Camping),Container
 Tab.UmaBoid,Base.TamamoCross,2500,UmaBoid,Tamamo Cross,Clothing
 Tab.UmaBoid,Base.TamamoCrossCasual,2500,UmaBoid,Tamamo Cross (Casual),Clothing
 Tab.UmaBoid,Base.TamamoCrossAlt,2500,UmaBoid,Tamamo Cross (Festival),Clothing
@@ -314,7 +314,7 @@ Tab.UmaBoid,Base.WinningTicketUmaRapHat,2500,UmaBoid,Winning Ticket's Hat (UMARa
 Tab.UmaBoid,Base.WinningTicketAltGogglesOnHead,2500,UmaBoid,Winning Ticket's Goggles (Steampunk Off),Clothing
 Tab.UmaBoid,Base.WinningTicketAltGogglesOnFace,2500,UmaBoid,Winning Ticket's Goggles (Steampunk On),Clothing
 Tab.UmaBoid,Base.WinningTicketAltScarf,2500,UmaBoid,Winning Ticket's Scarf (Steampunk),Clothing
-Tab.UmaBoid,Base.WinningTicketAltToolbelt,3000,UmaBoid,Winning Ticket's Toolbelt (Steampunk),Container
+Tab.UmaBoid,Base.WinningTicketAltToolbelt,2500,UmaBoid,Winning Ticket's Toolbelt (Steampunk),Container
 Tab.UmaBoid,Base.WonderAcute,2500,UmaBoid,Wonder Acute,Clothing
 Tab.UmaBoid,Base.WonderAcuteCasual,2500,UmaBoid,Wonder Acute (Casual),Clothing
 Tab.UmaBoid,Base.YaenoMuteki,2500,UmaBoid,Yaeno Muteki,Clothing
@@ -329,18 +329,17 @@ Tab.UmaBoid,Base.YukinoBijinUmaRap,2500,UmaBoid,Yukino Bijin (UMARap),Clothing
 Tab.UmaBoid,Base.YukinoBijinUmaRapSunglasses,2500,UmaBoid,Yukino Bijin's Sunglasses (UMARap),Clothing
 Tab.UmaBoid,Base.YukinoBijinUmaRapHat,2500,UmaBoid,Yukino Bijin's Hat (UMARap),Clothing
 Tab.UmaBoid,Base.ZennoRobRoy,2500,UmaBoid,Zenno Rob Roy,Clothing
-Tab.UmaBoid,Base.ZennoRobRoyHarness,3000,UmaBoid,Zenno Rob Roy's Harness,Container
+Tab.UmaBoid,Base.ZennoRobRoyHarness,2500,UmaBoid,Zenno Rob Roy's Harness,Container
 Tab.UmaBoid,Base.ZennoRobRoyGlasses,2500,UmaBoid,Zenno Rob Roy's Glasses,Clothing
 Tab.UmaBoid,Base.ZennoRobRoyHat,2500,UmaBoid,Zenno Rob Roy's Hat,Clothing
 Tab.UmaBoid,Base.ZennoRobRoyCasual,2500,UmaBoid,Zenno Rob Roy (Casual),Clothing
-Tab.UmaBoid,Base.ZennoRobRoyCasualBag,3000,UmaBoid,Zenno Rob Roy's Bag (Casual),Container
+Tab.UmaBoid,Base.ZennoRobRoyCasualBag,2500,UmaBoid,Zenno Rob Roy's Bag (Casual),Container
 Tab.UmaBoid,Base.Toughness,5000,Food,Toughness,Food
 Tab.UmaBoid,Base.ToughnessMax,5000,Food,Toughness MAX,Food
 Tab.UmaBoid,Base.UmaDrink,5000,Food,Uma Drink,Food
 Tab.UmaBoid,Base.HachimiXL,5000,Food,Hachimi (XL),Food
 Tab.UmaBoid,Base.Hachimi,5000,Food,Hachimi,Food
 Tab.UmaBoid,Base.UmaSnack,5000,Food,Uma Snack,Food
-Tab.UmaBoid,Base.UmaBookNumber,20000,SkillBook,Uma Book : Number Collab,Literature
 Tab.UmaBoid,Base.GrassWonderNaginata,10000,Weapon,Grass Wonder's Naginata,Weapon
 Tab.UmaBoid,Base.EishinFlashSword,10000,Weapon,Eishin Flash's Sword,Weapon
 Tab.UmaBoid,Base.WonderAcuteUmbrella,10000,Weapon,Wonder Acute's Umbrella,Weapon
@@ -354,6 +353,5 @@ Tab.UmaBoid,Base.UmaGolfClub,10000,Weapon,Uma Golf Club,Weapon
 Tab.UmaBoid,Base.BambooMemoryShinai,10000,Weapon,Bamboo Memory's Shinai,Weapon
 Tab.UmaBoid,Base.TMOperaOStaff,10000,Weapon,TM Opera O's Staff,Weapon
 Tab.UmaBoid,Base.AnshinsawaNeedle,10000,Weapon,Sasami Anshinsawa's Needle,Weapon
-Tab.UmaBoid,Base.GrassWonderStaff,10000,,Grass Wonder's Staff,Weapon
 Tab.UmaBoid,Base.DaiwaScarletStaff,10000,,Daiwa Scarlet's Staff,Weapon
 Tab.UmaBoid,Base.AstonMachanBomb,10000,Explosives,Aston Machan Plushie Bomb,Weapon

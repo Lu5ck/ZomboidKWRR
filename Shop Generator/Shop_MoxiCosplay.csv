@@ -3,8 +3,8 @@ Tab.MoxiCosplay,Base.02 Clothes（white）,2500,,02 Clothes（white）,Clothing
 Tab.MoxiCosplay,Base.02 Hairpin,2500,,02 Hairpin,Clothing
 Tab.MoxiCosplay,Base.02 Shoes（red）,2500,,02 Shoes（red）,Clothing
 Tab.MoxiCosplay,Base.02 Shoes（white）,2500,,02 Shoes（white）,Clothing
-Tab.MoxiCosplay,Base.02 Synchrony Device（red）,3000,,02 Synchrony Device（red）,Container
-Tab.MoxiCosplay,Base.02 Synchrony Device（white）,3000,,02 Synchrony Device（white）,Container
+Tab.MoxiCosplay,Base.02 Synchrony Device（red）,2500,,02 Synchrony Device（red）,Container
+Tab.MoxiCosplay,Base.02 Synchrony Device（white）,2500,,02 Synchrony Device（white）,Container
 Tab.MoxiCosplay,Base.02 Mask,2500,,02 Mask,Clothing
 Tab.MoxiCosplay,Base.Beast Girl Skin,2500,,Beast Girl Skin,Clothing
 Tab.MoxiCosplay,Base.Wolf Ears,2500,,Wolf Ears,Clothing
@@ -36,7 +36,7 @@ Tab.MoxiCosplay,Base.Lucy Mask,2500,,Lucy Mask,Clothing
 Tab.MoxiCosplay,Base.Lucy Skin,2500,,Lucy Hacker skin,Clothing
 Tab.MoxiCosplay,Base.Lucy Tights,2500,,Lucy Tights,Clothing
 Tab.MoxiCosplay,Base.Lucy Clothes,2500,,Lucy Corselet,Clothing
-Tab.MoxiCosplay,Base.Lucy Cartridge Belt,3000,,Lucy Cartridge Belt,Container
+Tab.MoxiCosplay,Base.Lucy Cartridge Belt,2500,,Lucy Cartridge Belt,Container
 Tab.MoxiCosplay,Base.Lucy Shoes,2500,,Lucy Shoes,Clothing
 Tab.MoxiCosplay,Base.Lucy Coat,2500,,Lucy Coat,Clothing
 Tab.MoxiCosplay,Base.Lucy Space Helmet,2500,,Lucy Space Helmet,Clothing
@@ -92,7 +92,7 @@ Tab.MoxiCosplay,Base.Bayonetta_garage_kit--big,2500,,Bayonetta_garage_kit--big,N
 Tab.MoxiCosplay,Base.Shino Mask,2500,,Shino Mask,Clothing
 Tab.MoxiCosplay,Base.Shino Shoes,2500,,Shino Shoes,Clothing
 Tab.MoxiCosplay,Base.Shino Knickers,2500,,Shino Knickers,Clothing
-Tab.MoxiCosplay,Base.Shino Cartridge Belt,3000,,Shino Cartridge Belt,Container
+Tab.MoxiCosplay,Base.Shino Cartridge Belt,2500,,Shino Cartridge Belt,Container
 Tab.MoxiCosplay,Base.Shino Corselet,2500,,Shino Corselet,Clothing
 Tab.MoxiCosplay,Base.Shino Leg Guard,2500,,Shino Leg Guard,Clothing
 Tab.MoxiCosplay,Base.Shino Coat,2500,,Shino Coat,Clothing
@@ -109,7 +109,7 @@ Tab.MoxiCosplay,Base.Chisato Uniform,2500,Clothing,Chisato Uniform,Clothing
 Tab.MoxiCosplay,Base.Takina Uniform,2500,Clothing,Takina Uniform,Clothing
 Tab.MoxiCosplay,Base.JK Shoes,2500,,JK Shoes,Clothing
 Tab.MoxiCosplay,Base.Dark Grey Socks,2500,,Dark Grey Socks,Clothing
-Tab.MoxiCosplay,Base.Lycoris Backpack,3000,Bag,Lycoris Backpack,Container
+Tab.MoxiCosplay,Base.Lycoris Backpack,2500,Bag,Lycoris Backpack,Container
 Tab.MoxiCosplay,Base.2B Mask,2500,,2B Mask,Clothing
 Tab.MoxiCosplay,Base.Peritya Mask,2500,,Peritya Mask,Clothing
 Tab.MoxiCosplay,Base.Lenna Mask,2500,,Lenna Mask,Clothing
@@ -141,7 +141,7 @@ Tab.MoxiCosplay,Base.Coconut Mask,2500,,Coconut Mask,Clothing
 Tab.MoxiCosplay,Base.Coconut Cat Tail,2500,,Coconut Cat Tail,Clothing
 Tab.MoxiCosplay,Base.Stocking,2500,,Stocking,Clothing
 Tab.MoxiCosplay,Base.Long Glove,2500,Accessory,Long Glove,Clothing
-Tab.MoxiCosplay,Base.SatchelPurple,3000,Bag,HK416 Satchel,Container
+Tab.MoxiCosplay,Base.SatchelPurple,2500,Bag,HK416 Satchel,Container
 Tab.MoxiCosplay,Base.Peach Skin,2500,Accessory,Peach Skin,Clothing
 Tab.MoxiCosplay,Base.Brown Skin,2500,Accessory,Brown Skin,Clothing
 Tab.MoxiCosplay,Base.Asuna Mask,2500,,Asuna Mask,Clothing
@@ -158,11 +158,6 @@ Tab.MoxiCosplay,Base.Yor Shoes,2500,,Yor Shoes,Clothing
 Tab.MoxiCosplay,Base.Long Handle Awl,2500,Weapon,Long Handle Awl,Weapon
 Tab.MoxiCosplay,Base.Magic Hat,2500,,Magic Hat,Clothing
 Tab.MoxiCosplay,Base.Magic Cloak,2500,,Magic Cloak,Clothing
-Tab.MoxiCosplay,Base.Dark Wand,2500,ToolWeapon,Dark Wand,Weapon
-Tab.MoxiCosplay,Base.Long Magic Wand,2500,ToolWeapon,Long Magic Wand,Weapon
-Tab.MoxiCosplay,Base.Short Wand,2500,ToolWeapon,Short Wand,Weapon
-Tab.MoxiCosplay,Base.Short Wand2,2500,ToolWeapon,Wand Enchantment:Sectumsempra (Female),Weapon
-Tab.MoxiCosplay,Base.Short Wand3,2500,ToolWeapon,Wand Enchantment:Sectumsempra (Male),Weapon
-Tab.MoxiCosplay,Base.Advanced Potion Making,25000,SkillBook,Advanced Potion-Making,Literature
 Tab.MoxiCosplay,Base.Elixir to Induce Euphoria,25000,Food,Elixir to Induce Euphoria,Food
 Tab.MoxiCosplay,Base.Invigoration Draught,25000,Food,Invigoration Draught,Food
+Tab.MoxiCosplay,Base.Paimon Bag Front,2500,Bag,Paimon Bag(Front),Container
